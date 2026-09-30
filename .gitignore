@@ -1,0 +1,13 @@
+# Whitelist: only these files are published. Everything else (including the
+# unpublished article draft) stays local.
+*
+!.gitignore
+!README.md
+!LICENSE
+!METHODS.md
+!index.html
+!permitting_provisions.csv
+!permitting_infographic.png
+!permitting_infographic_social.png
+!infographic.py
+!build_share.py

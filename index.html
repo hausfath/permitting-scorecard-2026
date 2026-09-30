@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Senate Permitting Deal Scorecard</title>
+<meta name="description" content="Provision-by-provision scorecard of the 2026 Senate permitting deal: who each part helps and its likely effect on US emissions. By Zeke Hausfather, The Climate Brink.">
+<meta property="og:title" content="What's in the Senate permitting deal">
+<meta property="og:description" content="Provision-by-provision scorecard of the 2026 Senate permitting deal: who each part helps and its likely effect on US emissions. By Zeke Hausfather, The Climate Brink.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://hausfath.github.io/permitting-scorecard-2026/">
+<meta property="og:image" content="https://hausfath.github.io/permitting-scorecard-2026/permitting_infographic_social.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: one reading column (~72ch) with a full-width scorecard table; notes and data below. */
+:root {
+  --bg: #fbfbf9; --panel: #f0efeb; --ink: #1a1a19; --ink2: #4f4c48; --ink3: #6f6c67;
+  --rule: #e2e0da; --clean: #2a78d6; --fossil: #d03b3b; --both: #6f6d68; --on-chip: #ffffff;
+  --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #171716; --panel: #232321; --ink: #f3f2ee; --ink2: #c9c6be; --ink3: #9d9a92;
+  --rule: #35342f; --clean: #4b93e8; --fossil: #e26464; --both: #8d8a83; --on-chip: #0f0f0e; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #171716; --panel: #232321; --ink: #f3f2ee; --ink2: #c9c6be; --ink3: #9d9a92;
+  --rule: #35342f; --clean: #4b93e8; --fossil: #e26464; --both: #8d8a83; --on-chip: #0f0f0e; color-scheme: dark }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 var(--sans); }
+.wrap { max-width: 1040px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 56px; display: grid; gap: 28px; }
+header { display: grid; gap: 8px; }
+h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); line-height: 1.15; margin: 0; text-wrap: balance; }
+.dek { font-size: 1.15rem; color: var(--ink2); margin: 0; max-width: 68ch; }
+.meta { font-size: .9rem; color: var(--ink3); margin: 0; }
+.key { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; font-size: .92rem; color: var(--ink2); }
+.key b { color: var(--ink); }
+.tablebox { overflow-x: auto; border-top: 2px solid var(--ink3); }
+table { width: 100%; min-width: 760px; border-collapse: collapse; }
+thead th { text-align: left; font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink3); padding: 10px 12px 8px; }
+tr.grp th { text-align: left; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink2); padding: 22px 12px 6px; }
+td { vertical-align: top; padding: 12px; border-bottom: 1px solid var(--rule); }
+td.prov { width: 26%; }
+td.prov strong { display: block; font-size: 1.05rem; line-height: 1.3; }
+.sec { font-family: var(--mono); font-size: .8rem; color: var(--ink3); }
+td.what p { margin: 0; color: var(--ink2); }
+p.anchor { margin-top: 6px !important; color: var(--ink) !important; font-style: italic; font-size: .93rem; }
+p.anchor a { font-style: normal; color: var(--ink3); }
+td.helps { width: 90px; }
+.chip { display: inline-block; padding: 3px 10px; border-radius: 6px; color: var(--on-chip); font-weight: 700; font-size: .78rem; letter-spacing: .04em; }
+.chip-clean { background: var(--clean); } .chip-fossil { background: var(--fossil); } .chip-both { background: var(--both); }
+.em { display: grid; gap: 4px; min-width: 170px; }
+.scale { display: flex; align-items: center; gap: 5px; color: var(--ink2); font-size: .92rem; }
+.scale > span:last-child { margin-left: 6px; }
+.dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid currentColor; box-sizing: border-box; }
+.dot.on { background: currentColor; }
+.em-down .scale .dot { color: var(--clean); } .em-up .scale .dot { color: var(--fossil); } .em-both .scale .dot { color: var(--both); }
+section h2 { font-size: 1.15rem; margin: 0 0 8px; }
+section ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; color: var(--ink2); max-width: 80ch; }
+a { color: var(--clean); }
+a:focus-visible, button:focus-visible, textarea:focus-visible { outline: 3px solid var(--clean); outline-offset: 2px; }
+.data { background: var(--panel); border-radius: 10px; padding: 18px; display: grid; gap: 10px; }
+.data p { margin: 0; color: var(--ink2); }
+.data .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+button, .btn { display: inline-block; text-decoration: none; font: 600 .95rem var(--sans); padding: 8px 14px; border-radius: 8px; border: 1px solid var(--ink3); background: var(--bg); color: var(--ink); cursor: pointer; }
+#status { font-size: .9rem; color: var(--ink3); }
+textarea { width: 100%; box-sizing: border-box; min-height: 180px; font: .8rem/1.45 var(--mono); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 8px; padding: 10px; resize: vertical; }
+footer { font-size: .9rem; color: var(--ink3); }
+.fig img { display: block; width: 100%; max-width: 640px; height: auto; border: 1px solid var(--rule); border-radius: 8px; }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>What's in the Senate permitting deal, and what it could mean for US emissions</h1>
+    <p class="dek">A provision-by-provision scorecard of the Bipartisan American Affordability and Jobs Act of 2026: who each part helps today, and the likely direction and rough scale of its effect on US emissions.</p>
+    <p class="meta">Senate draft of Sept. 30, 2026 · Analysis by Zeke Hausfather, The Climate Brink</p>
+  </header>
+
+  <div class="key" aria-label="Emissions scale key">
+    <b>Emissions scale (author judgment):</b>
+    <span>small &lt;10</span><span>moderate 10–100</span><span>large &gt;100 MtCO₂/yr</span>
+    <span>Dots are blue if a provision lowers emissions, red if it raises them, gray if either way.</span>
+  </div>
+
+  <div class="tablebox">
+    <table>
+      <thead><tr><th scope="col">Provision</th><th scope="col">What it does</th><th scope="col">Helps</th><th scope="col">Emissions</th></tr></thead>
+      <tbody>
+<tr class="grp"><th colspan="4" scope="colgroup">Mostly helps clean energy</th></tr>
+<tr><td class="prov"><strong>Transmission</strong><span class="sec">§§2101–2106, 2109</span></td><td class="what"><p>FERC backstop siting without a DOE corridor; interregional planning</p><p class="anchor">→ If transmission grew only ~1%/yr, &gt;80% of the IRA’s potential 2030 cuts would be lost (REPEAT, 2022) <a href="https://zenodo.org/records/7106176" target="_blank" rel="noopener">source</a></p></td><td class="helps"><span class="chip chip-clean">CLEAN</span></td><td><div class="em em-down"><strong>↓ Lowers</strong><span class="scale"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span>large</span></span></div></td></tr>
+<tr><td class="prov"><strong>Renewables and geothermal</strong><span class="sec">§§2213–2214, 2221–2228</span></td><td class="what"><p>Faster decisions on public land; annual geothermal lease sales</p></td><td class="helps"><span class="chip chip-clean">CLEAN</span></td><td><div class="em em-down"><strong>↓ Lowers</strong><span class="scale"><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span>small</span></span></div></td></tr>
+<tr><td class="prov"><strong>Historic-preservation reviews</strong><span class="sec">§2301</span></td><td class="what"><p>Visual impacts on historic sites mostly no longer count as ‘adverse’</p></td><td class="helps"><span class="chip chip-clean">CLEAN</span></td><td><div class="em em-down"><strong>↓ Lowers</strong><span class="scale"><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span>small</span></span></div></td></tr>
+<tr><td class="prov"><strong>Offshore wind leasing</strong><span class="sec">§§2251–2252</span></td><td class="what"><p>Looser ‘interference with other uses’ test; preferred cable routes</p></td><td class="helps"><span class="chip chip-clean">CLEAN</span></td><td><div class="em em-down"><strong>↓ Lowers</strong><span class="scale"><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span>small</span></span></div></td></tr>
+<tr class="grp"><th colspan="4" scope="colgroup">Cuts both ways</th></tr>
+<tr><td class="prov"><strong>NEPA deadlines and lawsuit limits</strong><span class="sec">§§1106, 1110, 2201</span></td><td class="what"><p>Tighter review deadlines; 150 days to sue; courts can’t cancel permits</p><p class="anchor">→ Clean projects outnumbered fossil 2.4:1 in 2010–18 energy EISs and 2:1 in lawsuits (Bennon &amp; Wilson) <a href="https://www.elr.info/sites/default/files/files-general/53.10836.pdf" target="_blank" rel="noopener">source</a></p></td><td class="helps"><span class="chip chip-both">BOTH</span></td><td><div class="em em-down"><strong>↓ Lowers, on net</strong><span class="scale"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span>moderate</span></span></div></td></tr>
+<tr><td class="prov"><strong>Permit certainty and deadlines</strong><span class="sec">§§1401, 1402(c), 1403</span></td><td class="what"><p>Protects issued permits; forces decisions on stalled non-NEPA permits</p><p class="anchor">→ 57 GW of wind, solar and hybrid canceled or delayed by federal actions (plaintiffs’ est.): 44–88 MtCO₂/yr if built <a href="https://www.utilitydive.com/news/court-trump-wind-solar-permitting/818152/" target="_blank" rel="noopener">source</a></p></td><td class="helps"><span class="chip chip-both">BOTH</span></td><td><div class="em em-down"><strong>↓ Lowers, for now</strong><span class="scale"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span>moderate</span></span></div></td></tr>
+<tr><td class="prov"><strong>Damages for permit discrimination</strong><span class="sec">§1402</span></td><td class="what"><p>Large damages if agencies intentionally delay or deny a project type</p></td><td class="helps"><span class="chip chip-both">BOTH</span></td><td><div class="em em-both"><strong>↕ Either way</strong><span class="scale"><span>unknown</span></span></div></td></tr>
+<tr class="grp"><th colspan="4" scope="colgroup">Mostly helps fossil fuels</th></tr>
+<tr><td class="prov"><strong>Gas pipeline expansion</strong><span class="sec">§§2102(b), 1202, 1204</span></td><td class="what"><p>Looping and compression in existing corridors skip NEPA; state water-quality vetoes narrowed, federal wetland permits eased (helps power lines too)</p><p class="anchor">→ Each 1 Bcf/d of added capacity ≈ 20 MtCO₂/yr if fully used (gross) <a href="https://www.eia.gov/environment/emissions/co2_vol_mass.php" target="_blank" rel="noopener">source</a></p></td><td class="helps"><span class="chip chip-fossil">FOSSIL</span></td><td><div class="em em-up"><strong>↑ Likely raises</strong><span class="scale"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span>moderate</span></span></div></td></tr>
+<tr><td class="prov"><strong>Onshore oil and gas drilling</strong><span class="sec">§§2211, 2229</span></td><td class="what"><p>No federal permit for many private-land wells; broader NEPA exemptions</p><p class="anchor">→ Output is set mostly by prices; ~57% of added federal oil displaces production elsewhere (RFF) <a href="https://www.rff.org/publications/issue-briefs/federal-permitting-reform-expand-oil-and-gas-leasing-carbon-emissions/" target="_blank" rel="noopener">source</a></p></td><td class="helps"><span class="chip chip-fossil">FOSSIL</span></td><td><div class="em em-up"><strong>↑ Raises</strong><span class="scale"><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span>small</span></span></div></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <section>
+    <h2>Notes</h2>
+    <ul><li>Scale ratings are the author&#x27;s qualitative judgments of how much each provision could change US emissions; the bill has not been modeled. Numbers are context anchors, not estimates of the bill&#x27;s effect.</li><li>&#x27;Helps&#x27; reflects who faces federal obstacles and most NEPA reviews today; neutral provisions can protect either side under future administrations.</li><li>Wind/solar anchor assumes a 25-35% capacity factor and 0.35-0.50 tCO2/MWh displaced.</li><li>Also in the bill: faster Endangered Species Act consultations and limits on challenges (secs. 1302-1305), which cut both ways.</li><li>Not in this bill (unlike the 2024 Manchin-Barrasso bill): mandatory oil and gas lease sales, coal leasing, or an LNG-specific export deadline (general permit clocks could still reach DOE). The July 2025 budget law already mandated oil, gas and coal leasing; DOE lifted the LNG export pause in Jan. 2025.</li></ul>
+  </section>
+
+  <section class="data" aria-labelledby="data-h">
+    <h2 id="data-h">Data</h2>
+    <p>The same table as a CSV file, one row per provision. Please credit Zeke Hausfather, The Climate Brink.</p>
+    <div class="row"><a class="btn" href="permitting_provisions.csv" download>Download CSV</a></div>
+  </section>
+
+  <section class="fig">
+    <h2>The graphic</h2>
+    <img src="permitting_infographic_social.png" width="1800" height="2850" loading="lazy" alt="Scorecard graphic of the Senate permitting deal: provisions grouped as mostly helping clean energy, cutting both ways, or mostly helping fossil fuels, each with its likely emissions direction and scale, matching the table above.">
+  </section>
+
+  <section>
+    <h2>Sources</h2>
+    <ul><li><a href="https://www.energy.senate.gov/wp-content/uploads/2026/09/Bipartisan-American-Affordability-and-Jobs-Act.pdf" target="_blank" rel="noopener">Bill text (Senate draft, Sept. 30, 2026)</a></li><li><a href="https://zenodo.org/records/7106176" target="_blank" rel="noopener">Princeton REPEAT, transmission and the IRA (2022)</a></li><li><a href="https://www.elr.info/sites/default/files/files-general/53.10836.pdf" target="_blank" rel="noopener">Bennon &amp; Wilson, NEPA litigation over large energy and transport projects (ELR, 2023)</a></li><li><a href="https://www.rff.org/publications/issue-briefs/federal-permitting-reform-expand-oil-and-gas-leasing-carbon-emissions/" target="_blank" rel="noopener">Resources for the Future, federal leasing and global emissions (2024)</a></li><li><a href="https://www.utilitydive.com/news/court-trump-wind-solar-permitting/818152/" target="_blank" rel="noopener">Utility Dive on Renew Northeast v. DOI (Apr. 2026)</a></li></ul>
+  </section>
+
+  <footer>Ratings are qualitative and reflect the Senate draft as released; they may change with the manager's amendment.</footer>
+</div>
+</body>
+</html>
