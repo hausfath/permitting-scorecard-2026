@@ -79,6 +79,11 @@ GROUPS = [
              lean="clean", dir="down", dlab="Lowers", scale=3,
              anchor="If transmission grew only ~1%/yr, >80% of the IRA’s potential "
                     "2030 cuts would be lost (REPEAT, 2022)"),
+        dict(name="Interconnection queues", sec="§§2106, 2110, 2111",
+             what="Planned zones with fixed connection costs; faster, automated studies",
+             lean="clean", dir="down", dlab="Lowers", scale=2,
+             anchor=f"~{A['q_clean_share']*100:.0f}% of the {A['q_total']:,} GW waiting to connect is "
+                    f"solar, wind and storage; median wait {A['q_months']} months (LBNL)"),
         dict(name="Renewables and geothermal", sec="§§2213–2214, 2221–2228",
              what="Faster decisions on public land; annual geothermal lease sales",
              lean="clean", dir="down", dlab="Lowers", scale=1, anchor=None),
@@ -95,11 +100,6 @@ GROUPS = [
              lean="both", dir="down", dlab="Lowers, on net", scale=2,
              anchor="Clean projects outnumbered fossil 2.4:1 in 2010–18 energy EISs "
                     "and 2:1 in lawsuits (Bennon & Wilson)"),
-        dict(name="Interconnection queues", sec="§§2106, 2110, 2111",
-             what="Planned zones with fixed connection costs; faster, automated studies",
-             lean="both", dir="down", dlab="Lowers, on net", scale=2,
-             anchor=f"~{A['q_clean_share']*100:.0f}% of the {A['q_total']:,} GW waiting to connect is "
-                    f"solar, wind and storage; median wait {A['q_months']} months (LBNL)"),
         dict(name="Permit certainty and deadlines", sec="§§1401, 1402(c), 1403",
              what="Protects issued permits; forces decisions on stalled non-NEPA permits",
              lean="both", dir="down", dlab="Lowers, for now", scale=2,
