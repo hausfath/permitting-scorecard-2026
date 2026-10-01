@@ -21,6 +21,8 @@ ANCHOR_SOURCE = {
     "NEPA deadlines and lawsuit limits": (
         "Bennon & Wilson (2023), Table 1; author's recount",
         "https://www.elr.info/sites/default/files/files-general/53.10836.pdf"),
+    "Interconnection queues": ("LBNL, Queued Up 2026 edition; author calculation",
+                               "https://emp.lbl.gov/publications/queued-2026-edition-characteristics"),
     "Permit certainty and deadlines": (
         "Charles River Associates estimate cited in Renew Northeast v. DOI (via Utility Dive); author calculation",
         "https://www.utilitydive.com/news/court-trump-wind-solar-permitting/818152/"),
@@ -48,6 +50,7 @@ SOURCES = [
     ("Princeton REPEAT, transmission and the IRA (2022)", "https://zenodo.org/records/7106176"),
     ("Bennon & Wilson, NEPA litigation over large energy and transport projects (ELR, 2023)",
      "https://www.elr.info/sites/default/files/files-general/53.10836.pdf"),
+    ("LBNL, Queued Up: 2026 edition (interconnection queues)", "https://emp.lbl.gov/publications/queued-2026-edition-characteristics"),
     ("Resources for the Future, federal leasing and global emissions (2024)",
      "https://www.rff.org/publications/issue-briefs/federal-permitting-reform-expand-oil-and-gas-leasing-carbon-emissions/"),
     ("Utility Dive on Renew Northeast v. DOI (Apr. 2026)",

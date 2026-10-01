@@ -42,6 +42,7 @@ To change a rating or a description, edit `GROUPS` in `infographic.py`, then run
 - Bill text: [Senate Energy and Natural Resources Committee](https://www.energy.senate.gov/wp-content/uploads/2026/09/Bipartisan-American-Affordability-and-Jobs-Act.pdf)
 - [Princeton REPEAT (2022)](https://zenodo.org/records/7106176), transmission and the IRA
 - [Bennon & Wilson (2023)](https://www.elr.info/sites/default/files/files-general/53.10836.pdf), NEPA litigation over large energy and transport projects (Table 1 recounted by the author)
+- [LBNL, Queued Up: 2026 edition](https://emp.lbl.gov/publications/queued-2026-edition-characteristics), interconnection queues
 - [Resources for the Future (Prest, 2024)](https://www.rff.org/publications/issue-briefs/federal-permitting-reform-expand-oil-and-gas-leasing-carbon-emissions/), federal leasing and global emissions
 - [Utility Dive (April 2026)](https://www.utilitydive.com/news/court-trump-wind-solar-permitting/818152/), on the Charles River Associates estimate cited in *Renew Northeast v. DOI*
 - EIA CO₂ emission factors for natural gas

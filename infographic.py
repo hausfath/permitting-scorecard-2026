@@ -55,7 +55,14 @@ def anchors():
     ow_mt = (ow_twh[0] * MER[0], ow_twh[1] * MER[1])
     # Gas pipeline: 1 Bcf/d fully utilized, EIA 53.06 kg CO2/MMBtu, 1.036 MMBtu/Mcf
     mt_per_bcfd = 1e6 * 53.06 * 1.036 * 365 / 1e9
-    return {"ws_gw": ws_gw, "ws_mt": ws_mt, "ow_gw": ow_gw, "ow_mt": ow_mt,
+    # Interconnection queue, end of 2025 (LBNL Queued Up 2026 edition), GW active.
+    q = {"solar": 773, "storage": 749, "wind": 220, "gas": 253}
+    q_total = 2061                     # LBNL total active capacity (generation + storage)
+    q_clean_share = (q["solar"] + q["storage"] + q["wind"]) / q_total
+    q_gas_share = q["gas"] / q_total
+    q_median_months = 61               # median request-to-operation, projects built in 2025
+    return {"q_total": q_total, "q_clean_share": q_clean_share, "q_gas_share": q_gas_share,
+            "q_months": q_median_months, "ws_gw": ws_gw, "ws_mt": ws_mt, "ow_gw": ow_gw, "ow_mt": ow_mt,
             "pipe_mt": mt_per_bcfd}
 
 
@@ -67,7 +74,7 @@ LO, HI = A["ws_mt"]
 
 GROUPS = [
     ("Mostly helps clean energy", [
-        dict(name="Transmission", sec="§§2101–2106, 2109",
+        dict(name="Transmission", sec="§§2101–2105, 2109",
              what="FERC backstop siting without a DOE corridor; interregional planning",
              lean="clean", dir="down", dlab="Lowers", scale=3,
              anchor="If transmission grew only ~1%/yr, >80% of the IRA’s potential "
@@ -88,6 +95,11 @@ GROUPS = [
              lean="both", dir="down", dlab="Lowers, on net", scale=2,
              anchor="Clean projects outnumbered fossil 2.4:1 in 2010–18 energy EISs "
                     "and 2:1 in lawsuits (Bennon & Wilson)"),
+        dict(name="Interconnection queues", sec="§§2106, 2110, 2111",
+             what="Planned zones with fixed connection costs; faster, automated studies",
+             lean="both", dir="down", dlab="Lowers, on net", scale=2,
+             anchor=f"~{A['q_clean_share']*100:.0f}% of the {A['q_total']:,} GW waiting to connect is "
+                    f"solar, wind and storage; median wait {A['q_months']} months (LBNL)"),
         dict(name="Permit certainty and deadlines", sec="§§1401, 1402(c), 1403",
              what="Protects issued permits; forces decisions on stalled non-NEPA permits",
              lean="both", dir="down", dlab="Lowers, for now", scale=2,
@@ -244,8 +256,8 @@ def render(show_box, out):
     ]
     ax.text(L, 1.72, "\n".join(foot), fontsize=11.5, color=INK3, va="top",
             linespacing=1.5)
-    ax.text(L, 0.62, "Sources: bill text; REPEAT (2022); Bennon & Wilson (2023); RFF (2024); "
-            "Charles River Assoc. via Renew Northeast v. DOI; EIA; author calculations.",
+    ax.text(L, 0.62, "Sources: bill text; REPEAT (2022); Bennon & Wilson (2023); RFF (2024); LBNL (2026); "
+            "CRA via Renew Northeast v. DOI; EIA; author calculations.",
             fontsize=11.5, color=INK3, va="top")
     ax.text(R, 0.3, "Zeke Hausfather · The Climate Brink", fontsize=12.5,
             color=INK3, va="top", ha="right")
@@ -258,6 +270,6 @@ def render(show_box, out):
 if __name__ == "__main__":
     render(show_box=True, out="permitting_infographic.png")          # for the post
     render(show_box=False, out="permitting_infographic_social.png")  # for social media
-    print("anchors:", {k: (round(v, 2) if isinstance(v, float) else tuple(round(x, 1) for x in v))
+    print("anchors:", {k: (tuple(round(x, 1) for x in v) if isinstance(v, tuple) else round(v, 3))
                        for k, v in A.items()})
 
