@@ -1,0 +1,156 @@
+ceq_id,subsector,group,programmatic,duplicate_of,dup_pooled,note,title,agency,state,noi,feis,rod,feis_year,era,sheet
+C1276,Geothermal,Clean,False,,,geothermal leasing availability (programmatic),Big Creek Geothermal Leasing Project,USFS,ID,2015-09-24,2018-03-02,2018-05-02,2018,2017-20,2024wb
+C1298,Geothermal,Clean,False,,,geothermal leasing availability (programmatic),Santa Fe National Forest Geothermal Leasing,USFS,NM,2015-05-13,2018-05-11,2018-06-20,2018,2017-20,2024wb
+C1512,Geothermal,Clean,False,,,geothermal leasing availability (programmatic),Haiwee Geothermal Leasing Area Evaluation of Potential Impacts of Opening for Lease of Federal Mineral Estate for Geothermal Energy Exploration and Development Approval Lease Applications Inyo County CA,BLM,CA,2009-09-11,2020-01-24,2020-04-24,2020,2017-20,2024wb
+C1330,Hydro,Clean,False,,,,Lassen Lodge Hydroelectric Project,FERC,CA,2016-05-02,2018-08-03,No ROD Fou,2018,2017-20,2024wb
+C1383,Hydro,Clean,False,,,,Yuba River Development Project,FERC,CA,2017-06-26,2019-02-01,2020-05-21,2019,2017-20,2024wb
+C1422,Hydro,Clean,False,,,,Grant Lake Hydropower License,FERC,AK,2018-02-14,2019-05-07,2019-08-28,2019,2017-20,2024wb
+C1519,Hydro,Clean,False,,,,Bucks Creek Hydropower Project,FERC,CA,2018-08-06,2020-02-07,2022-06-16,2020,2017-20,2024wb
+C1566,Hydro,Clean,False,,,,Don Pedro and La Grange Hydroelectric Project,FERC,CA,2017-11-30,2020-07-17,No ROD Fou,2020,2017-20,2024wb
+C1568,Hydro,Clean,False,,,Columbia River System Operations (operations of existing dams),Columbia River System Operations,USACE,ID - MT - OR - WA,2016-09-30,2020-07-31,2020-09-28,2020,2017-20,2024wb
+C1716,Hydro,Clean,False,,,,Lower Klamath Project,FERC,CA - OR,2021-06-17,2022-09-02,2022-11-17,2022,2021-24,2024wb
+C0203,Nuclear,Clean,False,,,nuclear licence renewal (continuation),"General EIS for License Renewal of Nuclear Plants, Supplement 38 Indian Point Nuclear Generating Unit Nos. 2 and 3",NRC,NY,2007-08-10,2010-12-17,No ROD Fou,2010,2010-16,2024wb
+C0271,Nuclear,Clean,False,,,nuclear licence renewal (continuation),"Generic Environmental Impact Statement for License Renewal of Nuclear Plants, Supplement 5, Second Renewal, Regarding Subsequent License Renewal for Turkey Point Nuclear Generating Unit Nos. 3 and 4",NRC,MN,2008-07-22,2011-05-20,2011-06-27,2011,2010-16,2024wb
+C1355,Nuclear,Clean,False,,,nuclear licence renewal (continuation),"Generic EIS for License Renewal of Nuclear Plants, Supplement 58 River Bend Station Unit 1",NRC,LA,2017-09-20,2018-11-16,2018-12-27,2018,2017-20,2024wb
+C1361,Nuclear,Clean,False,,,nuclear licence renewal (continuation),"Generic EIS for License rEnewal of Nuclear Plants, Supplement 59, Regarding Waterford Steam Electric Station, Unit 3 (NUREG-1437)",NRC,LA,2016-06-06,2018-11-23,2019-02-01,2018,2017-20,2024wb
+C1405,Nuclear,Clean,False,,,Clinch River early site permit (SMRs),Early Site Permit (ESP) at the Clinch River Nuclear Site,NRC,TN - DC - MD - VA,2017-04-13,2019-04-12,2019-12-19,2019,2017-20,2024wb
+C1515,Nuclear,Clean,False,,,nuclear licence renewal (continuation),"Generic Environmental Impact Statement for License Renewal of Nuclear Plants, Supplement 10, Second Renewal, Regarding Subsequent License Renewal for Peach Bottom Atomic Power Station Units 2 and 3",NRC,PA,2018-09-10,2020-01-31,2020-03-11,2020,2017-20,2024wb
+C1707,Nuclear,Clean,False,,C1405,Clinch River Advanced Nuclear Reactor Technology Park (same site as C1405),Clinch River Nuclear Site Advanced Nuclear Reactor Technology Park,TVA,TN,2021-02-05,2022-07-29,2022-10-03,2022,2021-24,2024wb
+C1849,Nuclear,Clean,False,,,nuclear licence renewal (continuation),"Site-Specific Environmental Impact Statement for License Renewal of Nuclear Plants Supplement 7a, Second Renewal Regarding Subsequent License Renewal for North Anna Power Station Units 1 and 2",NRC,MD,2022-11-15,2024-07-26,2024-08-28,2024,2021-24,2024wb
+C1894,Nuclear,Clean,False,,,nuclear licence renewal (continuation),"Site-Specific Environmental Impact Statement for License Renewal of Nuclear Plants Supplement 26, Second Renewal Regarding Subsequent License Renewal for Monticello Nuclear Generating Plant, Unit 1",NRC,MN,2023-03-10,2024-11-22,No ROD Fou,2024,2021-24,2024wb
+C1616,OffshoreWind,Clean,False,,,,Vineyard Wind 1 Offshore Wind Energy Project,BOEM,MA,2018-03-30,2021-03-12,2021-05-14,2021,2021-24,2024wb
+C1647,OffshoreWind,Clean,False,,,,South Fork Wind Farm and South Fork Export Cable Project,BOEM,MA - NY - RI,2018-10-19,2021-08-20,2021-11-24,2021,2021-24,2024wb
+C1768,OffshoreWind,Clean,False,,,,Ocean Wind 1 Offshore Wind Farm,BOEM,NJ,2021-03-30,2023-05-26,2023-07-11,2023,2021-24,2024wb
+C1776,OffshoreWind,Clean,False,,,,Revolution Wind Farm and Revolution Wind Export Cable Project,BOEM,NY - MA - CT - RI,2021-06-04,2023-07-21,2023-08-24,2023,2021-24,2024wb
+C1786,OffshoreWind,Clean,False,,,,Empire Offshore Wind,BOEM,NY,2021-06-24,2023-09-15,2023-11-28,2023,2021-24,2024wb
+C1788,OffshoreWind,Clean,False,,,,Coastal Virginia Offshore Wind Commercial Project,BOEM,VA,2021-07-02,2023-09-29,2023-11-03,2023,2021-24,2024wb
+C1802,OffshoreWind,Clean,False,,,,Sunrise Wind Project,BOEM,RI - MA - NY,2021-09-03,2023-12-15,2024-03-26,2023,2021-24,2024wb
+C1811,OffshoreWind,Clean,False,,,,New England Wind Project,BOEM,RI - NY - MA,2021-06-30,2024-03-01,2024-04-01,2024,2021-24,2024wb
+C1830,OffshoreWind,Clean,False,,,,Atlantic Shores Offshore Wind South,BOEM,NJ,2021-09-30,2024-05-31,2024-07-01,2024,2021-24,2024wb
+C1851,OffshoreWind,Clean,False,,,,Maryland Offshore Wind Project,BOEM,DE - MD,2022-06-08,2024-08-02,2024-09-04,2024,2021-24,2024wb
+C1886,OffshoreWind,Clean,False,,,,SouthCoast Wind Project,BOEM,RI - MA,2021-11-01,2024-11-15,No ROD Fou,2024,2021-24,2024wb
+C1863,Programmatic-Clean,Clean,True,,,,Utility-Scale Solar Energy Development PEIS,BLM,WY - WA - UT - OR - NV - NM - MT - ID - CO - CA - AZ - DC,2022-12-08,2024-08-30,No ROD Fou,2024,2021-24,2024wb
+C1880,Programmatic-Clean,Clean,True,,,,New York Bight Programmatic EIS,BOEM,NJ - NY,2022-08-11,2024-10-25,No ROD Fou,2024,2021-24,2024wb
+C1380,PumpStorage,Clean,False,,,,Swan Lake North Hydro LLC (North Pumped Storage Project),FERC,OR,2017-12-20,2019-02-01,2019-04-30,2019,2017-20,2024wb
+C1533,PumpStorage,Clean,False,,,,Moriah Hydro Corporation (Mineville Energy Storage Project),FERC,,2019-05-01,2020-02-28,2020-12-11,2020,2017-20,2024wb
+C1809,PumpStorage,Clean,False,,,,Goldendale Energy Storage Project,FERC,OR - WA,2022-06-10,2024-02-16,No ROD Fou,2024,2021-24,2024wb
+C1485,Solar,Clean,False,,,,"Desert Quartzite Solar Project Draft Plan Amendment, Environmental Impact Statement, and Environmental Impact Report",BLM,CA,2015-03-06,2019-09-27,2020-01-16,2019,2017-20,2024wb
+C1502,Solar,Clean,False,,,,Eagle Shadow Mountain Solar Project,BIA,NV,2019-02-04,2019-12-20,2020-02-10,2019,2017-20,2024wb
+C1504,Solar,Clean,False,,,,Gemini Solar Project,BLM,NV,2018-07-13,2019-12-27,2020-05-11,2019,2017-20,2024wb
+C1514,Solar,Clean,False,,,,Edwards Air Force Base Solar Enhanced Use Lease Project,USAF,CA,2017-11-27,2020-01-24,2020-11-23,2020,2017-20,2024wb
+C1578,Solar,Clean,False,,,,Yellow Pine Solar Project,BLM,NV,2018-06-01,2020-09-04,2020-11-06,2020,2017-20,2024wb
+C1631,Solar,Clean,False,,,,Southern Bighorn Solar Projects,BIA,NV,2020-05-08,2021-06-04,2021-07-16,2021,2021-24,2024wb
+C1686,Solar,Clean,False,,,,"Skeleton Creek Solar and Battery Storage Project, Garfield County, Oklahoma",RUS,OK,2021-03-15,2022-04-08,2022-05-20,2022,2021-24,2024wb
+C1694,Solar,Clean,False,,,,North Alabama Utility-Scale Solar Facility,TVA,AL,2020-01-30,2022-05-13,2022-07-01,2022,2021-24,2024wb
+C1718,Solar,Clean,False,,,,Badger State Solar Project,RUS,WI,2021-10-05,2022-09-02,2023-01-10,2022,2021-24,2024wb
+C1738,Solar,Clean,False,,,,Moore County Solar,TVA,TN,2021-05-03,2022-12-16,2023-02-08,2022,2021-24,2024wb
+C1850,Solar,Clean,False,,,,Libra Solar,BLM,NV,2023-04-24,2024-07-26,2024-09-10,2024,2021-24,2024wb
+C1881,Solar,Clean,False,,,,Rough Hat Clark Solar Project Draft EIS and Resource Management Plan,BLM,NV,2022-10-21,2024-11-01,No ROD Fou,2024,2021-24,2024wb
+C1885,Solar,Clean,False,,,,Jove Solar Energy Project,BLM,AZ,2022-12-07,2024-11-15,No ROD Fou,2024,2021-24,2024wb
+C1291,Transmission,Clean,False,,,,Estes to Flatiron Transmission Lines,WAPA,CO,2012-04-17,2018-04-13,2019-03-21,2018,2017-20,2024wb
+C1318,Transmission,Clean,False,,,,Bordertown to California 120kV Transmission Line,USFS,NV,2011-11-21,2018-06-22,2019-06-14,2018,2017-20,2024wb
+C1387,Transmission,Clean,False,,,,Issuance of an Incidental Take Permit and Implementation of a Habitat Conservation Plan for the R-Project Transmission Line,USFWS,NE,2014-10-30,2019-02-08,2019-06-20,2019,2017-20,2024wb
+C1478,Transmission,Clean,False,,,,Ten West Link 500kV Transmission Line Project Draft Environmental Impact Statement and Draft Resource Management Plan Amendments,BLM,AZ - CA,2016-03-23,2019-09-13,2019-12-04,2019,2017-20,2024wb
+C1491,Transmission,Clean,False,,,,Cardinal-Hickory Creek 345-kV Transmission Line Project,RUS,IA - WI,2016-10-18,2019-10-25,2020-02-04,2019,2017-20,2024wb
+C1749,Transmission,Clean,False,,R0998,SunZia 2023 FEIS (route change),SunZia Southwest Transmission Project,BLM,AZ - NM,2021-06-04,2023-02-17,2023-05-19,2023,2021-24,2024wb
+C1837,Transmission,Clean,False,,,,Greenlink West Transmission Project,BLM,NV,2022-05-02,2024-06-14,2024-09-09,2024,2021-24,2024wb
+C1867,Transmission,Clean,False,,,,"Proposed Cross-Tie 500-kV Transmission Project, Beaver, Juab, and Millard Counties, Utah, and White Pine County, Nevada",BLM,NV,2022-05-02,2024-09-20,No ROD Fou,2024,2021-24,2024wb
+C1879,Transmission,Clean,False,,,,McClellanville 115 kV Transmission Project,RUS,SC,2010-09-16,2024-10-18,No ROD Fou,2024,2021-24,2024wb
+C1107,Wind,Clean,False,,,Na Pua Makani (FEIS 2016; in 2024 workbook only),"Incidental Take Permit for the Na Pua Makani Project, Kahuku, Hawaii",USFWS,HI,2013-11-05,2016-07-22,2018-10-03,2016,2010-16,2024wb
+C1438,Wind,Clean,False,,,,"Skookumchuck Wind Energy Project Habitat Conservation Plan, Lewis and Thurston Counties",USFWS,WA,2018-05-03,2019-05-31,2020-04-03,2019,2017-20,2024wb
+C1458,Wind,Clean,False,,,HCP/ITP covering existing wind farms (continuation),Programmatic Environmental Impact Statement Addressing the Issuance of Incidental Take Permits for Four Wind Energy Projects in Hawai'i,USFWS,HI,2018-06-01,2019-08-02,2019-09-20,2019,2017-20,2024wb
+C1487,Wind,Clean,False,,,HCP/ITP covering existing wind farms (continuation),"MidAmerican Wind Energy Company's Iowa Wind Energy Facility, Habitat Conservation Plan",USFWS,IA,2016-04-28,2019-10-04,No ROD Fou,2019,2017-20,2024wb
+C1516,Wind,Clean,False,,,,Campo Wind Energy Project with Boulder Brush Facilities,BIA,CA,2018-11-21,2020-01-31,2020-04-07,2020,2017-20,2024wb
+C1543,Wind,Clean,False,,,,Borderlands Wind Project Draft Environmental Impact Statement and Resource Management Plan Amendment,BLM,NM,2018-11-09,2020-04-10,2020-08-14,2020,2017-20,2024wb
+C1666,Wind,Clean,False,,,,"Interconnection of the Proposed Rail Tie Wind Project, Wyoming (DOE/EIS-0543)",WAPA,WY,2019-12-30,2021-11-19,2022-07-12,2021,2021-24,2024wb
+C1834,Wind,Clean,False,,,,Lava Ridge Wind Project Final Environmental Impact Statement,BLM,ID,2021-08-20,2024-06-07,No ROD Fou,2024,2021-24,2024wb
+C1547,GasPlant,Fossil,False,,,NJ TRANSITGRID gas-fired microgrid,NJ Transitgrid Traction Power System,FTA,NJ,2016-01-07,2020-04-24,2020-04-24,2020,2017-20,2024wb
+C1736,GasPlant,Fossil,False,,,TVA coal retirement replaced by gas combined cycle,Cumberland Fossil Plant Retirement,TVA,TN,2021-05-11,2022-12-09,2023-01-20,2022,2021-24,2024wb
+C1810,GasPlant,Fossil,False,,,TVA coal retirement replaced by gas combined cycle,Kingston Fossil Plant Retirement,TVA,TN,2021-06-15,2024-02-23,2024-04-02,2024,2021-24,2024wb
+C1429,Leasing-Fossil,Fossil,True,,,,Central Coast Field Office Draft Resource Management Plan Amendment for the Oil and Gas Leasing and Development,BLM,CA,2013-08-05,2019-05-10,2019-10-07,2019,2017-20,2024wb
+C1480,Leasing-Fossil,Fossil,True,,,,Coastal Plain Oil and Gas Leasing Program,BLM,AK,2018-04-20,2019-09-20,2020-08-21,2019,2017-20,2024wb
+C1560,Leasing-Fossil,Fossil,True,,,,National Petroleum Reserve in Alaska Integrated Activity Plan and Environmental Impact Statement,BLM,AK,2018-11-21,2020-06-26,2020-12-31,2020,2017-20,2024wb
+C1591,Leasing-Fossil,Fossil,True,,,,Osage County Oil and Gas,BIA,OK,2013-07-26,2020-10-16,2020-12-15,2020,2017-20,2024wb
+C1727,Leasing-Fossil,Fossil,True,,,Cook Inlet Sale 258: tiered to the 2017-22 Program (R0738) -> covered,Cook Inlet Planning Area Oil and Gas Lease Sale 258,BOEM,AK,2020-09-10,2022-10-28,2022-11-29,2022,2021-24,2024wb
+C1790,Leasing-Fossil,Fossil,True,,,,2023-2029 National Outer Continental Shelf Oil and Gas Leasing Program,BOEM,NAT - Other,2018-01-08,2023-10-06,2023-12-14,2023,2021-24,2024wb
+C1351,Liquefaction,Fossil,False,,,,Calcasieu Pass Project,FERC,LA,2016-08-05,2018-11-02,2019-02-21,2018,2017-20,2024wb
+C1379,Liquefaction,Fossil,False,,,,"Driftwood LNG, LLC and Driftwood LNG Pipeline Company, LLC; Driftwood LNG Project",FERC,LA,2016-10-07,2019-02-01,2019-04-18,2019,2017-20,2024wb
+C1385,Liquefaction,Fossil,False,,,,"Port Arthur Liquefaction Project, Texas Connector Project, and Louisiana Connector Project",FERC,TX - LA,2017-06-01,2019-02-08,2019-04-18,2019,2017-20,2024wb
+C1401,Liquefaction,Fossil,False,,,,"Texas LNG Brownsville, LLC",FERC,TX,2015-07-30,2019-03-22,2019-11-22,2019,2017-20,2024wb
+C1408,Liquefaction,Fossil,False,,,,Eagle LNG Partners Jacksonville LLC; Jacksonville Project,FERC,FL,2015-03-02,2019-04-19,2020-03-18,2019,2017-20,2024wb
+C1410,Liquefaction,Fossil,False,,,,Gulf LNG Liquefaction Project,FERC,MS,2014-08-11,2019-04-24,2019-07-16,2019,2017-20,2024wb
+C1413,Liquefaction,Fossil,False,,,,Annova LNG Brownville Project,FERC,TX,2015-07-30,2019-04-26,2019-11-22,2019,2017-20,2024wb
+C1415,Liquefaction,Fossil,False,,,,Rio Grande LNG Project,FERC,TX,2015-07-30,2019-05-02,2019-11-22,2019,2017-20,2024wb
+C1428,Liquefaction,Fossil,False,,,,The Plaquemines LNG and Gator Express Pipeline Project,FERC,LA,2015-10-05,2019-05-10,2019-09-30,2019,2017-20,2024wb
+C1431,Liquefaction,Fossil,False,,C1428,DOE/second listing of Plaquemines LNG,"Venture Global Plaquemines LNG, LLC",FERC,LA - TX,2015-10-14,2019-05-13,2019-09-30,2019,2017-20,2024wb
+C1498,Liquefaction,Fossil,False,,R0515,Jordan Cove 2019 FEIS (re-application),"Jordan Cove Energy Project, L.P., Pacific Connector Gas Pipeline, L.P.",FERC,OR,2017-06-26,2019-11-22,2020-07-14,2019,2017-20,2024wb
+C1537,Liquefaction,Fossil,False,,,,Alaska LNG Project-Draft Environmental Impact Statement,FERC,AK,2015-03-13,2020-03-13,2020-05-21,2020,2017-20,2024wb
+C1720,Liquefaction,Fossil,False,,,,Commonwealth LNG Project,FERC,LA,2021-09-30,2022-09-16,2022-11-17,2022,2021-24,2024wb
+C1778,Liquefaction,Fossil,False,,,,"Venture Global CP2 LNG, LLC; Venture Global CP Express, LLC; Notice of Intent To Prepare an Environmental Impact Statement for the Proposed CP2 LNG and CP Express Project, Request for Comments on Environmental Issues, and Schedule for Environmental Review",FERC,,2022-02-15,2023-08-04,2024-06-27,2023,2021-24,2024wb
+C1326,Mine-Coal,Fossil,False,,,,Alton Coal Tract Lease by Application,BLM,UT,2006-11-28,2018-07-20,2018-08-29,2018,2017-20,2024wb
+C1364,Mine-Coal,Fossil,False,,,,Western Energy Company's Rosebud Mine Area F,OSMRE,MT,2013-08-27,2018-11-30,2019-06-28,2018,2017-20,2024wb
+C1397,Mine-Coal,Fossil,False,,,,San Juan Mine Deep Lease Extension Mining Plan Modification Draft Environmental Impact Statement,OSMRE,NM,2017-03-22,2019-03-15,2019-05-01,2019,2017-20,2024wb
+C1589,Mine-Coal,Fossil,False,,,,"Sugar Camp Energy, LLC Mine Number 1",TVA,IL,2019-08-12,2020-10-09,2020-11-25,2020,2017-20,2024wb
+C1316,Mine-Gas,Fossil,False,,,,Normally Pressured Lance Natural Gas Development Project,BLM,WY,2011-04-12,2018-06-22,2018-08-27,2018,2017-20,2024wb
+C1333,Mine-Gas,Fossil,False,,,,Liberty Development Project Development and Production Plan in the Beaufort Sea,BOEM,AK,2015-09-25,2018-08-31,2018-10-17,2018,2017-20,2024wb
+C1353,Mine-Gas,Fossil,False,,,,Nanushuk Project,USACE,AK,2016-02-04,2018-11-02,2019-05-14,2018,2017-20,2024wb
+C1528,Mine-Gas,Fossil,False,,,,"Moneta Divide Natural Gas and Oil Development Project and Draft Casper Resource Management Plan Amendment, WY",BLM,WY,2013-01-17,2020-02-21,2020-08-07,2020,2017-20,2024wb
+C1570,Mine-Gas,Fossil,False,,,,Converse County Oil and Gas Project,BLM,WY,2014-05-16,2020-07-31,2020-12-23,2020,2017-20,2024wb
+C1574,Mine-Gas,Fossil,False,,,,Willow Master Development Plan,BLM,AK,2018-08-07,2020-08-14,2020-11-02,2020,2017-20,2024wb
+C1307,Pipeline,Fossil,False,,,"Enefit oil-shale utility corridor (oil, gas, water, power ROWs)",Enefit American Oil Utility Corridor Project,BLM,UT,2013-07-01,2018-05-25,2018-09-26,2018,2017-20,2024wb
+C1319,Pipeline,Fossil,False,,,,Midcontinent Supply Header Interstate Pipeline Project,FERC,OK,2017-03-28,2018-06-29,2018-08-13,2018,2017-20,2024wb
+C1374,Pipeline,Fossil,False,,,,"Riley Ridge to Natrona Project, Wyoming",BLM,WY,2014-06-09,2018-12-14,2019-03-04,2018,2017-20,2024wb
+C1382,Pipeline,Fossil,False,,,,"Transcontinental Gas Pipe Line Company, LLC, Northeast Supply Enhancement Project",FERC,NY - NJ - PA,2016-08-30,2019-02-01,2019-05-03,2019,2017-20,2024wb
+C1412,Pipeline,Fossil,False,,,,Crow Creek Pipeline Project Draft Environmental Impact Statement,USFS,ID - WY,2018-01-30,2019-04-26,2019-11-01,2019,2017-20,2024wb
+C1527,Pipeline,Fossil,False,,,,Southgate Project,FERC,NC - VA,2018-08-09,2020-02-21,2020-06-18,2020,2017-20,2024wb
+C1656,Pipeline,Fossil,False,,,LNG-feed pipeline for a terminal in this universe (overlap),East Lateral Xpress Project,FERC,LA,2021-05-27,2021-10-01,2022-03-25,2021,2021-24,2024wb
+C1657,Pipeline,Fossil,False,,,,East 300 Upgrade Project,FERC,PA - NJ,2021-05-27,2021-10-01,2022-04-21,2021,2021-24,2024wb
+C1660,Pipeline,Fossil,False,,,LNG-feed pipeline for a terminal in this universe (overlap),Evangeline Pass Expansion Project,FERC,LA - LA - MS - TN,2021-06-30,2021-10-15,2022-03-25,2021,2021-24,2024wb
+C1662,Pipeline,Fossil,False,,,North Baja XPress: deliveries largely to Mexico,North Baja Xpress Project,FERC,AZ - CA,2021-06-03,2021-10-29,2022-04-21,2021,2021-24,2024wb
+C1664,Pipeline,Fossil,False,,,LNG-feed pipeline for a terminal in this universe (overlap),Alberta Xpress and Lease Capacity Abandonment Projects,FERC,LA,2020-07-20,2021-11-05,2022-04-21,2021,2021-24,2024wb
+C1665,Pipeline,Fossil,False,,,,Enhancement by Compression Project,FERC,NY - CT,2020-03-31,2021-11-19,2022-03-25,2021,2021-24,2024wb
+C1680,Pipeline,Fossil,False,,,,Delta Lateral Project,FERC,WY - UT,2021-08-26,2022-03-04,2022-05-19,2022,2021-24,2024wb
+C1683,Pipeline,Fossil,False,,,,Clear Creek Expansion Project,FERC,WY,2021-08-06,2022-03-25,2022-05-19,2022,2021-24,2024wb
+C1684,Pipeline,Fossil,False,,,,Wisconsin Access Project,FERC,WI,2021-08-26,2022-03-25,2022-05-19,2022,2021-24,2024wb
+C1690,Pipeline,Fossil,False,,,gas storage / compression relocation: no added throughput (unsized),Hackberry Storage Project,FERC,LA,2021-08-27,2022-04-15,2022-09-23,2022,2021-24,2024wb
+C1700,Pipeline,Fossil,False,,,gas storage / compression relocation: no added throughput (unsized),MP66-69 Compression Relocation and Modification Amendment and the MP33 Compressor Station Modification Amendment Project,FERC,TX - LA,2021-11-05,2022-07-01,2022-10-20,2022,2021-24,2024wb
+C1708,Pipeline,Fossil,False,,,deepwater crude-oil export terminal,SPOT Terminals LLC Deepwater Port License Application,USCG,TX,2019-03-07,2022-07-29,2022-11-21,2022,2021-24,2024wb
+C1710,Pipeline,Fossil,False,,,,Regional Energy Access Expansion Project,FERC,NJ - PA,2021-10-19,2022-08-05,2023-01-11,2022,2021-24,2024wb
+C1715,Pipeline,Fossil,False,,,,Texas Gas Henderson County Expansion Project,FERC,IN - KY,2021-10-07,2022-09-02,2022-10-20,2022,2021-24,2024wb
+C1721,Pipeline,Fossil,False,,,LNG-feed pipeline for a terminal in this universe (overlap),Driftwood Line 200 and Line 300 Project,FERC,LA,2022-01-20,2022-09-23,2023-04-21,2022,2021-24,2024wb
+C1724,Pipeline,Fossil,False,,,,Spire STL Pipeline Project,FERC,MO - IL,2021-12-15,2022-10-14,2022-12-15,2022,2021-24,2024wb
+C1735,Pipeline,Fossil,False,,,,GTN XPress Project,FERC,WA - OR - ID,2022-01-21,2022-11-25,2023-10-23,2022,2021-24,2024wb
+C1739,Pipeline,Fossil,False,,,,Virginia Electrification Project,FERC,VA,2022-02-03,2022-12-23,2023-03-17,2022,2021-24,2024wb
+C1742,Pipeline,Fossil,False,,,,Three Rivers Interconnection Project,FERC,IL,2022-02-10,2023-01-20,2024-09-27,2023,2021-24,2024wb
+C1743,Pipeline,Fossil,False,,,,Ohio Valley Connector Expansion Project,FERC,WV - OH - PA,2022-07-07,2023-01-27,2023-01-27,2023,2021-24,2024wb
+C1752,Pipeline,Fossil,False,,,LNG-feed pipeline for a terminal in this universe (overlap),Venice Extension Project,FERC,LA,2022-03-16,2023-02-24,2023-09-21,2023,2021-24,2024wb
+C1754,Pipeline,Fossil,False,,,,Southside Reliability Enhancement Project,FERC,VA - NC,2022-07-25,2023-03-03,2023-07-27,2023,2021-24,2024wb
+C1756,Pipeline,Fossil,False,,,,Northern Lights 2023 Expansion Project,FERC,WI - MN,2022-07-28,2023-03-17,2023-09-25,2023,2021-24,2024wb
+C1763,Pipeline,Fossil,False,,,,Wahpeton Expansion Project,FERC,ND,2022-06-22,2023-04-14,2023-10-19,2023,2021-24,2024wb
+C1774,Pipeline,Fossil,False,,,,"Tennessee Gas Pipeline Company, LLC; Notice of Intent To Prepare an Environmental Impact Statement for the Proposed Cumberland Project, Request for Comments on Environmental Issues, and Schedule for Environmental Review",FERC,,2022-09-13,2023-07-07,2024-01-18,2023,2021-24,2024wb
+C1787,Pipeline,Fossil,False,,,,"Columbia Gas Transmission, LLC; Transcontinental Gas Pipe Line Company, LLC; Notice of Intent To Prepare an Environmental Impact Statement for The Proposed Virginia Reliability Project and Commonwealth Energy Connector Project, Request for Comments on Environmental Issues, and Schedule for Environmental Review",FERC,,2022-11-01,2023-09-22,2023-11-17,2023,2021-24,2024wb
+C1844,Pipeline,Fossil,False,,,deepwater crude-oil export terminal,Texas Gulflink Deepwater Port License Application,USCG,LA - TX,2019-07-03,2024-07-05,No ROD Fou,2024,2021-24,2024wb
+C1901,Pipeline,Fossil,False,,,,Ridgeline Expansion Project,FERC,TN,2023-09-22,2024-12-27,No ROD Fou,2024,2021-24,2024wb
+C1377,Mine-Other,Other,False,,,uranium ISR amendment; lithium mines,"Lost Creek Uranium In-Situ Recovery Project Amendments, Sweetwater County, WY",BLM,WY,2015-09-14,2018-12-28,2019-03-19,2018,2017-20,2024wb
+C1602,Mine-Other,Other,False,,,uranium ISR amendment; lithium mines,Thacker Pass Lithium Mine Project,BLM,NV,2020-01-21,2020-12-04,2021-01-15,2020,2017-20,2024wb
+C1866,Mine-Other,Other,False,,,uranium ISR amendment; lithium mines,Rhyolite Ridge Lithium-Boron Mine Project,BLM,,2022-12-20,2024-09-20,2024-10-24,2024,2021-24,2024wb
+C1347,Other-Energy,Other,False,,,utility HCPs (transmission operations),"Habitat Conservation Plan for the Endangered American Burying Beetle For American Electric Power in Oklahoma, Arkansas, and Texas",DOI,OK - AR - TX,2017-01-19,2018-10-19,2018-12-06,2018,2017-20,2024wb
+C1476,Other-Energy,Other,False,,,utility HCPs (transmission operations),Authorization of Incidental Take and Implementation of the LCRA Transmission Services Corporation Habitat Conservation Plan,USFWS,TX,2017-07-11,2019-09-06,No ROD Fou,2019,2017-20,2024wb
+C1679,Other-Energy,Other,False,,,"nuclear research/fuel, Army CHP",Construction and Demonstration of a Prototype Mobile Microreactor,DOD,ID,2020-03-02,2022-02-25,2022-04-15,2022,2021-24,2024wb
+C1697,Other-Energy,Other,False,,,"nuclear research/fuel, Army CHP",Versatile Test Reactor Environment Impact Statement,DOE,ID - SC - TN,2019-08-05,2022-05-20,2022-07-27,2022,2021-24,2024wb
+C1709,Other-Energy,Other,False,,,"nuclear research/fuel, Army CHP","License Renewal of the Columbia Fuel Fabrication Facility in Richland County, South Carolina",NRC,SC,2020-07-31,2022-08-05,2022-09-12,2022,2021-24,2024wb
+C1746,Other-Energy,Other,False,,,"nuclear research/fuel, Army CHP","Heat and Electrical Upgrades at Fort Wainwright, Alaska",USA,AK,2019-07-22,2023-02-10,2023-03-01,2023,2021-24,2024wb
+C1781,Other-Energy,Other,False,,,"nuclear research/fuel, Army CHP",Construction Permit for the Kairos Hermes Test Reactor,NRC,TN,2022-02-18,2023-08-25,2023-12-20,2023,2021-24,2024wb
+C1878,Other-Energy,Other,False,,,"nuclear research/fuel, Army CHP",Department of Energy Activities in Support of Commercial Production of High-Assay Low-Enriched Uranium (HALEU),DOE,NAT,2023-06-05,2024-10-18,No ROD Fou,2024,2021-24,2024wb
+C1593,Programmatic-FossilOther,Other,True,,,WY pipeline corridors; Pacific OCS decommissioning,Wyoming Pipeline Corridor Initiative Resource Management Plan Amendments/Environmental Impact Statement,BLM,WY,2019-11-15,2020-10-23,2021-01-19,2020,2017-20,2024wb
+C1794,Programmatic-FossilOther,Other,True,,,WY pipeline corridors; Pacific OCS decommissioning,Programmatic Environmental Impact Statement for Oil and Gas Decommissioning Activities on the Pacific Outer Continental Shelf,BOEM,CA,2021-09-23,2023-10-27,2023-12-13,2023,2021-24,2024wb
+C1451,Programmatic-Other,Other,True,,,TVA IRP; NRC license-renewal GEIS revision,2019 Update to the Integrated Resource Plan,TVA,TN - VA - NC - GA - AL - MS - KY,2018-02-14,2019-07-05,2019-09-17,2019,2017-20,2024wb
+C1855,Programmatic-Other,Other,True,,,TVA IRP; NRC license-renewal GEIS revision,"Generic Environmental Impact Statement for License Renewal of Nuclear Plants (NUREG-1437) Volume 1 and 2, Revision 2",NRC,REG,2020-08-04,2024-08-02,No ROD Fou,2024,2021-24,2024wb
+C1293,Waste,Other,False,,,,Cumberland Fossil Plant Coal Combustion Residual Management Operations,TVA,TN,2016-12-05,2018-04-20,2018-06-07,2018,2017-20,2024wb
+C1378,Waste,Other,False,,,,Remediation of Area IV and the Northern Buffer Zone of the Santa Susana Field Laboratory,DOE,CA,2014-02-07,2018-12-28,2019-09-27,2018,2017-20,2024wb
+C1536,Waste,Other,False,,,,Allen Fossil Plant Ash Impoundment Closure Draft Environmental Impact Statement,TVA,TN,2018-11-30,2020-03-13,2020-04-21,2020,2017-20,2024wb
+C1573,Waste,Other,False,,,,Gallatin Fossil Plant Surface Impoundment Closure and Restoration Project,TVA,TN,2018-12-07,2020-08-14,2020-09-28,2020,2017-20,2024wb
+C1645,Waste,Other,False,,,,"Environmental Impact Statement for Interim Storage Partners LLC¿s License Application for a Consolidated Interim Storage Facility for Spent Nuclear Fuel in Andrews County, Texas (Waste Control Specialists Consolidated Interim Spent Fuel Storage Facility Project)",NRC,TX,2016-11-14,2021-08-13,2021-09-13,2021,2021-24,2024wb
+C1705,Waste,Other,False,,,,Holtec International¿s License Application for a Consolidated Interim Storage Facility for Spent Nuclear Fuel and High Level Waste,NRC,NM,2018-03-30,2022-07-22,2023-05-09,2022,2021-24,2024wb
+C1741,Waste,Other,False,,,,"Disposal of Mine Waste at the United Nuclear Corporation Mill Site in McKinley County, New Mexico",NRC,NM,2019-02-08,2023-01-13,2023-02-15,2023,2021-24,2024wb
+C1772,Waste,Other,False,,,,"Disposal of Decommissioned, Defueled Ex-Enterprise (CVN 65) and Its Associated Naval Reactor Plants",USN,,2019-05-31,2023-06-30,2023-09-05,2023,2021-24,2024wb
