@@ -102,9 +102,9 @@ GROUPS = [
     ("Cuts both ways", [
         dict(name="NEPA deadlines and lawsuit limits", sec="§§1106, 1110, 2201",
              what="Tighter review deadlines; 150 days to sue; courts can’t cancel permits",
-             lean="both", dir="down", dlab="Lowers, on net", scale=2,
-             anchor="Clean projects outnumbered fossil 2.4:1 in 2010–18 energy EISs "
-                    "and 2:1 in lawsuits (Bennon & Wilson)"),
+             lean="both", dir="depends", dlab="Either way", scale=0,
+             anchor="Clean outnumbered fossil 2.4:1 in 2010–18 energy EISs, but fossil "
+                    "was larger weighted by emissions"),
         dict(name="Permit certainty and deadlines", sec="§§1401, 1402(c), 1403",
              what="Protects issued permits; forces decisions on stalled non-NEPA permits",
              lean="both", dir="down", dlab="Lowers, for now", scale=2,
@@ -267,7 +267,7 @@ def render(show_box, out):
     ]
     ax.text(L, 1.72, "\n".join(foot), fontsize=11.5, color=INK3, va="top",
             linespacing=1.5)
-    ax.text(L, 0.62, "Sources: bill text; C2ES/Greenline (2026); Bennon & Wilson (2023); RFF (2024); LBNL (2026); "
+    ax.text(L, 0.62, "Sources: bill text; C2ES/Greenline (2026); Bennon & Wilson (2023); CEQ; RFF (2024); LBNL (2026); "
             "Harvard EELP; EIA; NRDC; Biber (2026).",
             fontsize=11.5, color=INK3, va="top")
     ax.text(R, 0.3, "Zeke Hausfather · The Climate Brink", fontsize=12.5,

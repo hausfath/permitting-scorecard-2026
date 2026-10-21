@@ -23,8 +23,8 @@ ANCHOR_SOURCE = {
         "NRDC assessment (Oct. 19, 2026); see also Biber, Legal Planet (Oct. 16, 2026)",
         "https://www.nrdc.org/media/nrdc-assessment-baaja-2026-permitting-transmission-bill"),
     "NEPA deadlines and lawsuit limits": (
-        "Bennon & Wilson (2023), Table 1; author's recount",
-        "https://www.elr.info/sites/default/files/files-general/53.10836.pdf"),
+        "Bennon & Wilson (2023), Table 1; emissions weighting: author's preliminary recount of CEQ EIS data",
+        "https://github.com/hausfath/permitting-scorecard-2026/blob/main/bw_recount/SUMMARY.md"),
     "Interconnection queues": ("LBNL, Queued Up 2026 edition; author calculation",
                                "https://emp.lbl.gov/publications/queued-2026-edition-characteristics"),
     "Permit certainty and deadlines": (
@@ -41,6 +41,10 @@ NOTES = [
     "emissions. No one has modeled the full bill; the one published run (C2ES/Greenline) covers only "
     "transmission and interconnection in four regions. Other numbers are context anchors, not estimates "
     "of the bill's effect.",
+    "NEPA row: clean projects outnumber fossil in federal environmental reviews, but an emissions-weighted "
+    "recount of 2010-18 energy EISs (preliminary, not yet externally reviewed) finds the fossil projects carry more "
+    "emissions, driven by gas pipelines and coal leases. That sample predates offshore wind and today's large "
+    "transmission proposals, so the row is rated 'either way' rather than 'raises'.",
     "Sec. 1401 appears twice. Its protection of issued permits currently shields wind and solar, but legal "
     "analysts warn its broad wording could also hinder future pollution rules for operating facilities. "
     "The manager's amendment may change it.",
@@ -64,6 +68,10 @@ SOURCES = [
      "https://www.greenlineinsights.com/interconnection-and-transmission-reform"),
     ("Bennon & Wilson, NEPA litigation over large energy and transport projects (ELR, 2023)",
      "https://www.elr.info/sites/default/files/files-general/53.10836.pdf"),
+    ("CEQ, Environmental Impact Statement Timelines database (2010-2017 and 2010-2024 editions)",
+     "https://ceq.doe.gov/nepa-practice/eis-timelines.html"),
+    ("Author's preliminary emissions-weighted recount of energy EISs (code and data)",
+     "https://github.com/hausfath/permitting-scorecard-2026/tree/main/bw_recount"),
     ("LBNL, Queued Up: 2026 edition (interconnection queues)", "https://emp.lbl.gov/publications/queued-2026-edition-characteristics"),
     ("Resources for the Future, federal leasing and global emissions (2024)",
      "https://www.rff.org/publications/issue-briefs/federal-permitting-reform-expand-oil-and-gas-leasing-carbon-emissions/"),

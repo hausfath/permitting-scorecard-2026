@@ -1,0 +1,286 @@
+ceq_id,sheet,primary_guess,alternates,ilp_assignment,dur_noi_rod_or_feis,agency,state,title
+R0024,ROD,Solar,NONE,Solar,1.342,BLM,NV,Amargosa Farm Road Solar Energy Project Construction and Operation of Two Concentrated Solar Power Plant Facilties Right-of-Way Application on Public Lands Nye County NV
+R0110,ROD,Solar,NONE,NONE,0.921,BLM,CA,Blythe Solar Power Project (09-AFC-6) Application for Right-of Way Grant to Construct and Operate and Decommission a Solar Thermal Facility on Public Lands Riverside County CA
+R0136,ROD,Solar,NONE,Solar,2.025,BLM,CA,Calico Solar Project Solar Thermal Electricity Generation Facility Located Public Lands Construction and Operation Right-of-Way Grant San Bernardino County CA
+R0168,ROD,Solar,NONE,Solar,1.225,BLM,CA,Chevron Energy Solutions Lucerne Valley Solar Project Proposing To Develop a 45-megawatt (MW) Solar Photovotaic (PV) Plant and Associated Facilities on 516 Acres of Federal Land Managed California Desert Conservation Area Plan Amendment San Bernardino County CA
+R0239,ROD,Solar,NONE,Solar,1.493,BLM,CA,Desert Harvest Solar Project Construction Operation Maintenance and Decommissioning of a 150-megawatt Photovoltaic Solar Energy Facility and Generation-Intertie Transmission Line Consideration of Issuance of a Right-of-Way Grant Riverside County CA
+R0314,ROD,Solar,NONE,Solar,1.573,BLM,CA,First Solar Desert Sunlight Solar Farm (DSSF) Project Proposing To Develop a 550-Megawatt Photovoltaic Solar Project Also Proposes to Facilitate the Construction and Operation of the Red Bluff Substation California Desert Conservation Area (CDCA) Plan Riverside County CA
+R0370,ROD,Solar,NONE,NONE,0.97,BLM,CA,Genesis Solar Energy Project Application for a Right-of-Way Grant to Construct Operate and Decommission a Solar Thermal Facility on Public Lands California Desert Conservation Area Plan Riverside County CA
+R0475,ROD,Solar,NONE,Solar,1.986,BLM,CA,Imperial Valley Solar Project (Formerly Known as Stirling Energy Systems (SES) Solar 2 Project) Construct and Operate Electric-Generating Facility Imperial Valley Imperial County CA
+R0501,ROD,Solar,NONE,Solar,1.918,BLM,CA,Ivanpah Solar Electric Generating System (07-AFC-5) Project Proposal to Construct a 400-m Megawatt Concentrated Solar Power Tower Thermal-Electric Power Plant San Bernardino County CA
+R0607,ROD,Solar,NONE,Solar,1.54,BLM,CA,McCoy Solar Energy Project Plan Amendment Riverside County CA
+R0631,ROD,Solar,NONE,NONE,0.921,BLM,CA,Modified Blythe Solar Power Project Amendment to Right-of-Way Grant CACA 048811
+R0726,ROD,Solar,NONE,Solar,2.742,BLM,CA,Ocotillo Sol Project California Desert Conservation Area Plan Amendment
+R0746,ROD,Solar,NONE,Solar,6.814,BLM,CA,Palen Solar Power Plant Project Construction Operation and Decommission a Solar Thermal Facility on Public Lands Approval for Right-of-Way Grant Possible California Desert Conservation Area Plan Amendment Riverside County CA
+R0933,ROD,Solar,NONE,NONE,1.288,BLM,NV,Silver State Solar Energy Project Construction and Operation of a 400-megawatt Photovoltaic Solar Plant and Associated Facilities on Public Lands Application Right-of-Way Grant Primm and Clark Counties NV
+R0944,ROD,Solar,NONE,Solar,3.422,BLM,CA,Soda Mountain Solar Project Proposed Plan Amendment
+R0946,ROD,Solar,NONE,Solar,2.449,BLM,AZ,Sonoran Solar Energy Project Construction and Operation of a 3756-megawatt (MW) Concentrated Solar Thermal Power Plant and Ancillary Facilities on 3 702 Areas Right-of-Way Granting Maricopa County AZ
+R0983,ROD,Solar,NONE,Solar,2.534,BLM,CA,Stateline Solar Farm Project Proposed Final Plan Amendment
+R1036,ROD,Solar,NONE,Solar,1.09,BLM,NV,Tonopah Solar Energy Crescent Dunes Solar Energy Project a 7 680-Acre Right-of-Way (ROW) on Public Lands to Construct a Concentrated Solar Thermal Power Plant Facility Nye County NV
+R0011,ROD,Solar,NONE,Solar,1.816,BIA,NV,Aiya Solar Project
+R0517,ROD,Solar,NONE,Solar,1.378,BIA,NV,K Road Moapa Solar Facility Construction and Operation of a 350MW Solar Generation Facility Approval of Right-of-Way Applications Clark County NV
+R0860,ROD,Solar,NONE,Solar,1.748,BIA,NV,RES Americas Moapa Solar Energy Center
+R0846,ROD,Solar,NONE,Solar,3.337,WAPA,AZ,Quartzsite Solar Energy Project and Yuma Field Office Resource Management Plan Amendment La Paz County AZ
+R0870,ROD,Solar,NONE,Solar,1.729,WAPA,CA,Rice Solar Energy Project 150 megawatt Solar Energy Generating Facility 161-kV/230-kV Electrical Transmission Tie-Line and 161-kV/230-kV Electrical Interconnection Switchyard Riverside County CA
+R0750,ROD,Solar,NONE,Solar,3.641,USACE,CA,Panoche Valley Solar Project
+N0096,NoROD,Solar,NONE,NONE,0.805,DOE,CA,Topaz Solar Farm Project Issuing a Loan Guarantee to Royal Bank of Scotland for Construction and Startup San Luis Obispo County CA
+N0062,NoROD,NONE,Solar,Solar,2.953,USFWS,CA,Maricopa Sun Solar Complex Habitat Conservation Plan
+R0476,ROD,NONE,Solar|Other-Energy,Other-Energy,2.512,USA,NM,Implementation of Energy Water and Solid Waste Sustainability Initiatives at Fort Bliss
+R0023,ROD,Wind,NONE|Transmission,Wind,1.858,BLM,CA,Alta East Wind Project Plan Amendment
+R0174,ROD,Wind,NONE|Transmission,Wind,4.255,BLM,WY,Chokecherry and Sierra Madre Wind Energy Project Development of a Wind Farm Carbon County WY
+R0633,ROD,Wind,NONE|Transmission,Wind,2.926,BLM,AZ,Mohave County Wind Farm Project
+R0725,ROD,Wind,NONE|Transmission,Wind,1.411,BLM,CA,Ocotillo Express Wind Energy Project Proposing to Develop a 465-Megawatt Wind Energy Facility Implementation Imperial County CA
+R0912,ROD,Wind,NONE|Transmission,Wind,4.241,BLM,NV,Searchlight Wind Energy Project NVN-084626 and NVN-086777 Application for Right-of-Way Grant on Public Land to Develop Construct Operate Maintain and Decommission of a 200 megawatt Wind Energy Facility USACE Section 404 Permit Clark County NV
+R1121,ROD,Wind,NONE|Transmission,Wind,1.482,BLM,OR,West Butte Wind Power Project Construction and Operation of Access Roads and a Transmission Line Application for Right-of-Way (ROW) Grant Deschutes and Crook Counties OR
+R0235,ROD,Wind,NONE|Transmission,Wind,6.482,USFS,VT,Deerfield Wind Project Updated Information Application for a Land Use Authorization to Construct and Operate a Wind Energy Facility Special Use Authorization Permit Green Mountain National Forest Bennington County VT
+R0336,ROD,Wind,NONE|Transmission,Wind,2.797,USFWS,IN,Fowler Ridge Wind Farm
+R0422,ROD,Wind,NONE|Transmission,Wind,2.94,USFWS,OH,Habitat Conservation Plan and Incidental Take Permit for the Indiana Bat (Myotis sodalis) for the Buckeye Wind Power Project
+R0499,ROD,Wind,NONE|Transmission,NONE,3.375,USFWS,WV,Issuance of an Incidental Take Permit For the Beech Ridge Energy Wind Project Habitat Conservation Plan
+R0390,ROD,Wind,NONE|Transmission,Wind,3.137,WAPA,AZ,Grapevine Canyon Wind Project Proposal to Develop a Wind Energy Generating Facility up to 500 Megawatts; (2) a 345 kilovolt (kV) Electrical Transmission Tie-Line; and (3) a 345-kV Electrical Interconnection Switchyard Coconino County AZ
+R0480,ROD,Wind,NONE|Transmission,Transmission,3.033,WAPA,NE,Interconnection of the Grande Prairie Wind Farm
+R0949,ROD,Wind,NONE|Transmission,Wind,1.479,WAPA,SD,South Dakota PrairieWinds Project Proposes to Construct Own Operate and Maintain a 151.5 megawatt (MW) Nameplate Capacity Wind-Powered Generation Facility Aurora Brule and Jerauld Tripp Counties SD
+R1138,ROD,Wind,NONE|Transmission,Wind,6.178,BPA,WA,Whistling Ridge Energy Project
+R0262,ROD,NONE,Wind,NONE,3.14,USFWS,WY,Eagle Take Permits for the Chokecherry and Sierra Madre Phase I Wind Energy Project
+R0014,ROD,Transmission,NONE|Wind,Transmission,1.592,BPA,OR,Albany-Eugene 115 kilovolt No. 1 Transmission Line Rebuild Project
+R0047,ROD,Transmission,NONE|Wind,Transmission,2.89,RUS,ND,Antelope Valley Station to Neset Transmission Project
+R0052,ROD,Transmission,NONE|Wind,Transmission,2.696,NPS,NJ,Appalachian National Scenic Trail Delaware Water Gap National Recreation Area Middle Delaware National Scenic and Recreational River Susquehanna to Roseland 500kV Transmission Line Right-of-Way and Special-Use-Permit NJ and PA
+R0054,ROD,Transmission,NONE|Wind,Transmission,2.77,BLM,AZ,APS Sun Valley to Morgan 500/230kV Transmission Line Project Resource Management Plan Amendment
+R0075,ROD,Transmission,NONE|Wind,Transmission,4.468,USFS,CA,Barren Ridge Renewable Transmission Project Construct Operate Maintain and Upgrade 220kV Electrical Transmission Lines and Switching Stations Kern and Los Angeles Counties CA
+R0085,ROD,Transmission,NONE|Wind,Transmission,2.351,RUS,MN,Bemidji - Grand Rapid 230 kV Transmission Line Project Propose to Construct and Operate Beltrami Hubbard Cass Itasca Counties MN
+R0091,ROD,Transmission,NONE|Wind,Transmission,2.288,BPA,WA - OR,Big Eddy-Knight Transmission Project
+R0111,ROD,Transmission,NONE|Wind,Transmission,9.186,BLM,ID - OR,Boardman to Hemingway Transmission Line Project
+R0139,ROD,Transmission,NONE|Wind,Transmission,3.288,USFS,CA,California Pacific Electricity Company 625 and 650 Electrical Line Upgrade Project
+R0158,ROD,Transmission,NONE|Wind,NONE,1.756,BPA,WA,Central Ferry-Lower Monumental 500-kilovolt Transmission Line Project
+R0162,ROD,Transmission,NONE|Wind,Transmission,2.422,DOE,NY,Champlain Hudson Power Express Transmission Line Project
+R0176,ROD,Transmission,NONE|Wind,Transmission,1.46,USFS,FL,City of Tallahassee Southwestern Transmission Line Project Proposes to Construct Operate and Maintain a New Overhead 230 - kilovolt (kV) Electric Transmission Line Special-Use-Permit (SUP) Apalachicola National Forest (ANF) Leon County FL
+R0285,ROD,Transmission,NONE|Wind,Transmission,3.477,DOE,CA,Energia Sierra Juarez U.S. Transmission Line Project
+R0286,ROD,Transmission,NONE|Wind,Transmission,6.17,USFS,UT,Energy Gateway South Powerline (EGS)
+R0287,ROD,Transmission,NONE|Wind,Transmission,5.707,BLM,WY - CO - UT,Energy Gateway South Transmission Project
+R0349,ROD,Transmission,NONE|Wind,Transmission,5.496,BLM,WY,Gateway West Transmission Line Project Wyoming and Idaho
+R0383,ROD,Transmission,NONE|Wind,Transmission,6.148,WAPA,CO,Granby Pumping Plant Windy Gap Substation Transmission Line Rebuild
+R0392,ROD,Transmission,NONE|Wind,Transmission,2.408,DOE,MN,Great Northern Transmission Line Project
+R0426,ROD,Transmission,NONE|Wind,Transmission,3.627,RUS,MN,Hampton - Rochester - La Crosse Transmission System Improvement Project Construction and Operation of a 345-kilovolt Transmission Line and Associated Facilities between Hampton MN and La Crosse WI
+R0452,ROD,Transmission,NONE|Wind,Transmission,4.69,BPA,ID,Hooper Springs Transmission Project
+R0503,ROD,Transmission,NONE|Wind,Transmission,2.808,USFS,MT,Jack Rabbit to Big Sky Meadow Village 161 kV Transmission Line Upgrade
+R0520,ROD,Transmission,NONE|Wind,Transmission,2.345,USFS,AK,Kake to Petersburg Transmission Line Intertie Project
+R0531,ROD,Transmission,NONE|Wind,Transmission,3.145,USFS,CA,Kirkwood Meadows Power Line Reliability Project Proposal to Construct and Operate 34.5 kilovolt (kV) Power Line Eldorado National Forest Amador Eldorado and Alpine Counties CA
+R0606,ROD,Transmission,NONE|Wind,Transmission,2.466,USFS,CA,Master Special Use Permit and Permit to Construct Power Line Replacement Projects
+R0634,ROD,Transmission,NONE|Wind,Transmission,3.307,BLM,UT,Mona to Oquirrh Transmission Corridor Project and Draft Pony Express Resource Management Plan Amendment Construction Operation Maintenance and Decommissioning a Double-Circuit 500/345 Kilovolt (Kv) Transmission Line Right-of-Way Grant Rocky Mountain Power Juab Salt Lake Tooele and Utah Counties UT
+R0717,ROD,Transmission,NONE|Wind,Transmission,4.197,DOE,NH,Northern Pass Transmission Line Project
+R0731,ROD,Transmission,NONE|Wind,Transmission,4.156,BLM,NV,ON Line Project (previously known as Ely Energy Center)
+R0768,ROD,Transmission,NONE|Wind,Transmission,3.277,DOE,OK - AR - TN - TX,Plains and Eastern Clean Line Transmission Line Project
+R0905,ROD,Transmission,NONE|Wind,Transmission,2.463,WAPA,CA,San Luis Transmission Project
+R0932,ROD,Transmission,NONE|Wind,Transmission,2.923,BLM,UT,Sigurd to Red Butte No. 2 345kV Transmission Project Issuance of Right-of -Way Grant by BLM and Special-Use-Permit by AFS Sevier Millard Iron Beaver and Washington Counties UT
+R0963,ROD,Transmission,NONE|Wind,NONE,1.811,BLM,NV,Southern California Edison's Eldorado-Ivanpah Transmission Line Project Construction and Operation Right-of-Way Application Clark County NV and San Bernardino County CA
+R0966,ROD,Transmission,NONE|Wind,Transmission,4.09,BLM,NM - AZ,Southline Transmission Project
+R0998,ROD,Transmission,NONE|Wind,Transmission,5.663,BLM,NM,SunZia Southwest Transmission Project Proposed Resource Management Plan Amendments
+R1008,ROD,Transmission,NONE|Wind,Transmission,3.729,USFS,WY,Teckla-Osage-Rapid City 230 kV Transmission Line Project
+R1009,ROD,Transmission,NONE|Wind,Transmission,3.077,USFS,CA,Tehachapi Renewable Transmission Project New Information on Changed Conditions Caused by the Station Fire Construct Operate and Maintain New and Upgraded 500 kV and 220kV Transmission Lines and Substations Special Use Authorization Angeles National Forest Los Angeles County CA
+R1040,ROD,Transmission,NONE|Wind,Transmission,6.408,USFS,UT,Transwest Express Powerline (TWE)
+R1041,ROD,Transmission,NONE|Wind,Transmission,5.945,BLM,WY,TransWest Express Transmission Project
+R1046,ROD,Transmission,NONE|Wind,Transmission,3.129,USFS,UT,"Tropic to Hatch 138kV Transmission Line Project, Grand Staircase-Escalante National Monument Management Plan Amendment Garfield County UT"
+R1101,ROD,Transmission,NONE|Wind,Transmission,7.041,BLM,WA,Vantage to Pomona Heights 230kV Transmission Line Project
+R1125,ROD,Transmission,NONE|Wind,Transmission,2.515,BLM,CA,West of Devers Upgrade Proect
+N0046,NoROD,Transmission,NONE|Wind,Transmission,6.337,BPA,WA - OR,I-5 Corridor Reinforcement Project
+R0267,ROD,Transmission,Wind|NONE,Transmission,2.647,BLM,CA,East County Substation/Tule Wind/Energia Sierra Juarez Gen-Tie Projects Construction and Operation Right-of-Way Grants San Diego County CA
+R0712,ROD,Transmission,Wind|NONE,Transmission,2.425,BLM,OR,North Steens 230-kV Transmission Line Project Construction and Operation of a Transmission Line and Access Roads Associated with the Echanis Wind Energy Project Authorizing Right-of-Way Grant Harney County OR
+R0423,ROD,NONE,Transmission,NONE,2.329,USFWS,TX,Habitat Conservation Plan for Oncor Electric Delivery Facilities Application for Incidental Take Permit for 11 Federally List Species in 100 Texas Counties
+R0601,ROD,NONE,Transmission,NONE,1.863,USMC,CA,Marine Corps Base Camp Pendleton Basewide Utilities Infrastructure Construct and Operate Six Utility Infrastructure Project San Diego County CA
+R0402,ROD,NONE,Transmission|GasPlant|Other-Energy,NONE,2.205,WAPA,SD,Groton Generation Station (GGS) Project Proposes to Modify its Interconnection Agreement Basin Electric Power Cooperative for the (GGS) to Eliminate 50-Megawatts (MW) Annual Average Operating Limit Brown County SD
+R0079,ROD,Hydro,NONE,NONE,1.666,FERC,ID,Bear River Narrows Hydroelectric Project P-12486 Final EIS
+R0115,ROD,Hydro,NONE,Hydro,2.493,FERC,WA,Boundary Hydroelectric Project Application for Hydroelectric License FERC Project No. 2144-038 and Sullivan Creek Project Application for Surrender of Hydropower FERC Project No. 2225-015 Pend Oreille County WA
+R0604,ROD,Hydro,NONE,Hydro,4.49,FERC,AL,Martin Dam Hydroelectric Project - FERC Project No. 349-173 Alabama
+R0660,ROD,Hydro,NONE,Hydro,2.63,FERC,MD,Multi-Project for Hydropower Licenses - Susquehanna River Hydroelectric Projects - York Haven Project No. 1888
+R1001,ROD,Hydro,NONE,Hydro,3.704,FERC,ID,Swan Falls Hydroelectric Project Application for a New License for the 25-megawatt Hydroelectric Facility (FERC Project No. 503-048) Snake River Ada and Owyhee Counties ID
+R1002,ROD,Hydro,NONE,Hydro,1.8,FERC,AK,Sweetheart Lake Hydroelectric Project Final Environmental Impact Statement
+R1032,ROD,Hydro,NONE,Hydro,1.997,FERC,LA,Toledo Bend Hydroelectric Relicensing Project No. 2305-036
+R1119,ROD,Hydro,NONE,Hydro,1.871,FERC,WA,Wells Hydroelectric Project Application to Relicense Public Utility District No. 1 Columbia River near Pateros and Brewster in Douglas Okanogan and Chelan Counties WA
+N0049,NoROD,Hydro,NONE,Hydro,7.827,BIA,MT,Kerr Hydroelectric Project Drought Management Plan Implementation Flathead Lake MT
+N0051,NoROD,Hydro,NONE,Hydro,1.488,FERC,CA,Kilarc-Cow Creek Hydroelectric Project (FERC Project No. 606) Proposes to Surrender the License for Operation Project Old Crow Creek and South Cow Creek Shasta County CA
+N0063,NoROD,Hydro,NONE,NONE,1.233,FERC,CA,McCloud-Pit Hydroelectric Project (Project No. 2106) Application to Relicense its 368-Megawatt (MW) McCloud and Pit Rivers Shasta County CA
+N0067,NoROD,Hydro,NONE,Hydro,6.915,FERC,CA,Merced River and Merced Falls Hydroelectric Projects
+N0069,NoROD,Hydro,NONE,Hydro,1.734,FERC,CA,Middle Fork American River Project
+N0078,NoROD,Hydro,NONE,Hydro,6.578,FERC,CA,Relicensing the Upper Drum-Spaulding Hydroelectric Project FERC No. 2310-193; Lower Drum Hydroelectric Project FERC No. 14531-000; Deer Creek Hydroelectric Project FERC No. 14530-000; and Yuba-Bear Hydroelectric Project FERC No. 2266-102
+R0569,ROD,NONE,Hydro,NONE,5.449,BR,AZ - CA - CO - NM - NV - UT - WY,Long-Term Experimental and Management Plan (LTEMP) for the Operation of Glen Canyon Dam
+R0533,ROD,NONE,Hydro,NONE,5.816,BR,CA,Klamath Facilities Removal
+R0061,ROD,NONE,Hydro,NONE,8.288,BR,CO,Aspinall Unit Operations - Colorado River Storage Project Modifying Water Flow Operations Implementation Gunnison River Gunnison Montrose Delta and Mesa Counties CO
+R0179,ROD,NONE,Hydro,NONE,2.345,BR,WA,Cle Elum Dam Fish Passage Facilities and Fish Reintroduction Project To Restore Connectivity Biodiversity and Natural Production of Anadromous Salmonids Kittitas County WA
+R0626,ROD,NONE,Hydro,NONE,1.871,BR,ID,Minidoka Dam Spillway Replacement Project To Prevent Structural Failure of the Minidoka Dam Spillway and Canal Headworks Lake Walcott Minidoka County ID
+R0320,ROD,NONE,Hydro,Hydro,12.756,BR,CA,Folsom Lake State Recreation Area & Folsom Powerhouse State Historic Park General Plan/Resource Management Plan Implementation Placer County CA
+R0497,ROD,NONE,Hydro,NONE,2.868,USACE,CA,Isabella Lake Dam Safety Modification Project To Remediate Seismic Seepage and Hydrologic Deficiencies in the Main Dam Spillway and Auxillary Dam Kern County CA
+R0442,ROD,NONE,Hydro,NONE,3.512,USACE,FL,Herbert Hoover Dike Dam Safety Modification Study
+R0588,ROD,NONE,Hydro,NONE,0.921,USACE,MT - ND,"Lower Yellowstone Intake Diversion Dam Fish Passage Project, Montana"
+R0072,ROD,NONE,Hydro,NONE,2.951,USFWS,OH,Ballville Dam Project
+R1068,ROD,NONE,Hydro,NONE,7.488,USACE,AL,Update of the Water Control Manual for the Alabama-Coosa-Tallapoosa River Basin in Georgia and Alabama
+R1069,ROD,NONE,Hydro,NONE,9.107,USACE,AL - FL - GA,"Update of the Water Control Manual for the Apalachicola-Chattahoochee-Flint River Basin in Alabama, Florida, and Georgia and a Water Supply Storage Assessment"
+R0230,ROD,NONE,Hydro,NONE,2.222,TVA,TN,Dam Safety Modifications at Cherokee Fort Loudoun Tellico and Watts Bar Dams
+R0166,ROD,NONE,Hydro,Hydro,9.74,USACE,CO,Chatfield Reservoir Storage Reallocation
+R0858,ROD,NONE,Hydro,NONE,2.299,USACE,KS,Removal and Disposal of Sediment and Restoration of Water Storage at John Redmond Reservoir
+R0149,ROD,Geothermal,NONE|Energy-Programmatic,Geothermal,2.386,BLM,CA,Casa Diablo IV Geothermal Development Project
+R0897,ROD,Geothermal,NONE|Energy-Programmatic,Geothermal,2.258,BLM,NV,Salt Wells Energy Projects Proposal for Three Separate Geothermal Energy and Transmission Projects Implementation Churchill County NV
+R0371,ROD,Geothermal,NONE|Energy-Programmatic,Geothermal,1.477,USFS,NV,Geothermal Leasing on the Humboldt-Toiyabe National Forest To Facilitate the Development and Production of Geothermal Energy Ely Austin Tonopah and Bridgeport Ranger Districts NV
+R0263,ROD,Nuclear,NONE,NONE,5.575,NRC,NJ,Early Site Permit at PSEG Site
+R0288,ROD,Nuclear,NONE,NONE,6.408,NRC,MI,Enrico Fermi Unit 3 Combined License (COL) Application Construction and Operation of a Power Reactor U.S. Corps of Engineer 10 and 404 Permits NUREG-2105 Monroe County MI
+R0553,ROD,Nuclear,NONE,NONE,8.047,NRC,FL,Levy Nuclear Plant Units 1 and 2 Application for Combined Licenses (COLs) for Construction Permits and Operating Licenses (NUREG-1941) Levy County FL
+R0701,ROD,Nuclear,NONE,Nuclear,9.227,NRC,VA,North Anna Power Station Unit 3 Application for Combined License (NUREG-1917)
+R0956,ROD,Nuclear,NONE,NONE,8.142,NRC,TX,South Texas Project Electric Generating Station Units 3 and 4 Application for Combined License (NUREG-1937)
+R1053,ROD,Nuclear,NONE,NONE,7.83,NRC,FL,Turkey Point Nuclear Plant Units 6 and 7 Application for Combined Licenses (NUREG-2176)
+R1107,ROD,Nuclear,NONE,NONE,3.233,NRC,SC,Virgil C. Summer Nuclear Station Units 2 and 3 Application for Combined License to Construct and Operate a New Nuclear Reactors Fairfield County SC
+R1110,ROD,Nuclear,NONE,NONE,2.422,NRC,GA,Vogtle Electric Generating Plant Units 3 and 4 Construction and Operation Application for Combined Licenses (COLs) NUREG-1947 Waynesbora GA
+R1145,ROD,Nuclear,NONE,NONE,8.797,NRC,SC,William States Lee III Nuclear Station Units 1 and 2 Combined Licenses (COLs) Application
+N0016,NoROD,Nuclear,NONE,Nuclear,3.263,NRC,MD,Calvert Cliffs Nuclear Power Plant Unit 3 Application for Combined License for Construct and Operate a New Nuclear Unit NUREG 1936 Calvert County MD
+N0021,NoROD,Nuclear,NONE,NONE,2.419,NRC,TX,Comanche Peak Nuclear Power Plant Units 3 and 4 Application for Combined Licenses (COLs) for Construction Permits and Operating Licenses (NUREG-1943) Hood and Somervell Counties TX
+N0022,NoROD,Nuclear,NONE,NONE,7.315,NRC,PA,Combined License for the Bell Bend Nuclear Power Plant
+R0352,ROD,NONE,Nuclear|Energy-Programmatic,NONE,2.378,NRC,WI,Generic - License Renewal of Nuclear Plants for Kewaunee Power Station Supplement 40 to NUREG-1437 Kewaunee County WI
+R0353,ROD,NONE,Nuclear|Energy-Programmatic,NONE,2.932,NRC,MN,Generic - License Renewal of Nuclear Plants for the Prairie Island Nuclear Generating Plant Units 1 and 2 Supplement 39 NUREG-1437 Implementation City of Red Wing Dakota County MN
+R0354,ROD,NONE,Nuclear|Energy-Programmatic,NONE,2.493,NRC,IL,Generic - License Renewal of Nuclear Plants Regarding Braidwood Station Units 1 and 2
+R0355,ROD,NONE,Nuclear|Energy-Programmatic,NONE,1.841,NRC,NE,Generic - License Renewal of Nuclear Plants Regarding Cooper Nuclear Station Unit 1 Supplement 41 to NUREG-1437 Nemaha County NE
+R0356,ROD,NONE,Nuclear|Energy-Programmatic,NONE,5.112,NRC,OH,Generic - License Renewal of Nuclear Plants Regarding Davis-Besse Nuclear Power Station
+R0357,ROD,NONE,Nuclear|Energy-Programmatic,NONE,1.732,NRC,IA,Generic - License Renewal of Nuclear Plants Regarding Duane Arnold Energy Center Supplement 42 to NUREG-1437 near the Town of Palo Linn County IA
+R0358,ROD,NONE,Nuclear|Energy-Programmatic,NONE,1.707,NRC,NJ,Generic - License Renewal of Nuclear Plants Regarding Hope Creek Generating Station and Salem Nuclear Generating Station Units 1 and 2 Supplement 45 to NUREG-1437 Lower Alloway Creek Township Salem County NJ
+R0359,ROD,NONE,Nuclear|Energy-Programmatic,NONE,1.904,NRC,AZ,Generic - License Renewal of Nuclear Plants Regarding Palo Verde Nuclear Generating Station Supplement 43 NUREG-1437 Maricopa County AZ
+R0360,ROD,NONE,Nuclear|Energy-Programmatic,NONE,2.2,NRC,WA,Generic - License Renewal of Nuclear Plants Supplement 47 Regarding Columbia Generating Station (NUREG - 1437) Issuance of a Renewed Operating License for an Additional 20 Years Benton County WA
+R0361,ROD,NONE,Nuclear|Energy-Programmatic,NONE,6.636,NRC,TX,"Generic - License Renewal of Nuclear Plants Supplement 48 Regarding South Texas Project, Units 1 and 2"
+R0362,ROD,NONE,Nuclear|Energy-Programmatic,NONE,3.153,NRC,PA,"Generic - License Renewal of Nuclear Plants Supplement 49 Regarding Limerick Generating Station, Units 1 and 2"
+R0363,ROD,NONE,Nuclear|Energy-Programmatic,NONE,4.929,NRC,MS,"Generic - License Renewal of Nuclear Plants Supplement 50 Regarding Grand Gulf Nuclear Station, Unit 1"
+R0364,ROD,NONE,Nuclear|Energy-Programmatic,NONE,3.03,NRC,MO,Generic - License Renewal of Nuclear Plants Supplement 51 Regarding Callaway Plant Unit 1
+R0365,ROD,NONE,Nuclear|Energy-Programmatic,NONE,2.559,NRC,TN,Generic - License Renewal of Nuclear Plants Supplement 53 Regarding Sequoyah Nuclear Station Units 1 and 2
+R0366,ROD,NONE,Nuclear|Energy-Programmatic,NONE,2.482,NRC,MI,"Generic - License Renewal of Nuclear Plants Supplement 56 Regarding Fermi 2 Nuclear Power Plant, NUREG-1437"
+R0367,ROD,NONE,Nuclear|Energy-Programmatic,NONE,1.71,NRC,IL,"Generic - License Renewal of Nuclear Plants Supplement 57 Regarding LaSalle County Station, Units 1 and 2"
+R0368,ROD,NONE,Nuclear|Energy-Programmatic,NONE,2.288,NRC,IL,"Generic - License Renewal of Nuclear Plants, Supplement 54, Regarding Byron Station, Units 1 and 2,NUREG-1437,"
+N0072,NoROD,NONE,Nuclear|Energy-Programmatic,NONE,5.071,NRC,NH,NUREG-1437 License Renewal of Nuclear Plants Supplement 46 Regarding Seabrook Station
+N0038,NoROD,NONE,Nuclear|Energy-Programmatic,NONE,8.123,NRC,PRO,Generic - License Renewal of Nuclear Plants (NUREG-1437)
+R0260,ROD,PumpStorage,NONE,PumpStorage,5.507,FERC,CA,Eagle Mountain Pumped Storage Hydroelectric Project Licensing Application for Eagle Mountain Mine Near the Town of Desert Center Riverside County CA
+R0017,ROD,Pipeline,NONE,Pipeline,1.452,FERC,CT,Algonquin Incremental Market Project
+R0050,ROD,Pipeline,NONE,Pipeline,1.31,FERC,WY - UT,Apex Expansion Project Proposal to Expand its Natural Gas Pipeline System WY UT and NV
+R0063,ROD,Pipeline,NONE,Pipeline,2.608,FERC,VA - NC - PA - WV,Atlantic Coast Pipeline and Supply Header Project
+R0066,ROD,Pipeline,NONE,Pipeline,2.521,FERC,PA - MD - NC - SC - VA,Atlantic Sunrise Project
+R0202,ROD,Pipeline,NONE,Pipeline,1.397,FERC,NY,Constitution Pipeline and Wright Interconnect Projects
+R0550,ROD,Pipeline,NONE,Pipeline,2.0,FERC,KY - PA - OH - WV,Leach XPress and Rayne XPress Expansion Projects
+R0651,ROD,Pipeline,NONE,Pipeline,2.463,FERC,WV - PA - VA,Mountain Valley Project and Equitrans Expansion Project
+R0652,ROD,Pipeline,NONE,NONE,2.079,FERC,WV,Mountaineer Xpress and Gulf Xpress Projects
+R0683,ROD,Pipeline,NONE,Pipeline,1.819,FERC,CT - NJ,New Jersey-New York Expansion Project Propose to Modify and Expand their Existing Natural Gas Transmission Pipeline Systems in New Jersey New York and Connecticut
+R0693,ROD,Pipeline,NONE,Pipeline,2.364,FERC,MI - OH,Nexus Gas Transmission Project and Texas Eastern Appalachian Lease Project
+R0753,ROD,Pipeline,NONE,Pipeline,3.0,FERC,NJ - PA,PennEast Pipeline Project
+R0880,ROD,Pipeline,NONE,Pipeline,1.005,FERC,NY,Rockaway Delivery Lateral and Northeast Connector Projects
+R0887,ROD,Pipeline,NONE,Pipeline,2.211,FERC,OH - IL - IN - MI - MS - PA - TN - WV,"Rover Pipeline, Panhandle Backhaul, and Trunkline Backhaul Projects"
+R0890,ROD,Pipeline,NONE,Pipeline,1.507,FERC,NV - OR - UT,Ruby Pipeline Project Proposed Natural Gas Pipeline Facilities Right-of-Way Grants (and/or Temporary Use or Special Use Permits) WY UT NV and OR
+R0931,ROD,Pipeline,NONE,Pipeline,1.83,FERC,AZ,Sierrita Pipeline Project
+R0961,ROD,Pipeline,NONE,NONE,1.934,FERC,FL - AL - GA,Southeast Market Pipelines Project
+N0050,NoROD,Pipeline,NONE,Pipeline,2.595,DOS,,Keystone XL Oil Pipeline Project Additional Information Presidential Permit for the Proposed Construction Connection Operation and Maintenance of a Pipeline and Associated Facilities at the United States Border for Importation of Crude Oil from Canada
+N0004,NoROD,Pipeline,NONE,NONE,2.882,USACE,AK,Alaska Stand Alone Gas Pipeline Construction and Operation of a 737 mile Pipeline to Transport Supply of Natural Gas and Natural Gas Liquids from Alaska's North Slope to Fairbanks Anchorage and the Cook Inlet Area by 2019 USACE Section 10 and 404 Permits NPDES Permit AK
+R0889,ROD,Pipeline,NONE,Pipeline,1.775,BLM,NV,Ruby Pipeline Project
+R1063,ROD,Pipeline,NONE,Pipeline,2.896,BLM,UT,UNEV Pipeline Project Construction of a 399-mile Long Main Petroleum Products Pipeline Salt Lake Tooele Juab Millard Iron and Washington Counties UT and Lincoln and Clark Counties NV
+R0515,ROD,Pipeline,Liquefaction|NONE,Pipeline,3.578,FERC,OR,Jordan Cove Energy and Pacific Connector Gas Pipeline Project
+R0141,ROD,Liquefaction,NONE|Regasification,Liquefaction,1.849,FERC,LA,Cameron Liquefaction Project
+R0216,ROD,Liquefaction,NONE|Regasification,Liquefaction,2.562,FERC,TX,Corpus Christi LNG Project
+R0340,ROD,Liquefaction,NONE|Regasification,Liquefaction,2.014,FERC,TX,Freeport LNG Liquefaction Project and Phase II Modification Project
+R0380,ROD,Liquefaction,NONE|Regasification,Liquefaction,3.184,FERC,LA - TX,Golden Pass LNG Export Project
+R0540,ROD,Liquefaction,NONE|Regasification,Liquefaction,3.241,FERC,LA,Lake Charles Liquefaction Project
+R0593,ROD,Liquefaction,NONE|Regasification,Liquefaction,2.808,FERC,LA,Magnolia LNG and Lake Charles Expansion Projects
+R0255,ROD,Liquefaction,NONE|Regasification,Liquefaction,10.438,FERC,ME,Downeast Liquefied Natural Gas (LNG) Project
+R0773,ROD,Liquefaction,Regasification|NONE,NONE,1.863,USCG,LA - TX,Port Delfin Project Deepwater Port Application
+R0009,ROD,Regasification,Liquefaction|NONE,Regasification,3.386,FERC,PR,Aguirre Offshore GasPort Project
+R0772,ROD,Regasification,Liquefaction|NONE,NONE,2.403,USCG,NY - NJ,Port Ambrose Deepwater Port Application
+R0233,ROD,GasPlant,CoalPlant|NONE|Other-Energy,GasPlant,1.43,WAPA,SD,Deer Creek Station Energy Facility Project 300-megawatt (MW) Natural Gas-Fired Generation Facility Brookings County SD
+R0526,ROD,GasPlant,CoalPlant|NONE|Other-Energy,GasPlant,1.907,DOE,MS,Kemper County Integrated Gasification Combined-Cycle (IGCC) Project Construction and Operation of Advanced Power Generation Plant U.S. Army COE Section 404 Permit Kemper County MS
+R0342,ROD,CoalPlant,CarbonCapture|GasPlant|NONE,CoalPlant,2.671,DOE,IL,FutureGen 2.0 Project
+R1016,ROD,CoalPlant,CarbonCapture|GasPlant|NONE,CoalPlant,1.326,DOE,TX,Texas Clean Energy Project Construction and Operation of a Coal-Based Electric Power Generation and Chemicals Production Plant Odessa Ector County TX
+R0334,ROD,NONE,CoalPlant|Mine-Coal,NONE,2.997,OSMRE,NM,Four Corners Power Plant and Navajo Mine Energy Project
+R0125,ROD,Mine-Coal,NONE|Energy-Programmatic,Mine-Coal,5.364,BLM,WY,Buckskin Mine Hay Creek II Project Coal Lease Application WYW-172684 Wyoming Powder River Basin Campbell County WY
+R0272,ROD,Mine-Coal,NONE|Energy-Programmatic,Mine-Coal,7.674,BLM,WV,East Lynn Lake Coal Lease Project To Offer Federal Coal in the Coalburg/Winifrede seam for Competitive Leasing Wayne County WV
+R1154,ROD,Mine-Coal,NONE|Energy-Programmatic,NONE,4.592,BLM,WY,Wright Area Coal Lease Project Applications for Leasing Six Tracts of Federal Coal Reserves Adjacent to the Black Thunder Jacob Ranch and North Antelope Rochelle Mines Wyoming Powder River Basin Campbell County WY
+R0304,ROD,Mine-Coal,NONE|Energy-Programmatic,NONE,0.293,USFS,CO,Federal Coal Lease Modifications COC-1362 and COC 67232 Adding 800 and 921 Additional Acres Paonia Ranger District Grand Mesa Uncompahgre and Gunnison National Forests Gunnison County CO
+R0305,ROD,Mine-Coal,NONE|Energy-Programmatic,NONE,0.677,USFS,CO,Federal Coal Lease Modifications COC-1362 and COC-67232
+N0043,NoROD,Mine-Coal,NONE|Energy-Programmatic,NONE,3.863,BLM,UT,Greens Hollow Coal Lease Tract Project Federal Coal Leasing and Subsequent Underground Coal Mining Funding and Lease Application Fishlake and Manti-La Sal National Forest Sanpete and Sevier Counties UT
+R0892,ROD,Mine-Coal,NONE|Energy-Programmatic,NONE,2.608,USACE,TX,Rusk Permit Area Proposes to Construct Operate and Reclaim Permit Area Expansion of Existing South Hallsville No. 1 Mine. Issuance of Section 404 Permit Rusk Harrison and Panola Counties TX
+R1000,ROD,Mine-Coal,NONE|Energy-Programmatic,NONE,3.2,USACE,TX,Surface Coal and Lignite Mining
+R0704,ROD,NONE,Mine-Coal|Energy-Programmatic|Mine-Other,Mine-Coal,5.833,OSMRE,TN,"North Cumberland Wildlife Management Area, Tennessee Lands Unsuitable for Mining Petition"
+R0990,ROD,NONE,Mine-Coal|Energy-Programmatic|Mine-Other,Mine-Coal,6.501,OSMRE,PRO,Stream Protection Rule
+R0187,ROD,NONE,Mine-Coal|Energy-Programmatic|Mine-Other,NONE,2.282,USFS,WY,Clinker Mining Addition Project Medicine Bow-Routt National Forests and Thunder Basin National Grassland
+R0206,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,Mine-Gas,10.575,BLM,WY,Continental Divide Creston Natural Gas Development Project
+R0393,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,Mine-Gas,4.595,BLM,UT,Greater Natural Buttes Area Gas Development Project Development of Additional Well Pads and Associated Infrastructure Application Approvals Uintah County UT
+R0643,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,Mine-Gas,6.104,BLM,UT,"Monument Butte Area Oil and Gas Development Project, Duchesne and Uintah County, UtahImpact Statement for Newfield Exploration Corporation Monument Butte Oil and Gas Development Project in Uintah and Duchesne Counties"
+R1060,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,Mine-Gas,6.342,BLM,UT,Uinta Basin Natural Gas Development Project To Develop Oil and Natural Gas Resources within the Monument Butte-Red Wash and West Tavaputs Exploration and Developments Area Applications for Permit of Drill and Right-of-Way Grants Uintah and Duchesne Counties UT
+R1128,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,Mine-Gas,4.91,BLM,UT,West Tavaputs Plateau Natural Gas Full Field Development Plan Develop the Natural Gas Resource on Leased and Unleased Lands Carbon County UT
+R0127,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,NONE,4.507,BLM,CO,Bull Mountain Unit Master Development Plan
+R0958,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,NONE,4.493,USFS,UT,South Unit Oil and Gas Development Project Master Development Plan Implementation Duchesne/Roosevelt Ranger District Ashley National Forest Duchesne County UT
+R0920,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,NONE,1.115,USFWS,AK,Shadura Natural Gas Development Project within Kenai National Wildlife Refuge
+R0771,ROD,Mine-Gas,NONE|Energy-Programmatic|Other-Energy,Other-Energy,2.893,USACE,AK,Point Thomson Project Authorization for the Placement of Fill Material into U.S. Waters Permit Application AK
+R0835,ROD,Energy-Programmatic,Mine-Gas|NONE,Mine-Gas,9.181,BLM,CO,Proposed Resource Management Plan Amendment for Oil and Gas Development in the White River Field Office
+R0316,ROD,Energy-Programmatic,Mine-Gas|NONE,NONE,7.192,USFS,UT,Fishlake National Forest Oil and Gas Leasing Analysis Project
+R0730,ROD,Energy-Programmatic,Mine-Gas|NONE,Energy-Programmatic,4.679,USFS,UT,Oil and Gas Leasing on Lands Administered by the Dixie National Forest Implementation Garfield Iron Kane Piute and Washington Counties UT
+R0751,ROD,Energy-Programmatic,Mine-Gas|NONE,Energy-Programmatic,1.86,USFS,CO,Pawnee National Grassland Oil and Gas Leasing Analysis
+R1061,ROD,Energy-Programmatic,Mine-Gas|NONE,NONE,5.085,USFS,UT,Uinta National Forest Oil and Gas Leasing Implementation Identify National Forest Systems Lands with Federal Mineral Rights Wasatch Utah Juab Tooele and Sanpete Counties UT
+R1139,ROD,Energy-Programmatic,Mine-Gas|NONE,NONE,5.43,USFS,CO,White River National Forest Oil and Gas Leasing
+R0787,ROD,Energy-Programmatic,Mine-Gas|NONE,NONE,2.63,BLM,CO,Previously Issued Oil and Gas Leases in the White River National Forest
+R0667,ROD,Energy-Programmatic,Mine-Gas|NONE,NONE,2.573,BLM,AK,National Petroleum Reserve-Alaska (NPR-A) Integrated Activity Plan North Slope Borough AK
+R0095,ROD,Energy-Programmatic,Mine-Gas|NONE,NONE,6.271,NPS,KY,Big South Fork National River and Recreation Area Obed Wild and Scenic River Non-Federal Oil and Gas Management Plan Implementation KY and TN
+N0028,NoROD,Energy-Programmatic,Mine-Gas|NONE,NONE,6.677,NOAA,AK,Effects of Oil and Gas Activities in the Arctic Ocean
+R0867,ROD,Energy-Programmatic,Mine-Gas|NONE,Energy-Programmatic,5.852,NPS,AL - CA - CO - FL - PRO - IN - KS - KY - LA - MS - MT - ND - NM - OH - OK - PA - TN - TX - UT - VA - WV - WY,Revision of 9B Regulations Governing Non-Federal Oil and Gas Activities
+R0668,ROD,Energy-Programmatic,Mine-Gas|NONE,NONE,2.723,USFWS,NAT,National Wildlife Refuge System Revision of Regulations Governing Non-Federal Oil and Gas Rights
+R0210,ROD,Energy-Programmatic,NONE,NONE,2.551,BOEM,AK,Cook Inlet Planning Area Oil and Gas Lease Sale 244
+R0407,ROD,Energy-Programmatic,NONE,NONE,1.668,BOEM,TX LA MS AL FL,"Gulf of Mexico OCS Central Planning Area Lease Sales 241 and 247, and Eastern Planning Area Lease Sale 226"
+R0408,ROD,Energy-Programmatic,NONE,NONE,2.211,BOEM,Other,Gulf of Mexico OCS Oil and Gas 2017-2022 Final Multisale EIS
+R0409,ROD,Energy-Programmatic,NONE,NONE,1.323,BOEM,TX - LA,Gulf of Mexico OCS Oil and Gas Lease Sale 248
+R0410,ROD,Energy-Programmatic,NONE,NONE,2.277,BOEM,AL - FL - LA,Gulf of Mexico OCS Oil and Gas Lease Sales: 2014 and 2016; Eastern Planning Area Lease Sales 225 and 226
+R0411,ROD,Energy-Programmatic,NONE,Energy-Programmatic,1.005,BOEM,TX,Gulf of Mexico OCS Oil and Gas Lease Sales: 2014-2016 Western Planning Area Lease Sales 238 246 and 248
+R0412,ROD,Energy-Programmatic,NONE,NONE,1.285,BOEM,LA,Gulf of Mexico OCS Oil and Gas Lease Sales: 2015 and 2016; Western Planning Area Lease Sales 246 and 248
+R0413,ROD,Energy-Programmatic,NONE,NONE,1.767,BOEM,TX LA MS AL FL,Gulf of Mexico Outer Continental Shelf (OCS) Oil and Gas Lease Sales: 2012-2017 Western Planning Area Lease Sales 229 233 238 246 and 248: Central Planning Area Lease Sales 227 231 235 241 and 247 TX LA MS AL and Northwestern FL
+R0414,ROD,Energy-Programmatic,NONE,NONE,1.636,BOEM,AL - LA,Gulf of Mexico Outer Continental Shelf (OCS) Oil and Gas Lease Sales: 2013-2014 Western Planning Area Lease Sales 233: Central Planning Area Lease Sales 231
+R0415,ROD,Energy-Programmatic,NONE,NONE,1.458,BOEM,AL - LA,Gulf of Mexico Outer Continental Shelf (OCS) Oil and Gas Lease Sales: 2015-2017 Central Planning Area Lease Sales 235 241 and 247
+R0416,ROD,Energy-Programmatic,NONE,Energy-Programmatic,1.521,BOEM,MS - LA,Gulf of Mexico Outer Continental Shelf Oil and Gas Lease Sales: 2012 Central Planning Area Lease Sales: 216 and 222 Potential Changes to the Baseline Conditions Offshore Marine Enivornment and Coastal Counties/Parishes of MS LA AL
+R0738,ROD,Energy-Programmatic,NONE,Energy-Programmatic,1.975,BOEM,LA - AK - AL - FL - MS - TX,Outer Continental Shelf Oil and Gas Leasing Program: 2017-2022
+R0739,ROD,Energy-Programmatic,NONE,NONE,1.364,BOEM,TX LA MS AL FL,"Outer Continental Shelf, Gulf of Mexico, Oil and Gas Lease Sale, Central Planning Area Lease Sale 247"
+R0824,ROD,Energy-Programmatic,NONE,Energy-Programmatic,1.548,BOEM,,PROGRAMMATIC - Outer Continental Shelf Oil and Gas Leasing Program - 2012-2017 in Six Planning Area Western Central and Eastern Gulf of Mexico Cook Inlet the Beaufort Sea and the Chukchi Sea
+R0804,ROD,Energy-Programmatic,NONE,Energy-Programmatic,5.504,BOEM,DE - FL - GA - MD - NC - SC,PROGRAMMATIC - Geological and Geophysical Activities in Federal Waters of the Mid- and South Atlantic Outer Continental Shelf and Adjacent State Waters
+N0039,NoROD,Energy-Programmatic,NONE,Energy-Programmatic,4.238,BOEM,LA,Geological and Geophysical Activities on the Gulf of Mexico Outer Continental Shelf
+R0240,ROD,Energy-Programmatic,NONE,Energy-Programmatic,5.099,BLM,CA,Desert Renewable Energy Conservation Plan Land Use Plan Amendment
+R0861,ROD,Energy-Programmatic,NONE,Energy-Programmatic,3.027,BLM,AZ,Restoration Design Energy Project Proposed Resource Management Plan Amendments Identifying Lands Across Arizona Suitable for Renewable Energy Development AZ
+R1122,ROD,Energy-Programmatic,NONE,Energy-Programmatic,3.504,BLM,CA,West Chocolate Mountains Renewable Energy Evaluation Area Proposed California Desert Conservation Area Plan Amendment Imperial County CA
+R0790,ROD,Energy-Programmatic,NONE,NONE,1.94,BLM,CO - UT - WY,PROGRAMMATIC - Allocation of Oil Shale and Tar Sands Resources on Lands Administered Propose to Amend 10 Land Use Plans in Colorado Utah and Wyoming
+R1013,ROD,Energy-Programmatic,NONE,Energy-Programmatic,1.737,TVA,KY,Tennessee Valley Authority (TVA) Integrated Resource Plan (IRP) To Address the Demand for Power in the TVA Service Area KY
+N0076,NoROD,Energy-Programmatic,NONE,Energy-Programmatic,4.764,DOE,HI,PROGRAMMATIC - Hawaii Clean Energy
+R0827,ROD,Energy-Programmatic,NONE|Solar,Solar,4.375,BLM,AZ - CA - CO - NV - NM,Final Programmatic Environmental Impact Statement (PEIS) for Solar Energy Development in Six Southwestern States
+R1071,ROD,Energy-Programmatic,NONE|Wind,Wind,6.959,WAPA,IA - MN - MT - NE - ND - SD,Upper Great Plains Wind Energy Project
+R0828,ROD,Energy-Programmatic,NONE|Mine-Other,NONE,2.877,DOE,CO,PROGRAMMATIC - Uranium Leasing Program
+N0075,NoROD,Energy-Programmatic,NONE|BioPlant,Energy-Programmatic,2.129,DOE,AL - FL - GA - KY - MS - NC - SC - TN - VA,PROGRAMMATIC - Engineered High Energy Crop (EHEC) Programs
+R0796,ROD,Energy-Programmatic,NONE|BioPlant,NONE,1.551,FSA,PRO,PROGRAMMATIC - Biomass Crop Assistance Program
+R0797,ROD,Energy-Programmatic,NONE|BioPlant,NONE,2.071,FSA,PRO,PROGRAMMATIC - Biomass Crop Assistance Program (BCAP) To Establish and Administer the Program Areas Program Component of BCAP as mandated in Title IX of the 2008 Farm Bill in the United States
+R0428,ROD,Waste,NONE,Waste,7.866,DOE,WA,Hanford Site Tank Closure and Waste Management Project Richland Benton County WA
+R1129,ROD,Waste,NONE,Waste,7.11,DOE,NY,West Valley Demonstration Project and Western New York Nuclear Service Center Decommissioning and /or Long-Term Stewardship (DOE/EIS-0226-D Revised) City of Buffalo Eric and Cattaraugus Counties NY
+N0025,NoROD,Waste,NONE,Waste,8.622,DOE,NM - GA - ID - NM - NV - OR - SC - WA,Disposal of Greater-than-Class-C (GTCC) Low-Level Radioactive Waste and GTCC-Like Waste
+R0852,ROD,Waste,NONE,Waste,4.578,DOE,ID,Recapitalization of Infrastructure Supporting Naval Spent Nuclear Fuel Handling at the Idaho National Laboratory
+R0201,ROD,Waste,NONE,NONE,1.986,NRC,PRO,Consideration of Environmental Impacts of Temporary Storage of Spent Fuel After Cessation of Reactor Operation
+R0128,ROD,Waste,NONE,NONE,1.858,TVA,TN,Bull Run Fossil Plant Landfill
+R0922,ROD,Waste,NONE,NONE,1.208,TVA,KY,Shawnee Fossil Plant Coal Combustion Residual Management
+N0056,NoROD,Waste,NONE,NONE,1.575,DOE,CO - ID - MO - NV - SC - WA,Long-Term Management and Storage of Elemental Mercury Storage Project Designate a Facility or Facilities for Mercy Storage Seven Alternative Sites CO ID MO NV SC and WA
+R0832,ROD,Waste,NONE,Waste,2.805,NASA,CA,Proposed Demolition and Environmental Cleanup Activities at Santa Susana Field Laboratory
+R0793,ROD,Waste,NONE|Energy-Programmatic,Waste,0.942,TVA,TN - AL - KY,PROGRAMMATIC - Ash Impoundment Closure
+N0007,NoROD,Waste,NONE|BioPlant,BioPlant,2.186,RUS,PR,Arecibo Waste-to-Energy and Resource Recovery Project
+R0935,ROD,NONE,Waste,NONE,5.438,NNSA,NV,Site-Wide EIS - Continued Operation of the Department of Energy/National Nuclear Security Administration Nevada National Security Site and Off-Site Location in Nevada
+R1156,ROD,NONE,Waste,Waste,5.644,NNSA,TN,Y-12 National Security Complex Project to Support the Stockpile Stewardship Program and to Meet the Mission Assigned to Y-12 Oak Ridge TN
+R0185,ROD,NONE,Waste,Waste,4.819,USACE,CA,Clearwater Program Master Facilities Plan To Meet the Wastewater Management Needs of the Joint Outfall System (JOS) Through the Year 2050 Los Angeles County CA
+R0204,ROD,NONE,Waste,NONE,2.184,NRC,MO,Construction Permit for the Northwest Medical Isotopes Radioisotope Production Facility
+R0205,ROD,NONE,Waste,NONE,2.666,NRC,WI,"Construction Permit for the SHINE Medical Radioisotope Production Facility, Final Report, NUREG-2183"
+R0101,ROD,BioPlant,NONE,BioPlant,3.868,RUS,GA,Biomass Power Plant Project Application for Financial Assistance To Construction 100 Megawatt (MW) Biomass Plant and Related Facilities Warren County GA
+R0910,ROD,NONE,BioPlant|GasPlant|Other-Energy,NONE,2.052,USA,HI,Schofield Generating Station Project U.S. Army Garrison-Hawaii
+R0008,ROD,BioRefinery,NONE,BioRefinery,1.707,DOE,KS,Abengoa Biorefinery Project To Support the Design Construction and Startup of a Commercial-Scale Integrated Biorefinery Federal Funding Located near the City Hugoton Stevens County KS
+R0539,ROD,CarbonCapture,NONE,CarbonCapture,2.704,DOE,LA,Lake Charles Carbon Capture and Sequestration Project
+R1111,ROD,CarbonCapture,NONE,CarbonCapture,1.482,DOE,TX,W.A. Parish Post-Combustion CO2 Capture and Sequestration Project
+R0067,ROD,Mine-Other,NONE,Mine-Other,3.496,NRC,WY,"AUC, LLC Reno Creek, In Situ Project, New Source Material License Application"
+R0245,ROD,Mine-Other,NONE,Mine-Other,4.216,NRC,SD,"Dewey-Burdock In-Situ Uranium Recovery (ISR) Project Proposal to Construct, Operate, Conduct Aquifer Restoration and Decommission an In-Situ Recovery Uranium Facility in Fall River and Custer Counties, SD"
+R0576,ROD,Mine-Other,NONE,NONE,2.005,NRC,WY,Lost Creek In-Situ Uranium Recovery (ISR) Project Proposal to Construct Operate Conduct Aquifer Restoration and Decommission an In-Situ Recovery (ISR) Uranium Milling Facility Sweetwater County WY
+R0644,ROD,Mine-Other,NONE,NONE,1.134,NRC,WY,Moore Ranch In-Situ Uranium Recovery (ISR) Project Proposal to Construct Operate Conduct Aquifer Restoration and Decommission an In-Situ Recovery (ISR) Facility NUREG-1910 Campbell County WY
+R0694,ROD,Mine-Other,NONE,NONE,1.978,NRC,WY,Nichols Ranch In-Situ Uranium Recovery (ISR) Project Proposal to Construct Operate Conduct Aquifer Restoration and Decommission an In-Situ Recovery Uranium Milling Facility Campbell and Johnson Counties WY
+R0988,ROD,Mine-Other,NONE,Mine-Other,4.893,NRC,WY,"Strata Energy, Inc., Ross In Situ"
+R0346,ROD,Mine-Other,NONE,NONE,3.438,BLM,WY,Gas Hills In-Situ Recovery Uranium Project
+R0575,ROD,Mine-Other,NONE,NONE,1.649,BLM,WY,Lost Creek In Situ Recovery Project To Analyze the Site-Specific Impacts Associated with the Plan of Operations Sweetwater County WY
+R0923,ROD,Mine-Other,NONE,Mine-Other,5.378,BLM,WY,Sheep Mountain Uranium Project
+R0261,ROD,NONE,Mine-Other,NONE,2.427,NRC,ID,Eagle Rock Enrichment Facility Construct Operate and Decommission Proposed Facility would Enrich Uranium for Use in Commercial Nuclear Fuel for Power Reactors Bonneville County ID
+R0350,ROD,NONE,Mine-Other,NONE,3.466,NRC,NC,GE-Hitachi Global Laser Enrichment Facility Issuance of License to Construct Operate and Decommission a Laser-Based Uranium Enrichment Facility Wilmington NC
+R0319,ROD,NONE,Mine-Other,NONE,2.238,NRC,NM,Fluorine Extraction Process and Depleted Uranium Deconversion Plant License Application to Construct Operate and Decommission Phase 1 Lea County NM
+R0716,ROD,NONE,Mine-Other,NONE,2.373,BLM,AZ,Northern Arizona Withdrawal Project 20-Year Withdrawal of Approximately 1 Million Acres of Federal Mineral Estate Coconino and Mohave Counties AZ
+R0438,ROD,NONE,Mine-Other,NONE,2.184,BLM,NM,HB In-Situ Solution Mining Project Proposal to Extract the Potash Remaining in Inactive Underground Mine NPDES Permit Eddy County NM
+R0723,ROD,NONE,Mine-Other,NONE,2.266,BLM,NM,Ochoa Mine Project
+R0451,ROD,Other-Energy,NONE,NONE,5.948,USACE,HI,Honolulu Seawater Air Conditioning Project

@@ -1,0 +1,32 @@
+ceq_id,subsector,agency,state,noi,feis,rod,duplicate_of,title
+R0141,Liquefaction,FERC,LA,2012-08-13,2014-05-09,2014-06-19,,Cameron Liquefaction Project
+R0216,Liquefaction,FERC,TX,2012-06-08,2014-10-17,2014-12-30,,Corpus Christi LNG Project
+R0255,Liquefaction,FERC,ME,2006-03-13,2014-05-23,2016-08-17,,Downeast Liquefied Natural Gas (LNG) Project
+R0340,Liquefaction,FERC,TX,2012-07-25,2014-06-27,2014-07-30,,Freeport LNG Liquefaction Project and Phase II Modification Project
+R0380,Liquefaction,FERC,LA - TX,2013-10-16,2016-08-05,2016-12-21,,Golden Pass LNG Export Project
+R0515,Liquefaction,FERC,OR,2012-08-13,2015-10-09,2016-03-11,,Jordan Cove Energy and Pacific Connector Gas Pipeline Project
+R0540,Liquefaction,FERC,LA,2012-09-20,2015-08-21,2015-12-17,,Lake Charles Liquefaction Project
+R0593,Liquefaction,FERC,LA,2013-06-25,2015-11-20,2016-04-15,,Magnolia LNG and Lake Charles Expansion Projects
+R0773,Liquefaction,USCG,LA - TX,2015-07-29,2016-11-25,2017-06-08,,Port Delfin Project Deepwater Port Application
+N0004,Pipeline,USACE,AK,2009-12-09,2012-10-26,No ROD Fou,,Alaska Stand Alone Gas Pipeline Construction and Operation of a 737 mile Pipeline to Transport Supply of Natural Gas and Natural Gas Liquids from Alaska's North Slope to Fairbanks Anchorage and the Cook Inlet Area by 2019 USACE Section 10 and 404 Permits NPDES Permit AK
+N0050,Pipeline,DOS,,2009-01-28,2011-09-02,No ROD Fou,,Keystone XL Oil Pipeline Project Additional Information Presidential Permit for the Proposed Construction Connection Operation and Maintenance of a Pipeline and Associated Facilities at the United States Border for Importation of Crude Oil from Canada
+R0017,Pipeline,FERC,CT,2013-09-19,2015-01-30,2015-03-03,,Algonquin Incremental Market Project
+R0050,Pipeline,FERC,WY - UT,2009-05-26,2010-07-30,2010-09-16,,Apex Expansion Project Proposal to Expand its Natural Gas Pipeline System WY UT and NV
+R0063,Pipeline,FERC,VA - NC - PA - WV,2015-03-06,2017-07-28,2017-10-13,,Atlantic Coast Pipeline and Supply Header Project
+R0066,Pipeline,FERC,PA - MD - NC - SC - VA,2014-07-29,2017-01-06,2017-02-03,,Atlantic Sunrise Project
+R0202,Pipeline,FERC,NY,2013-07-10,2014-10-31,2014-12-02,,Constitution Pipeline and Wright Interconnect Projects
+R0550,Pipeline,FERC,KY - PA - OH - WV,2015-01-20,2016-09-09,2017-01-19,,Leach XPress and Rayne XPress Expansion Projects
+R0651,Pipeline,FERC,WV - PA - VA,2015-04-28,2017-06-30,2017-10-13,,Mountain Valley Project and Equitrans Expansion Project
+R0652,Pipeline,FERC,WV,2015-12-01,2017-08-04,2017-12-29,,Mountaineer Xpress and Gulf Xpress Projects
+R0683,Pipeline,FERC,CT - NJ,2010-07-27,2012-03-23,2012-05-21,,New Jersey-New York Expansion Project Propose to Modify and Expand their Existing Natural Gas Transmission Pipeline Systems in New Jersey New York and Connecticut
+R0693,Pipeline,FERC,MI - OH,2015-04-15,2016-12-09,2017-08-25,,Nexus Gas Transmission Project and Texas Eastern Appalachian Lease Project
+R0753,Pipeline,FERC,NJ - PA,2015-01-20,2017-04-14,2018-01-19,,PennEast Pipeline Project
+R0880,Pipeline,FERC,NY,2013-05-06,2014-03-07,2014-05-08,,Rockaway Delivery Lateral and Northeast Connector Projects
+R0887,Pipeline,FERC,OH - IL - IN - MI - MS - PA - TN - WV,2014-11-18,2016-08-05,2017-02-02,,"Rover Pipeline, Panhandle Backhaul, and Trunkline Backhaul Projects"
+R0889,Pipeline,BLM,NV,2008-10-02,2010-01-20,2010-07-12,R0890,Ruby Pipeline Project
+R0890,Pipeline,FERC,NV - OR - UT,2008-10-02,2010-01-15,2010-04-05,,Ruby Pipeline Project Proposed Natural Gas Pipeline Facilities Right-of-Way Grants (and/or Temporary Use or Special Use Permits) WY UT NV and OR
+R0931,Pipeline,FERC,AZ,2012-08-07,2014-04-04,2014-06-06,,Sierrita Pipeline Project
+R0961,Pipeline,FERC,FL - AL - GA,2014-02-26,2015-12-24,2016-02-02,,Southeast Market Pipelines Project
+R1063,Pipeline,BLM,UT,2007-08-09,2010-04-16,2010-07-01,,UNEV Pipeline Project Construction of a 399-mile Long Main Petroleum Products Pipeline Salt Lake Tooele Juab Millard Iron and Washington Counties UT and Lincoln and Clark Counties NV
+R0009,Regasification,FERC,PR,2012-03-05,2015-02-27,2015-07-24,,Aguirre Offshore GasPort Project
+R0772,Regasification,USCG,NY - NJ,2013-06-24,2015-10-16,2015-11-18,,Port Ambrose Deepwater Port Application

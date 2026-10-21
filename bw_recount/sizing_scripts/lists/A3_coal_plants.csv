@@ -1,0 +1,15 @@
+ceq_id,subsector,agency,state,noi,feis,rod,duplicate_of,title
+R0334,CoalPlant,OSMRE,NM,2012-07-18,2015-05-01,2015-07-17,,Four Corners Power Plant and Navajo Mine Energy Project
+R0342,CoalPlant,DOE,IL,2011-05-23,2013-11-01,2014-01-22,,FutureGen 2.0 Project
+R1016,CoalPlant,DOE,TX,2010-06-02,2011-08-05,2011-09-29,,Texas Clean Energy Project Construction and Operation of a Coal-Based Electric Power Generation and Chemicals Production Plant Odessa Ector County TX
+R0233,GasPlant,WAPA,SD,2009-02-06,2010-05-28,2010-07-13,,Deer Creek Station Energy Facility Project 300-megawatt (MW) Natural Gas-Fired Generation Facility Brookings County SD
+R0402,GasPlant,WAPA,SD,2009-09-21,2011-06-03,2011-12-05,,Groton Generation Station (GGS) Project Proposes to Modify its Interconnection Agreement Basin Electric Power Cooperative for the (GGS) to Eliminate 50-Megawatts (MW) Annual Average Operating Limit Brown County SD
+R0526,GasPlant,DOE,MS,2008-09-22,2010-05-21,2010-08-19,,Kemper County Integrated Gasification Combined-Cycle (IGCC) Project Construction and Operation of Advanced Power Generation Plant U.S. Army COE Section 404 Permit Kemper County MS
+N0043,Mine-Coal,BLM,UT,2008-02-12,2011-12-23,No ROD Fou,,Greens Hollow Coal Lease Tract Project Federal Coal Leasing and Subsequent Underground Coal Mining Funding and Lease Application Fishlake and Manti-La Sal National Forest Sanpete and Sevier Counties UT
+R0125,Mine-Coal,BLM,WY,2007-12-21,2011-07-29,2013-05-01,,Buckskin Mine Hay Creek II Project Coal Lease Application WYW-172684 Wyoming Powder River Basin Campbell County WY
+R0272,Mine-Coal,BLM,WV,2005-07-14,2012-06-08,2013-03-15,,East Lynn Lake Coal Lease Project To Offer Federal Coal in the Coalburg/Winifrede seam for Competitive Leasing Wayne County WV
+R0304,Mine-Coal,USFS,CO,2012-04-25,2012-08-10,2012-08-10,,Federal Coal Lease Modifications COC-1362 and COC 67232 Adding 800 and 921 Additional Acres Paonia Ranger District Grand Mesa Uncompahgre and Gunnison National Forests Gunnison County CO
+R0305,Mine-Coal,USFS,CO,2012-04-25,2012-08-10,2012-12-28,R0304,Federal Coal Lease Modifications COC-1362 and COC-67232
+R0892,Mine-Coal,USACE,TX,2009-01-27,2011-05-20,2011-09-06,,Rusk Permit Area Proposes to Construct Operate and Reclaim Permit Area Expansion of Existing South Hallsville No. 1 Mine. Issuance of Section 404 Permit Rusk Harrison and Panola Counties TX
+R1000,Mine-Coal,USACE,TX,2013-10-24,2016-04-29,2017-01-04,,Surface Coal and Lignite Mining
+R1154,Mine-Coal,BLM,WY,2007-07-03,2010-07-30,2012-02-03,,Wright Area Coal Lease Project Applications for Leasing Six Tracts of Federal Coal Reserves Adjacent to the Black Thunder Jacob Ranch and North Antelope Rochelle Mines Wyoming Powder River Basin Campbell County WY

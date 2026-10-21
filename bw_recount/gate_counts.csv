@@ -1,0 +1,23 @@
+group,subsector,BW_count,title_based_all,delta_all,title_based_ROD_sheet_only,delta_ROD_only,pass_pm2
+Clean,Solar,22,25,3,24,2,False
+Clean,Wind,13,14,1,14,1,True
+Clean,Transmission,42,43,1,42,0,True
+Clean,Hydro,14,14,0,8,-6,True
+Clean,Geothermal,3,3,0,3,0,True
+Clean,Nuclear,2,12,10,9,7,False
+Clean,PumpStorage,1,1,0,1,0,True
+Fossil,Pipeline,18,21,3,19,1,False
+Fossil,Liquefaction,7,8,1,8,1,True
+Fossil,Regasification,1,2,1,2,1,True
+Fossil,GasPlant,2,2,0,2,0,True
+Fossil,CoalPlant,2,2,0,2,0,True
+Fossil,Mine-Coal,4,8,4,7,3,False
+Fossil,Mine-Gas,6,9,3,9,3,False
+Other,Energy-Programmatic,15,40,25,36,21,n/a (other)
+Other,Waste,8,11,3,8,0,n/a (other)
+Other,BioPlant,2,1,-1,1,-1,n/a (other)
+Other,BioRefinery,1,1,0,1,0,n/a (other)
+Other,CarbonCapture,2,2,0,2,0,n/a (other)
+Other,Mine-Other,4,9,5,9,5,n/a (other)
+Other,Other-Energy,2,1,-1,1,-1,n/a (other)
+ALL,TOTAL,171,229,58,208,37,False

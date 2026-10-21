@@ -1,0 +1,57 @@
+ceq_id,subsector,agency,state,noi,feis,rod,duplicate_of,title
+N0049,Hydro,BIA,MT,2002-06-20,2010-04-16,No ROD Fou,,Kerr Hydroelectric Project Drought Management Plan Implementation Flathead Lake MT
+N0051,Hydro,FERC,CA,2010-03-01,2011-08-26,No ROD Fou,,Kilarc-Cow Creek Hydroelectric Project (FERC Project No. 606) Proposes to Surrender the License for Operation Project Old Crow Creek and South Cow Creek Shasta County CA
+N0063,Hydro,FERC,CA,2009-12-09,2011-03-04,No ROD Fou,,McCloud-Pit Hydroelectric Project (Project No. 2106) Application to Relicense its 368-Megawatt (MW) McCloud and Pit Rivers Shasta County CA
+N0067,Hydro,FERC,CA,2009-01-12,2015-12-11,No ROD Fou,,Merced River and Merced Falls Hydroelectric Projects
+N0069,Hydro,FERC,CA,2011-06-07,2013-03-01,No ROD Fou,,Middle Fork American River Project
+N0078,Hydro,FERC,CA,2008-06-02,2014-12-29,No ROD Fou,,Relicensing the Upper Drum-Spaulding Hydroelectric Project FERC No. 2310-193; Lower Drum Hydroelectric Project FERC No. 14531-000; Deer Creek Hydroelectric Project FERC No. 14530-000; and Yuba-Bear Hydroelectric Project FERC No. 2266-102
+R0079,Hydro,FERC,ID,2014-10-17,2016-05-06,2016-06-16,,Bear River Narrows Hydroelectric Project P-12486 Final EIS
+R0115,Hydro,FERC,WA,2010-09-22,2011-09-16,2013-03-20,,Boundary Hydroelectric Project Application for Hydroelectric License FERC Project No. 2144-038 and Sullivan Creek Project Application for Surrender of Hydropower FERC Project No. 2225-015 Pend Oreille County WA
+R0604,Hydro,FERC,AL,2011-06-22,2015-04-10,2015-12-17,,Martin Dam Hydroelectric Project - FERC Project No. 349-173 Alabama
+R0660,Hydro,FERC,MD,2013-05-06,2015-03-20,2015-12-22,,Multi-Project for Hydropower Licenses - Susquehanna River Hydroelectric Projects - York Haven Project No. 1888
+R1001,Hydro,FERC,ID,2009-01-15,2010-09-03,2012-09-28,,Swan Falls Hydroelectric Project Application for a New License for the 25-megawatt Hydroelectric Facility (FERC Project No. 503-048) Snake River Ada and Owyhee Counties ID
+R1002,Hydro,FERC,AK,2014-11-21,2016-06-10,2016-09-08,,Sweetheart Lake Hydroelectric Project Final Environmental Impact Statement
+R1032,Hydro,FERC,LA,2012-08-30,2013-12-27,2014-08-29,,Toledo Bend Hydroelectric Relicensing Project No. 2305-036
+R1119,Hydro,FERC,WA,2010-12-27,2011-11-04,2012-11-09,,Wells Hydroelectric Project Application to Relicense Public Utility District No. 1 Columbia River near Pateros and Brewster in Douglas Okanogan and Chelan Counties WA
+N0046,Transmission,BPA,WA - OR,2009-10-13,2016-02-12,No ROD Fou,,I-5 Corridor Reinforcement Project
+R0014,Transmission,BPA,OR,2010-10-29,2012-04-27,2012-06-01,,Albany-Eugene 115 kilovolt No. 1 Transmission Line Rebuild Project
+R0047,Transmission,RUS,ND,2011-11-02,2014-05-30,2014-09-22,,Antelope Valley Station to Neset Transmission Project
+R0052,Transmission,NPS,NJ,2010-01-21,2012-08-31,2012-10-01,,Appalachian National Scenic Trail Delaware Water Gap National Recreation Area Middle Delaware National Scenic and Recreational River Susquehanna to Roseland 500kV Transmission Line Right-of-Way and Special-Use-Permit NJ and PA
+R0054,Transmission,BLM,AZ,2011-04-11,2013-07-19,2014-01-16,,APS Sun Valley to Morgan 500/230kV Transmission Line Project Resource Management Plan Amendment
+R0075,Transmission,USFS,CA,2008-04-07,2012-08-10,2012-09-24,,Barren Ridge Renewable Transmission Project Construct Operate Maintain and Upgrade 220kV Electrical Transmission Lines and Switching Stations Kern and Los Angeles Counties CA
+R0085,Transmission,RUS,MN,2008-07-18,2010-09-17,2010-11-23,,Bemidji - Grand Rapid 230 kV Transmission Line Project Propose to Construct and Operate Beltrami Hubbard Cass Itasca Counties MN
+R0091,Transmission,BPA,WA - OR,2009-06-03,2011-07-15,2011-09-16,,Big Eddy-Knight Transmission Project
+R0111,Transmission,BLM,ID - OR,2008-09-12,2016-11-25,2017-11-17,,Boardman to Hemingway Transmission Line Project
+R0139,Transmission,USFS,CA,2012-04-10,2014-10-03,2015-07-24,,California Pacific Electricity Company 625 and 650 Electrical Line Upgrade Project
+R0158,Transmission,BPA,WA,2009-06-19,2011-02-18,2011-03-22,,Central Ferry-Lower Monumental 500-kilovolt Transmission Line Project
+R0162,Transmission,DOE,NY,2012-04-30,2014-08-15,2014-10-01,,Champlain Hudson Power Express Transmission Line Project
+R0176,Transmission,USFS,FL,2010-10-14,2012-03-30,2012-03-30,,City of Tallahassee Southwestern Transmission Line Project Proposes to Construct Operate and Maintain a New Overhead 230 - kilovolt (kV) Electric Transmission Line Special-Use-Permit (SUP) Apalachicola National Forest (ANF) Leon County FL
+R0285,Transmission,DOE,CA,2009-02-25,2012-06-08,2012-08-17,,Energia Sierra Juarez U.S. Transmission Line Project
+R0286,Transmission,USFS,UT,2011-04-01,2017-01-13,2017-05-31,R0287,Energy Gateway South Powerline (EGS)
+R0287,Transmission,BLM,WY - CO - UT,2011-04-01,2016-05-13,2016-12-13,,Energy Gateway South Transmission Project
+R0349,Transmission,BLM,WY,2008-05-16,2013-04-26,2013-11-12,,Gateway West Transmission Line Project Wyoming and Idaho
+R0383,Transmission,WAPA,CO,2007-08-10,2013-07-05,2013-10-01,,Granby Pumping Plant Windy Gap Substation Transmission Line Rebuild
+R0392,Transmission,DOE,MN,2014-06-27,2015-11-06,2016-11-22,,Great Northern Transmission Line Project
+R0426,Transmission,RUS,MN,2009-05-28,2012-07-20,2013-01-11,,Hampton - Rochester - La Crosse Transmission System Improvement Project Construction and Operation of a 345-kilovolt Transmission Line and Associated Facilities between Hampton MN and La Crosse WI
+R0452,Transmission,BPA,ID,2010-07-08,2015-01-23,2015-03-16,,Hooper Springs Transmission Project
+R0503,Transmission,USFS,MT,2010-06-08,2013-03-29,2013-03-29,,Jack Rabbit to Big Sky Meadow Village 161 kV Transmission Line Upgrade
+R0520,Transmission,USFS,AK,2014-07-28,2016-07-07,2016-11-30,,Kake to Petersburg Transmission Line Intertie Project
+R0531,Transmission,USFS,CA,2009-02-27,2012-04-20,2012-04-20,,Kirkwood Meadows Power Line Reliability Project Proposal to Construct and Operate 34.5 kilovolt (kV) Power Line Eldorado National Forest Amador Eldorado and Alpine Counties CA
+R0606,Transmission,USFS,CA,2013-09-23,2015-07-10,2016-03-11,,Master Special Use Permit and Permit to Construct Power Line Replacement Projects
+R0634,Transmission,BLM,UT,2007-10-16,2010-04-26,2011-02-04,,Mona to Oquirrh Transmission Corridor Project and Draft Pony Express Resource Management Plan Amendment Construction Operation Maintenance and Decommissioning a Double-Circuit 500/345 Kilovolt (Kv) Transmission Line Right-of-Way Grant Rocky Mountain Power Juab Salt Lake Tooele and Utah Counties UT
+R0712,Transmission,BLM,OR,2009-07-27,2011-10-21,2011-12-29,,North Steens 230-kV Transmission Line Project Construction and Operation of a Transmission Line and Access Roads Associated with the Echanis Wind Energy Project Authorizing Right-of-Way Grant Harney County OR
+R0717,Transmission,DOE,NH,2013-09-06,2017-08-18,2017-11-16,,Northern Pass Transmission Line Project
+R0731,Transmission,BLM,NV,2007-01-26,2010-12-06,2011-03-23,,ON Line Project (previously known as Ely Energy Center)
+R0768,Transmission,DOE,OK - AR - TN - TX,2012-12-21,2015-11-13,2016-03-31,,Plains and Eastern Clean Line Transmission Line Project
+R0905,Transmission,WAPA,CA,2013-11-22,2016-03-25,2016-05-09,,San Luis Transmission Project
+R0932,Transmission,BLM,UT,2010-01-05,2012-10-05,2012-12-07,,Sigurd to Red Butte No. 2 345kV Transmission Project Issuance of Right-of -Way Grant by BLM and Special-Use-Permit by AFS Sevier Millard Iron Beaver and Washington Counties UT
+R0963,Transmission,BLM,NV,2009-07-27,2010-12-17,2011-05-19,,Southern California Edison's Eldorado-Ivanpah Transmission Line Project Construction and Operation Right-of-Way Application Clark County NV and San Bernardino County CA
+R0966,Transmission,BLM,NM - AZ,2012-04-04,2015-11-06,2016-05-06,,Southline Transmission Project
+R0998,Transmission,BLM,NM,2009-05-29,2013-06-14,2015-01-25,,SunZia Southwest Transmission Project Proposed Resource Management Plan Amendments
+R1008,Transmission,USFS,WY,2011-08-26,2014-12-05,2015-05-18,,Teckla-Osage-Rapid City 230 kV Transmission Line Project
+R1009,Transmission,USFS,CA,2007-09-07,2010-09-24,2010-10-04,,Tehachapi Renewable Transmission Project New Information on Changed Conditions Caused by the Station Fire Construct Operate and Maintain New and Upgraded 500 kV and 220kV Transmission Lines and Substations Special Use Authorization Angeles National Forest Los Angeles County CA
+R1040,Transmission,USFS,UT,2011-01-04,2017-01-13,2017-05-31,R1041,Transwest Express Powerline (TWE)
+R1041,Transmission,BLM,WY,2011-01-04,2015-05-01,2016-12-13,,TransWest Express Transmission Project
+R1046,Transmission,USFS,UT,2008-02-21,2011-04-08,2011-04-08,,"Tropic to Hatch 138kV Transmission Line Project, Grand Staircase-Escalante National Monument Management Plan Amendment Garfield County UT"
+R1101,Transmission,BLM,WA,2010-01-05,2016-10-21,2017-01-18,,Vantage to Pomona Heights 230kV Transmission Line Project
+R1125,Transmission,BLM,CA,2014-07-01,2016-08-05,2017-01-04,,West of Devers Upgrade Proect

@@ -1,0 +1,46 @@
+== usn: clean count*mean 42.2 [min 30.1, max 59.5]; fossil 200.5 [min 117.3, max 255.5]; EP net(fossil-clean) 4.6 [-29.7, 42.3]
+          subsector  bw_count  universe_pool_n  pool_n  fingerprint_constrained  count_x_poolmean  min_feasible  max_feasible
+              Solar        22               26      28                     True               6.5          15.2          17.1
+               Wind        13               16      18                     True               5.7           1.7           6.7
+       Transmission        42               43      48                     True              15.8          12.8          15.8
+              Hydro        14               14      23                    False               0.1          -0.0           0.1
+         Geothermal         3                3       3                     True               0.4           0.4           0.4
+            Nuclear         2               12      31                    False              13.7           0.0          19.5
+        PumpStorage         1                1       1                     True               0.0           0.0           0.0
+           Pipeline        18               20      21                     True             141.4         102.8         154.6
+       Liquefaction         7                9      11                     True              14.5           9.7          16.2
+     Regasification         1                2      10                     True              -0.2          -3.3          -3.3
+           GasPlant         2                3       6                     True               0.1           0.0           0.0
+          CoalPlant         2                3       5                     True               2.7          -0.5          -0.5
+          Mine-Coal         4                8      12                    False              30.0           0.0          61.1
+           Mine-Gas         6                9      21                     True              12.1           8.6          27.4
+Energy-Programmatic        15               41      83                     True               4.6         -29.7          42.3
+              Waste         8               11      16                     True               0.0           0.0           0.0
+           BioPlant         2                1       6                    False               0.0           0.0           0.0
+        BioRefinery         1                1       1                     True               0.0           0.0           0.0
+      CarbonCapture         2                2       4                     True               0.0           0.0           0.0
+         Mine-Other         4                9      19                     True               0.0           0.0           0.0
+       Other-Energy         2                3      15                     True               0.0           0.1           0.1
+== gln: clean count*mean 42.2 [min 30.1, max 59.5]; fossil 239.4 [min 137.2, max 301.9]; EP net(fossil-clean) 25.5 [-29.7, 99.4]
+          subsector  bw_count  universe_pool_n  pool_n  fingerprint_constrained  count_x_poolmean  min_feasible  max_feasible
+              Solar        22               26      28                     True               6.5          15.2          17.1
+               Wind        13               16      18                     True               5.7           1.7           6.7
+       Transmission        42               43      48                     True              15.8          12.8          15.8
+              Hydro        14               14      23                    False               0.1          -0.0           0.1
+         Geothermal         3                3       3                     True               0.4           0.4           0.4
+            Nuclear         2               12      31                    False              13.7           0.0          19.5
+        PumpStorage         1                1       1                     True               0.0           0.0           0.0
+           Pipeline        18               20      21                     True             163.1         112.8         178.8
+       Liquefaction         7                9      11                     True              25.3          16.5          26.9
+     Regasification         1                2      10                     True              -0.2          -3.3          -3.3
+           GasPlant         2                3       6                     True               0.1           0.0           0.0
+          CoalPlant         2                3       5                     True               2.7          -0.5          -0.5
+          Mine-Coal         4                8      12                    False              30.9           0.0          62.9
+           Mine-Gas         6                9      21                     True              17.5          11.7          37.2
+Energy-Programmatic        15               41      83                     True              25.5         -29.7          99.4
+              Waste         8               11      16                     True               0.0           0.0           0.0
+           BioPlant         2                1       6                    False               0.0           0.0           0.0
+        BioRefinery         1                1       1                     True               0.0           0.0           0.0
+      CarbonCapture         2                2       4                     True               0.0           0.0           0.0
+         Mine-Other         4                9      19                     True               0.0           0.0           0.0
+       Other-Energy         2                3      15                     True               0.0           0.7           0.7

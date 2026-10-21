@@ -1,0 +1,70 @@
+ceq_id,sheet,project,operator,status,in_service,miles,add_cap_mmcfd,project_type,docket,demand
+R0017,Historical Projects (1996-2024),Algonquin Incremental Market (AIM),Algonquin Gas Transmission,Completed,2016,37,342.0,Expansion,CP14-96,
+R0050,Natural Gas Pipeline Projects,Apex,Targa Resources,On Hold,2027,563,2000.0,New Pipeline,,LNG
+R0050,Historical Projects (1996-2024),Apex Expansion Project,Kern River Gas Transmission,Completed,2011,28,266.0,Expansion,CP10-14,
+R0063,Historical Projects (1996-2024),Southeast Supply Header Pipeline,Southeast Supply Header LLC,Completed,2008,270,1140.0,New Pipeline,CP07-44,
+R0063,Historical Projects (1996-2024),Atlantic Coast Pipeline,Atlantic Coast Pipeline,Cancelled,na,600,1500.0,New Pipeline,CP15-554,Electric
+R0063,Historical Projects (1996-2024),Supply Header Project,Eastern Gas Transmission and Storage,Cancelled,,38,1500.0,Expansion,CP15-555,
+R0066,Historical Projects (1996-2024),Atlantic Sunrise Project Phase IA,Transcontinental Gas Pipeline,Completed,2017,,400.0,Reversal,CP15-138,
+R0066,Historical Projects (1996-2024),Atlantic Sunrise Project Phase 1B,Transcontinental Gas Pipeline,Completed,2018,,450.0,Reversal,CP15-138,
+R0066,Historical Projects (1996-2024),Atlantic Sunrise Project Phase II,Transcontinental Gas Pipeline,Completed,2018,180,850.0,Reversal,CP15-138,
+R0202,Natural Gas Pipeline Projects,Constitution Pipeline (Revival),Constitution Pipeline Co. LLC (Williams),Pre-applied,2028,125,650.0,New Pipeline,,LDC
+R0202,Natural Gas Pipeline Projects,Wright Interconnect Project,Iroquois Gas Transmission,Pre-applied,2028,,650.0,Expansion,,LDC
+R0202,Historical Projects (1996-2024),Constitution Pipeline,Constitution Pipeline Co,Cancelled,na,121,650.0,New Pipeline,CP13-499,
+R0202,Historical Projects (1996-2024),Wright Interconnect Project,Iroquois Pipeline Co,Cancelled,na,,650.0,Expansion,CP13-502,
+R0550,Historical Projects (1996-2024),Rayne XPress Project,Columbia Gulf Transmission,Completed,2017,,1100.0,Reversal,CP15-539,
+R0550,Historical Projects (1996-2024),Leach XPress project,Columbia Gas Transmission,Completed,2018,160,1530.0,Reversal,CP15-514,
+R0651,Natural Gas Pipeline Projects,Mountain Valley Pipeline Southgate  Amendment,"Mountain Valley Pipeline, LLC",Construction,2028,31.3,550.0,Expansion,,
+R0651,Historical Projects (1996-2024),Equitrans Expansion Project,Equitrans,Completed,2019,7.87,600.0,Expansion,CP16-13,
+R0651,Historical Projects (1996-2024),Mountain Valley Pipeline,"Mountain Valley Pipeline, LLC",Completed,2024,303.5,2000.0,New Pipeline,CP16-10,
+R0652,Historical Projects (1996-2024),Mountaineer XPress Pipeline (TCO Pool),Columbia Gas Transmission,Completed,2019,171,1840.0,Expansion,CP16-357,
+R0652,Historical Projects (1996-2024),Mountaineer XPress Pipeline (to CGT),Columbia Gas Transmission,Completed,2019,171,860.0,Expansion,CP16-357,
+R0652,Historical Projects (1996-2024),Gulf Xpress,Columbia Gulf Transmission,Completed,2019,,875.0,Reversal,CP16-361,
+R0693,Historical Projects (1996-2024),NEXUS Gas Transmission,Spectra Energy,Completed,2018,255,1500.0,New Pipeline,CP16-22,
+R0693,Historical Projects (1996-2024),Appalachian Lease Project (TEAL) Phase 1,Texas Eastern Transmission,Completed,2018,5,637.559,Lateral,CP16-23,
+R0693,Historical Projects (1996-2024),Appalachian Lease Project (TEAL) Phase 2,Texas Eastern Transmission,Completed,2019,,312.596,Lateral,CP16-23,
+R0753,Historical Projects (1996-2024),PennEast Pipeline Phase 1,PennEast Pipeline Co,Cancelled,na,68,1107.0,New Pipeline,CP20-47,
+R0753,Historical Projects (1996-2024),PennEast Pipeline Phase 2,PennEast Pipeline Co,Cancelled,na,50,1107.0,New Pipeline,CP20-47,
+R0880,Historical Projects (1996-2024),Northeast Connector,Transcontinental Gas Pipeline,Completed,2014,,100.0,Expansion,CP13-132,
+R0880,Historical Projects (1996-2024),Transco Rockaway Delivery Project,Transcontinental Gas Pipeline,Completed,2015,3.2,647.0,New Pipeline,CP13-36,
+R0887,Natural Gas Pipeline Projects,Rover-Bulger CS and Harmon Creek MS Expansion,Rover Pipeline LLC (Energy Transfer),Construction,2026,na,400.0,Expansion,,Industrial / downstream markets (Range Resources shipper)
+R0887,Historical Projects (1996-2024),Panhandle Backhaul Project,Panhandle Eastern Pipeline Co,Completed,2017,,750.0,Reversal,CP15-94,
+R0887,Historical Projects (1996-2024),Trunkline Backhaul Project,Trunkline Gas Co,Completed,2017,,800.0,Reversal,CP15-96,
+R0887,Historical Projects (1996-2024),Rover Pipeline Project Phase 1,ET Rover Pipeline,Completed,2017,711,1700.0,New Pipeline,CP15-93,
+R0887,Historical Projects (1996-2024),Rover Pipeline Project Phase 2,ET Rover Pipeline,Completed,2018,,1550.0,New Pipeline,CP15-93,
+R0887,Historical Projects (1996-2024),Rover Expansion Project,Rover Pipeline,Completed,2020,,175.0,Expansion,CP20-36,
+R0887,Historical Projects (1996-2024),Rover–Brightmark Receipt and Delivery Meter Station Project,Rover Pipeline,Completed,2022,0.01,1.6,Lateral,CP21-492,RNG
+R0887,Historical Projects (1996-2024),Rover - North Coast Interconnect Project,Rover Pipeline,Completed,2022,0.02,108.0,Lateral,CP21-474,
+R0890,Historical Projects (1996-2024),Ruby Pipeline Project,Ruby Pipeline LLC,Completed,2011,672.5,1500.0,New Pipeline,CP09-54,
+R0931,Historical Projects (1996-2024),Sierrita Pipeline Project,Sierrita Gas Pipeline,Completed,2014,60.9,201.0,New Pipeline,CP13-73/74,
+R0931,Historical Projects (1996-2024),Sierrita Pima Expansion,Sierrita Gas Pipeline,Completed,2020,60.9,323.0,Expansion,"CP18-37, CP18-38",
+R0961,Natural Gas Pipeline Projects,Hillabee Expansion Phase 3,"Transcontinental Gas Pipe Line Company, LLC",On Hold,2027,13,106.0,Expansion,,
+R0961,Natural Gas Pipeline Projects,Sabal Trail Project Phase III,"Sabal Trail Transmission (Enbridge, Duke Energy, NextEra)",Approved,2027,na,76.0,Expansion,,Electric
+R0961,Historical Projects (1996-2024),Southeast Market Expansion,Gulf South Pipeline,Completed,2014,70,510.5,Expansion,CP13-96,
+R0961,Historical Projects (1996-2024),Hillabee Expansion phase 1,Transcontinental Gas Pipeline,Completed,2017,20,818.0,Expansion,CP15-16,
+R0961,Historical Projects (1996-2024),Sabal Trail Project Phase I,Spectra Energy Corp/NextEra Energy/Duke Energy,Completed,2017,516.2,830.0,New Pipeline,CP15-17,
+R0961,Historical Projects (1996-2024),Florida Southeast Connection,NextEra Energy,Completed,2017,126,640.0,New Pipeline,CP14-554,
+R0961,Historical Projects (1996-2024),Hillabee Expansion phase 2,Transcontinental Gas Pipeline,Completed,2020,11,206.0,Expansion,CP15-16,
+R0961,Historical Projects (1996-2024),Sabal Trail Project Phase II,Spectra Energy Corp/NextEra Energy/Duke Energy,Completed,2020,,170.0,Expansion,CP15-17,Electric
+N0004,Historical Projects (1996-2024),Alaska Stand Alone Pipeline Project (ASAP) also known as  North Slope to Central Alaska Pipeline,Alaska Gasline Development Corp,On Hold,na,737,500.0,New Pipeline,,
+R0515,Historical Projects (1996-2024),Pacific Connector Gas Pipeline,Pacific Connector Gas Pipeline LP,Denied,,229,1200.0,New Pipeline,CP13-492,LNG
+R0515,Historical Projects (1996-2024),Pacific Connector,Pacific Connector Pipeline,Cancelled,na,na,1200.0,New Pipeline,CP17-494,LNG
+R0141,Historical Projects (1996-2024),Cameron Interstate Pipeline,Sempra Energy Inc,Completed,2008,36.1,2350.0,Expansion,CP05-119,
+R0141,Historical Projects (1996-2024),Cameron Pipeline Expansion,Sempra LNG,Completed,2017,3.58,1500.0,Reversal,"CP13-27, CP16-76",
+R0141,Historical Projects (1996-2024),Cameron Access Project,Columbia Gulf Transmission,Completed,2018,34,800.0,Reversal,CP15-109,
+R0141,Historical Projects (1996-2024),TransCameron Pipeline,TransCameron Pipeline LLC/Venture Global Calcasieu Pass,Completed,2021,24,1900.0,Lateral,CP15-551,LNG
+R0141,Historical Projects (1996-2024),Cameron Extension Project,Texas Eastern Transmission,Completed,2021,0.2,750.0,Expansion,CP19-512,LNG
+R0216,Natural Gas Pipeline Projects,CCPL Expansion Project (Corpus Christi Stage IV),Cheniere Corpus Christi Pipeline,Pre-applied,2030,26,3000.0,Expansion,,LNG
+R0216,Natural Gas Pipeline Projects,Corpus Christi Stage III Pipeline,Cheniere Energy Corpus Christi,Construction,2027,21,1530.0,Expansion,,LNG
+R0216,Historical Projects (1996-2024),Cheniere Corpus Christi Pipeline Project,Cheniere Corpus Christi Pipeline,Completed,2018,23,2250.0,New Pipeline,CP12-508,
+R0340,Historical Projects (1996-2024),Freeport LNG Pipeline,Freeport LNG Development LP,Completed,2008,9.8,1750.0,Expansion,CP03-75,
+R0340,Historical Projects (1996-2024),KM Freeport Lateral,Kinder Morgan Energy Partners,Cancelled,,40,320.0,Lateral,,LNG
+R0380,Natural Gas Pipeline Projects,Golden Pass Lateral,Golden Pass LNG Terminal LLC,Approved,2027,0.22,2600.0,Lateral,,LNG
+R0380,Historical Projects (1996-2024),Golden Pass Pipeline,Golden Pass Pipeline,Completed,2011,69,2500.0,Lateral,CP04-400,
+R0380,Historical Projects (1996-2024),Golden Pass LNG Bidirectional Pipeline,Golden Pass Pipeline LLC,Completed,2025,69,2500.0,Expansion,CP14-518,LNG
+R0540,Natural Gas Pipeline Projects,Eunice Reliability and Lake Charles Supply Project,Texas Gas Transmission and Gulf South Pipeline Co,Construction,2027,0,120.0,Expansion,,Industrial/LNG
+R0540,Natural Gas Pipeline Projects,Lake Charles Expansion (Magnolia LNG),Kinder Morgan Louisiana PL Co,Approved,2029,0,1362.0,Reversal,,LNG
+R0540,Natural Gas Pipeline Projects,Pipeline Modifications Project (Lake Charles LNG),Trunkline Gas,Construction,2031,17.89,2600.0,Expansion,,LNG
+R0540,Historical Projects (1996-2024),Trunkline Lake Charles Lateral Loop 2005,Trunkline Gas Co,Completed,2005,22.8,1100.0,Expansion,CP04-64,
+R0593,Natural Gas Pipeline Projects,Lake Charles Expansion (Magnolia LNG),Kinder Morgan Louisiana PL Co,Approved,2029,0,1362.0,Reversal,,LNG
+R0593,Historical Projects (1996-2024),Magnolia Intrastate (Magnolia Extension),American Midstream,On Hold,,,500.0,Expansion,na,

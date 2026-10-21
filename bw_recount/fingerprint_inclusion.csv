@@ -1,0 +1,432 @@
+subsector,pool,ceq_id,inclusion_share,dur,title
+Solar,title-based,R0024,0.644,1.34,Amargosa Farm Road Solar Energy Project Construction and Operation of Two Concentrated Sol
+Solar,title-based,R0110,0.401,0.92,Blythe Solar Power Project (09-AFC-6) Application for Right-of Way Grant to Construct and 
+Solar,title-based,R0136,0.934,2.02,Calico Solar Project Solar Thermal Electricity Generation Facility Located Public Lands Co
+Solar,title-based,R0168,0.561,1.22,Chevron Energy Solutions Lucerne Valley Solar Project Proposing To Develop a 45-megawatt (
+Solar,title-based,R0239,0.713,1.49,Desert Harvest Solar Project Construction Operation Maintenance and Decommissioning of a 1
+Solar,title-based,R0314,0.76,1.57,First Solar Desert Sunlight Solar Farm (DSSF) Project Proposing To Develop a 550-Megawatt 
+Solar,title-based,R0370,0.433,0.97,Genesis Solar Energy Project Application for a Right-of-Way Grant to Construct Operate and
+Solar,title-based,R0475,0.924,1.99,Imperial Valley Solar Project (Formerly Known as Stirling Energy Systems (SES) Solar 2 Pro
+Solar,title-based,R0501,0.896,1.92,Ivanpah Solar Electric Generating System (07-AFC-5) Project Proposal to Construct a 400-m 
+Solar,title-based,R0607,0.751,1.54,McCoy Solar Energy Project Plan Amendment Riverside County CA
+Solar,title-based,R0631,0.401,0.92,Modified Blythe Solar Power Project Amendment to Right-of-Way Grant CACA 048811
+Solar,title-based,R0726,1.0,2.74,Ocotillo Sol Project California Desert Conservation Area Plan Amendment
+Solar,title-based,R0746,1.0,6.81,Palen Solar Power Plant Project Construction Operation and Decommission a Solar Thermal Fa
+Solar,title-based,R0933,0.609,1.29,Silver State Solar Energy Project Construction and Operation of a 400-megawatt Photovoltai
+Solar,title-based,R0944,1.0,3.42,Soda Mountain Solar Project Proposed Plan Amendment
+Solar,title-based,R0946,0.993,2.45,Sonoran Solar Energy Project Construction and Operation of a 3756-megawatt (MW) Concentrat
+Solar,title-based,R0983,0.997,2.53,Stateline Solar Farm Project Proposed Final Plan Amendment
+Solar,title-based,R1036,0.526,1.09,Tonopah Solar Energy Crescent Dunes Solar Energy Project a 7 680-Acre Right-of-Way (ROW) o
+Solar,title-based,R0011,0.855,1.82,Aiya Solar Project
+Solar,title-based,R0517,0.656,1.38,K Road Moapa Solar Facility Construction and Operation of a 350MW Solar Generation Facilit
+Solar,title-based,R0860,0.827,1.75,RES Americas Moapa Solar Energy Center
+Solar,title-based,R0846,1.0,3.34,Quartzsite Solar Energy Project and Yuma Field Office Resource Management Plan Amendment L
+Solar,title-based,R0870,0.815,1.73,Rice Solar Energy Project 150 megawatt Solar Energy Generating Facility 161-kV/230-kV Elec
+Solar,title-based,R0750,1.0,3.64,Panoche Valley Solar Project
+Solar,title-based,N0096,0.311,0.81,Topaz Solar Farm Project Issuing a Loan Guarantee to Royal Bank of Scotland for Constructi
+Solar,title-based,N0062,1.0,2.95,Maricopa Sun Solar Complex Habitat Conservation Plan
+Solar,title-based,R0476,0.995,2.51,Implementation of Energy Water and Solid Waste Sustainability Initiatives at Fort Bliss
+Solar,title-based,R0827,1.0,4.38,Final Programmatic Environmental Impact Statement (PEIS) for Solar Energy Development in S
+Wind,title-based,R0023,0.23,1.86,Alta East Wind Project Plan Amendment
+Wind,title-based,R0174,0.222,4.25,Chokecherry and Sierra Madre Wind Energy Project Development of a Wind Farm Carbon County 
+Wind,title-based,R0633,0.229,2.93,Mohave County Wind Farm Project
+Wind,title-based,R0725,0.23,1.41,Ocotillo Express Wind Energy Project Proposing to Develop a 465-Megawatt Wind Energy Facil
+Wind,title-based,R0912,0.222,4.24,Searchlight Wind Energy Project NVN-084626 and NVN-086777 Application for Right-of-Way Gra
+Wind,title-based,R1121,0.23,1.48,West Butte Wind Power Project Construction and Operation of Access Roads and a Transmissio
+Wind,title-based,R0235,0.196,6.48,Deerfield Wind Project Updated Information Application for a Land Use Authorization to Con
+Wind,title-based,R0336,0.229,2.8,Fowler Ridge Wind Farm
+Wind,title-based,R0422,0.229,2.94,Habitat Conservation Plan and Incidental Take Permit for the Indiana Bat (Myotis sodalis) 
+Wind,title-based,R0499,0.227,3.38,Issuance of an Incidental Take Permit For the Beech Ridge Energy Wind Project Habitat Cons
+Wind,title-based,R0390,0.228,3.14,Grapevine Canyon Wind Project Proposal to Develop a Wind Energy Generating Facility up to 
+Wind,title-based,R0480,0.228,3.03,Interconnection of the Grande Prairie Wind Farm
+Wind,title-based,R0949,0.23,1.48,South Dakota PrairieWinds Project Proposes to Construct Own Operate and Maintain a 151.5 m
+Wind,title-based,R1138,0.2,6.18,Whistling Ridge Energy Project
+Wind,title-based,R0262,0.228,3.14,Eagle Take Permits for the Chokecherry and Sierra Madre Phase I Wind Energy Project
+Wind,title-based,R0014,0.23,1.59,Albany-Eugene 115 kilovolt No. 1 Transmission Line Rebuild Project
+Wind,title-based,R0047,0.229,2.89,Antelope Valley Station to Neset Transmission Project
+Wind,title-based,R0052,0.229,2.7,Appalachian National Scenic Trail Delaware Water Gap National Recreation Area Middle Delaw
+Wind,title-based,R0054,0.229,2.77,APS Sun Valley to Morgan 500/230kV Transmission Line Project Resource Management Plan Amen
+Wind,title-based,R0075,0.22,4.47,Barren Ridge Renewable Transmission Project Construct Operate Maintain and Upgrade 220kV E
+Wind,title-based,R0085,0.23,2.35,Bemidji - Grand Rapid 230 kV Transmission Line Project Propose to Construct and Operate Be
+Wind,title-based,R0091,0.23,2.29,Big Eddy-Knight Transmission Project
+Wind,title-based,R0111,0.13,9.19,Boardman to Hemingway Transmission Line Project
+Wind,title-based,R0139,0.227,3.29,California Pacific Electricity Company 625 and 650 Electrical Line Upgrade Project
+Wind,title-based,R0158,0.23,1.76,Central Ferry-Lower Monumental 500-kilovolt Transmission Line Project
+Wind,title-based,R0162,0.23,2.42,Champlain Hudson Power Express Transmission Line Project
+Wind,title-based,R0176,0.23,1.46,City of Tallahassee Southwestern Transmission Line Project Proposes to Construct Operate a
+Wind,title-based,R0285,0.226,3.48,Energia Sierra Juarez U.S. Transmission Line Project
+Wind,title-based,R0286,0.201,6.17,Energy Gateway South Powerline (EGS)
+Wind,title-based,R0287,0.207,5.71,Energy Gateway South Transmission Project
+Wind,title-based,R0349,0.21,5.5,Gateway West Transmission Line Project Wyoming and Idaho
+Wind,title-based,R0383,0.201,6.15,Granby Pumping Plant Windy Gap Substation Transmission Line Rebuild
+Wind,title-based,R0392,0.23,2.41,Great Northern Transmission Line Project
+Wind,title-based,R0426,0.226,3.63,Hampton - Rochester - La Crosse Transmission System Improvement Project Construction and O
+Wind,title-based,R0452,0.218,4.69,Hooper Springs Transmission Project
+Wind,title-based,R0503,0.229,2.81,Jack Rabbit to Big Sky Meadow Village 161 kV Transmission Line Upgrade
+Wind,title-based,R0520,0.23,2.35,Kake to Petersburg Transmission Line Intertie Project
+Wind,title-based,R0531,0.228,3.15,Kirkwood Meadows Power Line Reliability Project Proposal to Construct and Operate 34.5 kil
+Wind,title-based,R0606,0.23,2.47,Master Special Use Permit and Permit to Construct Power Line Replacement Projects
+Wind,title-based,R0634,0.227,3.31,Mona to Oquirrh Transmission Corridor Project and Draft Pony Express Resource Management P
+Wind,title-based,R0717,0.222,4.2,Northern Pass Transmission Line Project
+Wind,title-based,R0731,0.222,4.16,ON Line Project (previously known as Ely Energy Center)
+Wind,title-based,R0768,0.227,3.28,Plains and Eastern Clean Line Transmission Line Project
+Wind,title-based,R0905,0.23,2.46,San Luis Transmission Project
+Wind,title-based,R0932,0.229,2.92,Sigurd to Red Butte No. 2 345kV Transmission Project Issuance of Right-of -Way Grant by BL
+Wind,title-based,R0963,0.23,1.81,Southern California Edison's Eldorado-Ivanpah Transmission Line Project Construction and O
+Wind,title-based,R0966,0.223,4.09,Southline Transmission Project
+Wind,title-based,R0998,0.207,5.66,SunZia Southwest Transmission Project Proposed Resource Management Plan Amendments
+Wind,title-based,R1008,0.225,3.73,Teckla-Osage-Rapid City 230 kV Transmission Line Project
+Wind,title-based,R1009,0.228,3.08,Tehachapi Renewable Transmission Project New Information on Changed Conditions Caused by t
+Wind,title-based,R1040,0.197,6.41,Transwest Express Powerline (TWE)
+Wind,title-based,R1041,0.204,5.95,TransWest Express Transmission Project
+Wind,title-based,R1046,0.228,3.13,"Tropic to Hatch 138kV Transmission Line Project, Grand Staircase-Escalante National Monume"
+Wind,title-based,R1101,0.186,7.04,Vantage to Pomona Heights 230kV Transmission Line Project
+Wind,title-based,R1125,0.23,2.52,West of Devers Upgrade Proect
+Wind,title-based,N0046,0.198,6.34,I-5 Corridor Reinforcement Project
+Wind,title-based,R0267,0.23,2.65,East County Substation/Tule Wind/Energia Sierra Juarez Gen-Tie Projects Construction and O
+Wind,title-based,R0712,0.23,2.42,North Steens 230-kV Transmission Line Project Construction and Operation of a Transmission
+Wind,title-based,R1071,0.187,6.96,Upper Great Plains Wind Energy Project
+Transmission,title-based,R0023,0.569,1.86,Alta East Wind Project Plan Amendment
+Transmission,title-based,R0174,0.766,4.25,Chokecherry and Sierra Madre Wind Energy Project Development of a Wind Farm Carbon County 
+Transmission,title-based,R0633,0.662,2.93,Mohave County Wind Farm Project
+Transmission,title-based,R0725,0.527,1.41,Ocotillo Express Wind Energy Project Proposing to Develop a 465-Megawatt Wind Energy Facil
+Transmission,title-based,R0912,0.765,4.24,Searchlight Wind Energy Project NVN-084626 and NVN-086777 Application for Right-of-Way Gra
+Transmission,title-based,R1121,0.534,1.48,West Butte Wind Power Project Construction and Operation of Access Roads and a Transmissio
+Transmission,title-based,R0235,0.904,6.48,Deerfield Wind Project Updated Information Application for a Land Use Authorization to Con
+Transmission,title-based,R0336,0.651,2.8,Fowler Ridge Wind Farm
+Transmission,title-based,R0422,0.663,2.94,Habitat Conservation Plan and Incidental Take Permit for the Indiana Bat (Myotis sodalis) 
+Transmission,title-based,R0499,0.699,3.38,Issuance of an Incidental Take Permit For the Beech Ridge Energy Wind Project Habitat Cons
+Transmission,title-based,R0390,0.679,3.14,Grapevine Canyon Wind Project Proposal to Develop a Wind Energy Generating Facility up to 
+Transmission,title-based,R0480,0.671,3.03,Interconnection of the Grande Prairie Wind Farm
+Transmission,title-based,R0949,0.533,1.48,South Dakota PrairieWinds Project Proposes to Construct Own Operate and Maintain a 151.5 m
+Transmission,title-based,R1138,0.889,6.18,Whistling Ridge Energy Project
+Transmission,title-based,R0014,0.544,1.59,Albany-Eugene 115 kilovolt No. 1 Transmission Line Rebuild Project
+Transmission,title-based,R0047,0.659,2.89,Antelope Valley Station to Neset Transmission Project
+Transmission,title-based,R0052,0.643,2.7,Appalachian National Scenic Trail Delaware Water Gap National Recreation Area Middle Delaw
+Transmission,title-based,R0054,0.649,2.77,APS Sun Valley to Morgan 500/230kV Transmission Line Project Resource Management Plan Amen
+Transmission,title-based,R0075,0.781,4.47,Barren Ridge Renewable Transmission Project Construct Operate Maintain and Upgrade 220kV E
+Transmission,title-based,R0085,0.613,2.35,Bemidji - Grand Rapid 230 kV Transmission Line Project Propose to Construct and Operate Be
+Transmission,title-based,R0091,0.607,2.29,Big Eddy-Knight Transmission Project
+Transmission,title-based,R0111,0.983,9.19,Boardman to Hemingway Transmission Line Project
+Transmission,title-based,R0139,0.692,3.29,California Pacific Electricity Company 625 and 650 Electrical Line Upgrade Project
+Transmission,title-based,R0158,0.559,1.76,Central Ferry-Lower Monumental 500-kilovolt Transmission Line Project
+Transmission,title-based,R0162,0.619,2.42,Champlain Hudson Power Express Transmission Line Project
+Transmission,title-based,R0176,0.531,1.46,City of Tallahassee Southwestern Transmission Line Project Proposes to Construct Operate a
+Transmission,title-based,R0285,0.707,3.48,Energia Sierra Juarez U.S. Transmission Line Project
+Transmission,title-based,R0286,0.888,6.17,Energy Gateway South Powerline (EGS)
+Transmission,title-based,R0287,0.862,5.71,Energy Gateway South Transmission Project
+Transmission,title-based,R0349,0.85,5.5,Gateway West Transmission Line Project Wyoming and Idaho
+Transmission,title-based,R0383,0.887,6.15,Granby Pumping Plant Windy Gap Substation Transmission Line Rebuild
+Transmission,title-based,R0392,0.618,2.41,Great Northern Transmission Line Project
+Transmission,title-based,R0426,0.719,3.63,Hampton - Rochester - La Crosse Transmission System Improvement Project Construction and O
+Transmission,title-based,R0452,0.797,4.69,Hooper Springs Transmission Project
+Transmission,title-based,R0503,0.652,2.81,Jack Rabbit to Big Sky Meadow Village 161 kV Transmission Line Upgrade
+Transmission,title-based,R0520,0.612,2.35,Kake to Petersburg Transmission Line Intertie Project
+Transmission,title-based,R0531,0.68,3.15,Kirkwood Meadows Power Line Reliability Project Proposal to Construct and Operate 34.5 kil
+Transmission,title-based,R0606,0.623,2.47,Master Special Use Permit and Permit to Construct Power Line Replacement Projects
+Transmission,title-based,R0634,0.693,3.31,Mona to Oquirrh Transmission Corridor Project and Draft Pony Express Resource Management P
+Transmission,title-based,R0717,0.762,4.2,Northern Pass Transmission Line Project
+Transmission,title-based,R0731,0.759,4.16,ON Line Project (previously known as Ely Energy Center)
+Transmission,title-based,R0768,0.691,3.28,Plains and Eastern Clean Line Transmission Line Project
+Transmission,title-based,R0905,0.623,2.46,San Luis Transmission Project
+Transmission,title-based,R0932,0.662,2.92,Sigurd to Red Butte No. 2 345kV Transmission Project Issuance of Right-of -Way Grant by BL
+Transmission,title-based,R0963,0.564,1.81,Southern California Edison's Eldorado-Ivanpah Transmission Line Project Construction and O
+Transmission,title-based,R0966,0.754,4.09,Southline Transmission Project
+Transmission,title-based,R0998,0.86,5.66,SunZia Southwest Transmission Project Proposed Resource Management Plan Amendments
+Transmission,title-based,R1008,0.726,3.73,Teckla-Osage-Rapid City 230 kV Transmission Line Project
+Transmission,title-based,R1009,0.675,3.08,Tehachapi Renewable Transmission Project New Information on Changed Conditions Caused by t
+Transmission,title-based,R1040,0.9,6.41,Transwest Express Powerline (TWE)
+Transmission,title-based,R1041,0.876,5.95,TransWest Express Transmission Project
+Transmission,title-based,R1046,0.679,3.13,"Tropic to Hatch 138kV Transmission Line Project, Grand Staircase-Escalante National Monume"
+Transmission,title-based,R1101,0.929,7.04,Vantage to Pomona Heights 230kV Transmission Line Project
+Transmission,title-based,R1125,0.627,2.52,West of Devers Upgrade Proect
+Transmission,title-based,N0046,0.897,6.34,I-5 Corridor Reinforcement Project
+Transmission,title-based,R0267,0.638,2.65,East County Substation/Tule Wind/Energia Sierra Juarez Gen-Tie Projects Construction and O
+Transmission,title-based,R0712,0.619,2.42,North Steens 230-kV Transmission Line Project Construction and Operation of a Transmission
+Transmission,title-based,R0423,0.611,2.33,Habitat Conservation Plan for Oncor Electric Delivery Facilities Application for Incidenta
+Transmission,title-based,R0601,0.569,1.86,Marine Corps Base Camp Pendleton Basewide Utilities Infrastructure Construct and Operate S
+Transmission,title-based,R0402,0.6,2.21,Groton Generation Station (GGS) Project Proposes to Modify its Interconnection Agreement B
+Hydro,title-based,R0079,0.425,1.67,Bear River Narrows Hydroelectric Project P-12486 Final EIS
+Hydro,title-based,R0115,0.443,2.49,Boundary Hydroelectric Project Application for Hydroelectric License FERC Project No. 2144
+Hydro,title-based,R0604,0.488,4.49,Martin Dam Hydroelectric Project - FERC Project No. 349-173 Alabama
+Hydro,title-based,R0660,0.446,2.63,Multi-Project for Hydropower Licenses - Susquehanna River Hydroelectric Projects - York Ha
+Hydro,title-based,R1001,0.469,3.7,Swan Falls Hydroelectric Project Application for a New License for the 25-megawatt Hydroel
+Hydro,title-based,R1002,0.428,1.8,Sweetheart Lake Hydroelectric Project Final Environmental Impact Statement
+Hydro,title-based,R1032,0.432,2.0,Toledo Bend Hydroelectric Relicensing Project No. 2305-036
+Hydro,title-based,R1119,0.43,1.87,Wells Hydroelectric Project Application to Relicense Public Utility District No. 1 Columbi
+Hydro,title-based,N0049,0.555,7.83,Kerr Hydroelectric Project Drought Management Plan Implementation Flathead Lake MT
+Hydro,title-based,N0051,0.421,1.49,Kilarc-Cow Creek Hydroelectric Project (FERC Project No. 606) Proposes to Surrender the Li
+Hydro,title-based,N0063,0.415,1.23,McCloud-Pit Hydroelectric Project (Project No. 2106) Application to Relicense its 368-Mega
+Hydro,title-based,N0067,0.536,6.92,Merced River and Merced Falls Hydroelectric Projects
+Hydro,title-based,N0069,0.427,1.73,Middle Fork American River Project
+Hydro,title-based,N0078,0.528,6.58,Relicensing the Upper Drum-Spaulding Hydroelectric Project FERC No. 2310-193; Lower Drum H
+Hydro,title-based,R0569,0.502,5.45,Long-Term Experimental and Management Plan (LTEMP) for the Operation of Glen Canyon Dam
+Hydro,title-based,R0533,0.511,5.82,Klamath Facilities Removal
+Hydro,title-based,R0061,0.567,8.29,Aspinall Unit Operations - Colorado River Storage Project Modifying Water Flow Operations 
+Hydro,title-based,R0179,0.44,2.35,Cle Elum Dam Fish Passage Facilities and Fish Reintroduction Project To Restore Connectivi
+Hydro,title-based,R0626,0.43,1.87,Minidoka Dam Spillway Replacement Project To Prevent Structural Failure of the Minidoka Da
+Hydro,title-based,R0320,0.718,12.76,Folsom Lake State Recreation Area & Folsom Powerhouse State Historic Park General Plan/Res
+Hydro,title-based,R0497,0.451,2.87,Isabella Lake Dam Safety Modification Project To Remediate Seismic Seepage and Hydrologic 
+Hydro,title-based,R0442,0.465,3.51,Herbert Hoover Dike Dam Safety Modification Study
+Hydro,title-based,R0588,0.407,0.92,"Lower Yellowstone Intake Diversion Dam Fish Passage Project, Montana"
+Hydro,title-based,R0072,0.454,2.95,Ballville Dam Project
+Hydro,title-based,R1068,0.549,7.49,Update of the Water Control Manual for the Alabama-Coosa-Tallapoosa River Basin in Georgia
+Hydro,title-based,R1069,0.586,9.11,Update of the Water Control Manual for the Apalachicola-Chattahoochee-Flint River Basin in
+Hydro,title-based,R0230,0.437,2.22,Dam Safety Modifications at Cherokee Fort Loudoun Tellico and Watts Bar Dams
+Hydro,title-based,R0166,0.602,9.74,Chatfield Reservoir Storage Reallocation
+Hydro,title-based,R0858,0.439,2.3,Removal and Disposal of Sediment and Restoration of Water Storage at John Redmond Reservoi
+Geothermal,title-based,R0149,1.0,2.39,Casa Diablo IV Geothermal Development Project
+Geothermal,title-based,R0897,1.0,2.26,Salt Wells Energy Projects Proposal for Three Separate Geothermal Energy and Transmission 
+Geothermal,title-based,R0371,1.0,1.48,Geothermal Leasing on the Humboldt-Toiyabe National Forest To Facilitate the Development a
+PumpStorage,title-based,R0260,1.0,5.51,Eagle Mountain Pumped Storage Hydroelectric Project Licensing Application for Eagle Mounta
+Pipeline,title-based,R0017,0.853,1.45,Algonquin Incremental Market Project
+Pipeline,title-based,R0050,0.905,1.31,Apex Expansion Project Proposal to Expand its Natural Gas Pipeline System WY UT and NV
+Pipeline,title-based,R0063,0.811,2.61,Atlantic Coast Pipeline and Supply Header Project
+Pipeline,title-based,R0066,0.768,2.52,Atlantic Sunrise Project
+Pipeline,title-based,R0202,0.884,1.4,Constitution Pipeline and Wright Interconnect Projects
+Pipeline,title-based,R0550,0.842,2.0,Leach XPress and Rayne XPress Expansion Projects
+Pipeline,title-based,R0651,0.821,2.46,Mountain Valley Project and Equitrans Expansion Project
+Pipeline,title-based,R0652,0.853,2.08,Mountaineer Xpress and Gulf Xpress Projects
+Pipeline,title-based,R0683,0.884,1.82,New Jersey-New York Expansion Project Propose to Modify and Expand their Existing Natural 
+Pipeline,title-based,R0693,0.863,2.36,Nexus Gas Transmission Project and Texas Eastern Appalachian Lease Project
+Pipeline,title-based,R0753,0.811,3.0,PennEast Pipeline Project
+Pipeline,title-based,R0880,0.968,1.01,Rockaway Delivery Lateral and Northeast Connector Projects
+Pipeline,title-based,R0887,0.884,2.21,"Rover Pipeline, Panhandle Backhaul, and Trunkline Backhaul Projects"
+Pipeline,title-based,R0890,0.905,1.51,Ruby Pipeline Project Proposed Natural Gas Pipeline Facilities Right-of-Way Grants (and/or
+Pipeline,title-based,R0931,0.853,1.83,Sierrita Pipeline Project
+Pipeline,title-based,R0961,0.874,1.93,Southeast Market Pipelines Project
+Pipeline,title-based,N0050,0.832,2.59,Keystone XL Oil Pipeline Project Additional Information Presidential Permit for the Propos
+Pipeline,title-based,N0004,0.832,2.88,Alaska Stand Alone Gas Pipeline Construction and Operation of a 737 mile Pipeline to Trans
+Pipeline,title-based,R0889,0.905,1.78,Ruby Pipeline Project
+Pipeline,title-based,R1063,0.8,2.9,UNEV Pipeline Project Construction of a 399-mile Long Main Petroleum Products Pipeline Sal
+Pipeline,title-based,R0515,0.853,3.58,Jordan Cove Energy and Pacific Connector Gas Pipeline Project
+Liquefaction,title-based,R0515,0.4,3.58,Jordan Cove Energy and Pacific Connector Gas Pipeline Project
+Liquefaction,title-based,R0141,0.7,1.85,Cameron Liquefaction Project
+Liquefaction,title-based,R0216,0.6,2.56,Corpus Christi LNG Project
+Liquefaction,title-based,R0340,0.7,2.01,Freeport LNG Liquefaction Project and Phase II Modification Project
+Liquefaction,title-based,R0380,0.6,3.18,Golden Pass LNG Export Project
+Liquefaction,title-based,R0540,0.5,3.24,Lake Charles Liquefaction Project
+Liquefaction,title-based,R0593,0.7,2.81,Magnolia LNG and Lake Charles Expansion Projects
+Liquefaction,title-based,R0255,1.0,10.44,Downeast Liquefied Natural Gas (LNG) Project
+Liquefaction,title-based,R0773,0.6,1.86,Port Delfin Project Deepwater Port Application
+Liquefaction,title-based,R0009,0.5,3.39,Aguirre Offshore GasPort Project
+Liquefaction,title-based,R0772,0.7,2.4,Port Ambrose Deepwater Port Application
+Liquefaction,primary-only,R0141,0.5,1.85,Cameron Liquefaction Project
+Liquefaction,primary-only,R0216,1.0,2.56,Corpus Christi LNG Project
+Liquefaction,primary-only,R0340,1.0,2.01,Freeport LNG Liquefaction Project and Phase II Modification Project
+Liquefaction,primary-only,R0380,1.0,3.18,Golden Pass LNG Export Project
+Liquefaction,primary-only,R0540,1.0,3.24,Lake Charles Liquefaction Project
+Liquefaction,primary-only,R0593,1.0,2.81,Magnolia LNG and Lake Charles Expansion Projects
+Liquefaction,primary-only,R0255,1.0,10.44,Downeast Liquefied Natural Gas (LNG) Project
+Liquefaction,primary-only,R0773,0.5,1.86,Port Delfin Project Deepwater Port Application
+Regasification,title-based,R0141,0.0,1.85,Cameron Liquefaction Project
+Regasification,title-based,R0216,0.0,2.56,Corpus Christi LNG Project
+Regasification,title-based,R0340,0.0,2.01,Freeport LNG Liquefaction Project and Phase II Modification Project
+Regasification,title-based,R0380,0.0,3.18,Golden Pass LNG Export Project
+Regasification,title-based,R0540,0.0,3.24,Lake Charles Liquefaction Project
+Regasification,title-based,R0593,0.0,2.81,Magnolia LNG and Lake Charles Expansion Projects
+Regasification,title-based,R0255,0.0,10.44,Downeast Liquefied Natural Gas (LNG) Project
+Regasification,title-based,R0773,0.0,1.86,Port Delfin Project Deepwater Port Application
+Regasification,title-based,R0009,1.0,3.39,Aguirre Offshore GasPort Project
+Regasification,title-based,R0772,0.0,2.4,Port Ambrose Deepwater Port Application
+Regasification,primary-only,R0009,1.0,3.39,Aguirre Offshore GasPort Project
+Regasification,primary-only,R0772,0.0,2.4,Port Ambrose Deepwater Port Application
+GasPlant,title-based,R0402,0.0,2.21,Groton Generation Station (GGS) Project Proposes to Modify its Interconnection Agreement B
+GasPlant,title-based,R0233,1.0,1.43,Deer Creek Station Energy Facility Project 300-megawatt (MW) Natural Gas-Fired Generation 
+GasPlant,title-based,R0526,1.0,1.91,Kemper County Integrated Gasification Combined-Cycle (IGCC) Project Construction and Opera
+GasPlant,title-based,R0342,0.0,2.67,FutureGen 2.0 Project
+GasPlant,title-based,R1016,0.0,1.33,Texas Clean Energy Project Construction and Operation of a Coal-Based Electric Power Gener
+GasPlant,title-based,R0910,0.0,2.05,Schofield Generating Station Project U.S. Army Garrison-Hawaii
+GasPlant,primary-only,R0233,1.0,1.43,Deer Creek Station Energy Facility Project 300-megawatt (MW) Natural Gas-Fired Generation 
+GasPlant,primary-only,R0526,1.0,1.91,Kemper County Integrated Gasification Combined-Cycle (IGCC) Project Construction and Opera
+CoalPlant,title-based,R0233,0.0,1.43,Deer Creek Station Energy Facility Project 300-megawatt (MW) Natural Gas-Fired Generation 
+CoalPlant,title-based,R0526,0.0,1.91,Kemper County Integrated Gasification Combined-Cycle (IGCC) Project Construction and Opera
+CoalPlant,title-based,R0342,1.0,2.67,FutureGen 2.0 Project
+CoalPlant,title-based,R1016,1.0,1.33,Texas Clean Energy Project Construction and Operation of a Coal-Based Electric Power Gener
+CoalPlant,title-based,R0334,0.0,3.0,Four Corners Power Plant and Navajo Mine Energy Project
+CoalPlant,primary-only,R0342,1.0,2.67,FutureGen 2.0 Project
+CoalPlant,primary-only,R1016,1.0,1.33,Texas Clean Energy Project Construction and Operation of a Coal-Based Electric Power Gener
+Mine-Gas,title-based,R0206,1.0,10.58,Continental Divide Creston Natural Gas Development Project
+Mine-Gas,title-based,R0393,0.056,4.59,Greater Natural Buttes Area Gas Development Project Development of Additional Well Pads an
+Mine-Gas,title-based,R0643,0.5,6.1,"Monument Butte Area Oil and Gas Development Project, Duchesne and Uintah County, UtahImpac"
+Mine-Gas,title-based,R1060,0.278,6.34,Uinta Basin Natural Gas Development Project To Develop Oil and Natural Gas Resources withi
+Mine-Gas,title-based,R1128,0.333,4.91,West Tavaputs Plateau Natural Gas Full Field Development Plan Develop the Natural Gas Reso
+Mine-Gas,title-based,R0127,0.222,4.51,Bull Mountain Unit Master Development Plan
+Mine-Gas,title-based,R0958,0.222,4.49,South Unit Oil and Gas Development Project Master Development Plan Implementation Duchesne
+Mine-Gas,title-based,R0920,0.0,1.12,Shadura Natural Gas Development Project within Kenai National Wildlife Refuge
+Mine-Gas,title-based,R0771,0.056,2.89,Point Thomson Project Authorization for the Placement of Fill Material into U.S. Waters Pe
+Mine-Gas,title-based,R0835,0.889,9.18,Proposed Resource Management Plan Amendment for Oil and Gas Development in the White River
+Mine-Gas,title-based,R0316,0.278,7.19,Fishlake National Forest Oil and Gas Leasing Analysis Project
+Mine-Gas,title-based,R0730,0.222,4.68,Oil and Gas Leasing on Lands Administered by the Dixie National Forest Implementation Garf
+Mine-Gas,title-based,R0751,0.0,1.86,Pawnee National Grassland Oil and Gas Leasing Analysis
+Mine-Gas,title-based,R1061,0.278,5.08,Uinta National Forest Oil and Gas Leasing Implementation Identify National Forest Systems 
+Mine-Gas,title-based,R1139,0.056,5.43,White River National Forest Oil and Gas Leasing
+Mine-Gas,title-based,R0787,0.167,2.63,Previously Issued Oil and Gas Leases in the White River National Forest
+Mine-Gas,title-based,R0667,0.056,2.57,National Petroleum Reserve-Alaska (NPR-A) Integrated Activity Plan North Slope Borough AK
+Mine-Gas,title-based,R0095,0.444,6.27,Big South Fork National River and Recreation Area Obed Wild and Scenic River Non-Federal O
+Mine-Gas,title-based,N0028,0.556,6.68,Effects of Oil and Gas Activities in the Arctic Ocean
+Mine-Gas,title-based,R0867,0.389,5.85,Revision of 9B Regulations Governing Non-Federal Oil and Gas Activities
+Mine-Gas,title-based,R0668,0.0,2.72,National Wildlife Refuge System Revision of Regulations Governing Non-Federal Oil and Gas 
+Energy-Programmatic,primary-only,R0835,0.287,9.18,Proposed Resource Management Plan Amendment for Oil and Gas Development in the White River
+Energy-Programmatic,primary-only,R0316,0.337,7.19,Fishlake National Forest Oil and Gas Leasing Analysis Project
+Energy-Programmatic,primary-only,R0730,0.367,4.68,Oil and Gas Leasing on Lands Administered by the Dixie National Forest Implementation Garf
+Energy-Programmatic,primary-only,R0751,0.388,1.86,Pawnee National Grassland Oil and Gas Leasing Analysis
+Energy-Programmatic,primary-only,R1061,0.363,5.08,Uinta National Forest Oil and Gas Leasing Implementation Identify National Forest Systems 
+Energy-Programmatic,primary-only,R1139,0.36,5.43,White River National Forest Oil and Gas Leasing
+Energy-Programmatic,primary-only,R0787,0.384,2.63,Previously Issued Oil and Gas Leases in the White River National Forest
+Energy-Programmatic,primary-only,R0667,0.384,2.57,National Petroleum Reserve-Alaska (NPR-A) Integrated Activity Plan North Slope Borough AK
+Energy-Programmatic,primary-only,R0095,0.35,6.27,Big South Fork National River and Recreation Area Obed Wild and Scenic River Non-Federal O
+Energy-Programmatic,primary-only,N0028,0.345,6.68,Effects of Oil and Gas Activities in the Arctic Ocean
+Energy-Programmatic,primary-only,R0867,0.355,5.85,Revision of 9B Regulations Governing Non-Federal Oil and Gas Activities
+Energy-Programmatic,primary-only,R0668,0.383,2.72,National Wildlife Refuge System Revision of Regulations Governing Non-Federal Oil and Gas 
+Energy-Programmatic,primary-only,R0210,0.384,2.55,Cook Inlet Planning Area Oil and Gas Lease Sale 244
+Energy-Programmatic,primary-only,R0407,0.389,1.67,"Gulf of Mexico OCS Central Planning Area Lease Sales 241 and 247, and Eastern Planning Are"
+Energy-Programmatic,primary-only,R0408,0.386,2.21,Gulf of Mexico OCS Oil and Gas 2017-2022 Final Multisale EIS
+Energy-Programmatic,primary-only,R0409,0.391,1.32,Gulf of Mexico OCS Oil and Gas Lease Sale 248
+Energy-Programmatic,primary-only,R0410,0.386,2.28,Gulf of Mexico OCS Oil and Gas Lease Sales: 2014 and 2016; Eastern Planning Area Lease Sal
+Energy-Programmatic,primary-only,R0411,0.392,1.01,Gulf of Mexico OCS Oil and Gas Lease Sales: 2014-2016 Western Planning Area Lease Sales 23
+Energy-Programmatic,primary-only,R0412,0.391,1.28,Gulf of Mexico OCS Oil and Gas Lease Sales: 2015 and 2016; Western Planning Area Lease Sal
+Energy-Programmatic,primary-only,R0413,0.389,1.77,Gulf of Mexico Outer Continental Shelf (OCS) Oil and Gas Lease Sales: 2012-2017 Western Pl
+Energy-Programmatic,primary-only,R0414,0.389,1.64,Gulf of Mexico Outer Continental Shelf (OCS) Oil and Gas Lease Sales: 2013-2014 Western Pl
+Energy-Programmatic,primary-only,R0415,0.39,1.46,Gulf of Mexico Outer Continental Shelf (OCS) Oil and Gas Lease Sales: 2015-2017 Central Pl
+Energy-Programmatic,primary-only,R0416,0.39,1.52,Gulf of Mexico Outer Continental Shelf Oil and Gas Lease Sales: 2012 Central Planning Area
+Energy-Programmatic,primary-only,R0738,0.388,1.98,Outer Continental Shelf Oil and Gas Leasing Program: 2017-2022
+Energy-Programmatic,primary-only,R0739,0.391,1.36,"Outer Continental Shelf, Gulf of Mexico, Oil and Gas Lease Sale, Central Planning Area Lea"
+Energy-Programmatic,primary-only,R0824,0.39,1.55,PROGRAMMATIC - Outer Continental Shelf Oil and Gas Leasing Program - 2012-2017 in Six Plan
+Energy-Programmatic,primary-only,R0804,0.359,5.5,PROGRAMMATIC - Geological and Geophysical Activities in Federal Waters of the Mid- and Sou
+Energy-Programmatic,primary-only,N0039,0.371,4.24,Geological and Geophysical Activities on the Gulf of Mexico Outer Continental Shelf
+Energy-Programmatic,primary-only,R0240,0.363,5.1,Desert Renewable Energy Conservation Plan Land Use Plan Amendment
+Energy-Programmatic,primary-only,R0861,0.381,3.03,Restoration Design Energy Project Proposed Resource Management Plan Amendments Identifying
+Energy-Programmatic,primary-only,R1122,0.378,3.5,West Chocolate Mountains Renewable Energy Evaluation Area Proposed California Desert Conse
+Energy-Programmatic,primary-only,R0790,0.388,1.94,PROGRAMMATIC - Allocation of Oil Shale and Tar Sands Resources on Lands Administered Propo
+Energy-Programmatic,primary-only,R1013,0.389,1.74,Tennessee Valley Authority (TVA) Integrated Resource Plan (IRP) To Address the Demand for 
+Energy-Programmatic,primary-only,N0076,0.366,4.76,PROGRAMMATIC - Hawaii Clean Energy
+Energy-Programmatic,primary-only,R0827,0.37,4.38,Final Programmatic Environmental Impact Statement (PEIS) for Solar Energy Development in S
+Energy-Programmatic,primary-only,R1071,0.341,6.96,Upper Great Plains Wind Energy Project
+Energy-Programmatic,primary-only,R0828,0.382,2.88,PROGRAMMATIC - Uranium Leasing Program
+Energy-Programmatic,primary-only,N0075,0.387,2.13,PROGRAMMATIC - Engineered High Energy Crop (EHEC) Programs
+Energy-Programmatic,primary-only,R0796,0.39,1.55,PROGRAMMATIC - Biomass Crop Assistance Program
+Energy-Programmatic,primary-only,R0797,0.387,2.07,PROGRAMMATIC - Biomass Crop Assistance Program (BCAP) To Establish and Administer the Prog
+Waste,title-based,R0428,1.0,7.87,Hanford Site Tank Closure and Waste Management Project Richland Benton County WA
+Waste,title-based,R1129,0.857,7.11,West Valley Demonstration Project and Western New York Nuclear Service Center Decommission
+Waste,title-based,N0025,1.0,8.62,Disposal of Greater-than-Class-C (GTCC) Low-Level Radioactive Waste and GTCC-Like Waste
+Waste,title-based,R0852,0.857,4.58,Recapitalization of Infrastructure Supporting Naval Spent Nuclear Fuel Handling at the Ida
+Waste,title-based,R0201,0.143,1.99,Consideration of Environmental Impacts of Temporary Storage of Spent Fuel After Cessation 
+Waste,title-based,R0128,0.0,1.86,Bull Run Fossil Plant Landfill
+Waste,title-based,R0922,0.0,1.21,Shawnee Fossil Plant Coal Combustion Residual Management
+Waste,title-based,N0056,0.286,1.58,Long-Term Management and Storage of Elemental Mercury Storage Project Designate a Facility
+Waste,title-based,R0832,0.286,2.81,Proposed Demolition and Environmental Cleanup Activities at Santa Susana Field Laboratory
+Waste,title-based,R0793,0.571,0.94,PROGRAMMATIC - Ash Impoundment Closure
+Waste,title-based,N0007,0.286,2.19,Arecibo Waste-to-Energy and Resource Recovery Project
+Waste,title-based,R0935,0.571,5.44,Site-Wide EIS - Continued Operation of the Department of Energy/National Nuclear Security 
+Waste,title-based,R1156,1.0,5.64,Y-12 National Security Complex Project to Support the Stockpile Stewardship Program and to
+Waste,title-based,R0185,0.714,4.82,Clearwater Program Master Facilities Plan To Meet the Wastewater Management Needs of the J
+Waste,title-based,R0204,0.286,2.18,Construction Permit for the Northwest Medical Isotopes Radioisotope Production Facility
+Waste,title-based,R0205,0.143,2.67,"Construction Permit for the SHINE Medical Radioisotope Production Facility, Final Report, "
+BioRefinery,title-based,R0008,1.0,1.71,Abengoa Biorefinery Project To Support the Design Construction and Startup of a Commercial
+CarbonCapture,title-based,R0342,0.0,2.67,FutureGen 2.0 Project
+CarbonCapture,title-based,R1016,0.0,1.33,Texas Clean Energy Project Construction and Operation of a Coal-Based Electric Power Gener
+CarbonCapture,title-based,R0539,1.0,2.7,Lake Charles Carbon Capture and Sequestration Project
+CarbonCapture,title-based,R1111,1.0,1.48,W.A. Parish Post-Combustion CO2 Capture and Sequestration Project
+CarbonCapture,primary-only,R0539,1.0,2.7,Lake Charles Carbon Capture and Sequestration Project
+CarbonCapture,primary-only,R1111,1.0,1.48,W.A. Parish Post-Combustion CO2 Capture and Sequestration Project
+Mine-Other,title-based,R0704,0.667,5.83,"North Cumberland Wildlife Management Area, Tennessee Lands Unsuitable for Mining Petition"
+Mine-Other,title-based,R0990,0.667,6.5,Stream Protection Rule
+Mine-Other,title-based,R0187,0.0,2.28,Clinker Mining Addition Project Medicine Bow-Routt National Forests and Thunder Basin Nati
+Mine-Other,title-based,R0828,0.0,2.88,PROGRAMMATIC - Uranium Leasing Program
+Mine-Other,title-based,R0067,0.0,3.5,"AUC, LLC Reno Creek, In Situ Project, New Source Material License Application"
+Mine-Other,title-based,R0245,0.667,4.22,"Dewey-Burdock In-Situ Uranium Recovery (ISR) Project Proposal to Construct, Operate, Condu"
+Mine-Other,title-based,R0576,0.0,2.01,Lost Creek In-Situ Uranium Recovery (ISR) Project Proposal to Construct Operate Conduct Aq
+Mine-Other,title-based,R0644,0.0,1.13,Moore Ranch In-Situ Uranium Recovery (ISR) Project Proposal to Construct Operate Conduct A
+Mine-Other,title-based,R0694,0.333,1.98,Nichols Ranch In-Situ Uranium Recovery (ISR) Project Proposal to Construct Operate Conduct
+Mine-Other,title-based,R0988,0.333,4.89,"Strata Energy, Inc., Ross In Situ"
+Mine-Other,title-based,R0346,0.0,3.44,Gas Hills In-Situ Recovery Uranium Project
+Mine-Other,title-based,R0575,0.0,1.65,Lost Creek In Situ Recovery Project To Analyze the Site-Specific Impacts Associated with t
+Mine-Other,title-based,R0923,0.667,5.38,Sheep Mountain Uranium Project
+Mine-Other,title-based,R0261,0.667,2.43,Eagle Rock Enrichment Facility Construct Operate and Decommission Proposed Facility would 
+Mine-Other,title-based,R0350,0.0,3.47,GE-Hitachi Global Laser Enrichment Facility Issuance of License to Construct Operate and D
+Mine-Other,title-based,R0319,0.0,2.24,Fluorine Extraction Process and Depleted Uranium Deconversion Plant License Application to
+Mine-Other,title-based,R0716,0.0,2.37,Northern Arizona Withdrawal Project 20-Year Withdrawal of Approximately 1 Million Acres of
+Mine-Other,title-based,R0438,0.0,2.18,HB In-Situ Solution Mining Project Proposal to Extract the Potash Remaining in Inactive Un
+Mine-Other,title-based,R0723,0.0,2.27,Ochoa Mine Project
+Other-Energy,title-based,R0476,1.0,2.51,Implementation of Energy Water and Solid Waste Sustainability Initiatives at Fort Bliss
+Other-Energy,title-based,R0402,0.0,2.21,Groton Generation Station (GGS) Project Proposes to Modify its Interconnection Agreement B
+Other-Energy,title-based,R0233,0.0,1.43,Deer Creek Station Energy Facility Project 300-megawatt (MW) Natural Gas-Fired Generation 
+Other-Energy,title-based,R0526,0.0,1.91,Kemper County Integrated Gasification Combined-Cycle (IGCC) Project Construction and Opera
+Other-Energy,title-based,R0206,0.0,10.58,Continental Divide Creston Natural Gas Development Project
+Other-Energy,title-based,R0393,0.0,4.59,Greater Natural Buttes Area Gas Development Project Development of Additional Well Pads an
+Other-Energy,title-based,R0643,0.0,6.1,"Monument Butte Area Oil and Gas Development Project, Duchesne and Uintah County, UtahImpac"
+Other-Energy,title-based,R1060,0.0,6.34,Uinta Basin Natural Gas Development Project To Develop Oil and Natural Gas Resources withi
+Other-Energy,title-based,R1128,0.0,4.91,West Tavaputs Plateau Natural Gas Full Field Development Plan Develop the Natural Gas Reso
+Other-Energy,title-based,R0127,0.0,4.51,Bull Mountain Unit Master Development Plan
+Other-Energy,title-based,R0958,0.0,4.49,South Unit Oil and Gas Development Project Master Development Plan Implementation Duchesne
+Other-Energy,title-based,R0920,0.0,1.12,Shadura Natural Gas Development Project within Kenai National Wildlife Refuge
+Other-Energy,title-based,R0771,1.0,2.89,Point Thomson Project Authorization for the Placement of Fill Material into U.S. Waters Pe
+Other-Energy,title-based,R0910,0.0,2.05,Schofield Generating Station Project U.S. Army Garrison-Hawaii
+Other-Energy,title-based,R0451,0.0,5.95,Honolulu Seawater Air Conditioning Project
+Wind,explicit,R0023,0.777,1.86,Alta East Wind Project Plan Amendment
+Wind,explicit,R0174,0.62,4.25,Chokecherry and Sierra Madre Wind Energy Project Development of a Wind Farm Carbon County 
+Wind,explicit,R0633,0.686,2.93,Mohave County Wind Farm Project
+Wind,explicit,R0725,0.686,1.41,Ocotillo Express Wind Energy Project Proposing to Develop a 465-Megawatt Wind Energy Facil
+Wind,explicit,R0912,0.661,4.24,Searchlight Wind Energy Project NVN-084626 and NVN-086777 Application for Right-of-Way Gra
+Wind,explicit,R1121,0.678,1.48,West Butte Wind Power Project Construction and Operation of Access Roads and a Transmissio
+Wind,explicit,R0235,0.95,6.48,Deerfield Wind Project Updated Information Application for a Land Use Authorization to Con
+Wind,explicit,R0336,0.645,2.8,Fowler Ridge Wind Farm
+Wind,explicit,R0422,0.686,2.94,Habitat Conservation Plan and Incidental Take Permit for the Indiana Bat (Myotis sodalis) 
+Wind,explicit,R0499,0.702,3.38,Issuance of an Incidental Take Permit For the Beech Ridge Energy Wind Project Habitat Cons
+Wind,explicit,R0390,0.653,3.14,Grapevine Canyon Wind Project Proposal to Develop a Wind Energy Generating Facility up to 
+Wind,explicit,R0480,0.76,3.03,Interconnection of the Grande Prairie Wind Farm
+Wind,explicit,R0949,0.678,1.48,South Dakota PrairieWinds Project Proposes to Construct Own Operate and Maintain a 151.5 m
+Wind,explicit,R1138,0.893,6.18,Whistling Ridge Energy Project
+Wind,explicit,R0262,0.653,3.14,Eagle Take Permits for the Chokecherry and Sierra Madre Phase I Wind Energy Project
+Wind,explicit,R0267,0.702,2.65,East County Substation/Tule Wind/Energia Sierra Juarez Gen-Tie Projects Construction and O
+Wind,explicit,R0712,0.612,2.42,North Steens 230-kV Transmission Line Project Construction and Operation of a Transmission
+Wind,explicit,R1071,0.959,6.96,Upper Great Plains Wind Energy Project
+Transmission,explicit,R0014,0.279,1.59,Albany-Eugene 115 kilovolt No. 1 Transmission Line Rebuild Project
+Transmission,explicit,R0047,0.988,2.89,Antelope Valley Station to Neset Transmission Project
+Transmission,explicit,R0052,0.952,2.7,Appalachian National Scenic Trail Delaware Water Gap National Recreation Area Middle Delaw
+Transmission,explicit,R0054,0.972,2.77,APS Sun Valley to Morgan 500/230kV Transmission Line Project Resource Management Plan Amen
+Transmission,explicit,R0075,1.0,4.47,Barren Ridge Renewable Transmission Project Construct Operate Maintain and Upgrade 220kV E
+Transmission,explicit,R0085,0.824,2.35,Bemidji - Grand Rapid 230 kV Transmission Line Project Propose to Construct and Operate Be
+Transmission,explicit,R0091,0.803,2.29,Big Eddy-Knight Transmission Project
+Transmission,explicit,R0111,1.0,9.19,Boardman to Hemingway Transmission Line Project
+Transmission,explicit,R0139,0.997,3.29,California Pacific Electricity Company 625 and 650 Electrical Line Upgrade Project
+Transmission,explicit,R0158,0.39,1.76,Central Ferry-Lower Monumental 500-kilovolt Transmission Line Project
+Transmission,explicit,R0162,0.855,2.42,Champlain Hudson Power Express Transmission Line Project
+Transmission,explicit,R0176,0.169,1.46,City of Tallahassee Southwestern Transmission Line Project Proposes to Construct Operate a
+Transmission,explicit,R0285,1.0,3.48,Energia Sierra Juarez U.S. Transmission Line Project
+Transmission,explicit,R0286,1.0,6.17,Energy Gateway South Powerline (EGS)
+Transmission,explicit,R0287,1.0,5.71,Energy Gateway South Transmission Project
+Transmission,explicit,R0349,1.0,5.5,Gateway West Transmission Line Project Wyoming and Idaho
+Transmission,explicit,R0383,1.0,6.15,Granby Pumping Plant Windy Gap Substation Transmission Line Rebuild
+Transmission,explicit,R0392,0.853,2.41,Great Northern Transmission Line Project
+Transmission,explicit,R0426,1.0,3.63,Hampton - Rochester - La Crosse Transmission System Improvement Project Construction and O
+Transmission,explicit,R0452,1.0,4.69,Hooper Springs Transmission Project
+Transmission,explicit,R0503,0.981,2.81,Jack Rabbit to Big Sky Meadow Village 161 kV Transmission Line Upgrade
+Transmission,explicit,R0520,0.822,2.35,Kake to Petersburg Transmission Line Intertie Project
+Transmission,explicit,R0531,0.995,3.15,Kirkwood Meadows Power Line Reliability Project Proposal to Construct and Operate 34.5 kil
+Transmission,explicit,R0606,0.881,2.47,Master Special Use Permit and Permit to Construct Power Line Replacement Projects
+Transmission,explicit,R0634,0.997,3.31,Mona to Oquirrh Transmission Corridor Project and Draft Pony Express Resource Management P
+Transmission,explicit,R0717,1.0,4.2,Northern Pass Transmission Line Project
+Transmission,explicit,R0731,1.0,4.16,ON Line Project (previously known as Ely Energy Center)
+Transmission,explicit,R0768,0.997,3.28,Plains and Eastern Clean Line Transmission Line Project
+Transmission,explicit,R0905,0.879,2.46,San Luis Transmission Project
+Transmission,explicit,R0932,0.988,2.92,Sigurd to Red Butte No. 2 345kV Transmission Project Issuance of Right-of -Way Grant by BL
+Transmission,explicit,R0963,0.441,1.81,Southern California Edison's Eldorado-Ivanpah Transmission Line Project Construction and O
+Transmission,explicit,R0966,1.0,4.09,Southline Transmission Project
+Transmission,explicit,R0998,1.0,5.66,SunZia Southwest Transmission Project Proposed Resource Management Plan Amendments
+Transmission,explicit,R1008,1.0,3.73,Teckla-Osage-Rapid City 230 kV Transmission Line Project
+Transmission,explicit,R1009,0.993,3.08,Tehachapi Renewable Transmission Project New Information on Changed Conditions Caused by t
+Transmission,explicit,R1040,1.0,6.41,Transwest Express Powerline (TWE)
+Transmission,explicit,R1041,1.0,5.95,TransWest Express Transmission Project
+Transmission,explicit,R1046,0.995,3.13,"Tropic to Hatch 138kV Transmission Line Project, Grand Staircase-Escalante National Monume"
+Transmission,explicit,R1101,1.0,7.04,Vantage to Pomona Heights 230kV Transmission Line Project
+Transmission,explicit,R1125,0.902,2.52,West of Devers Upgrade Proect
+Transmission,explicit,N0046,1.0,6.34,I-5 Corridor Reinforcement Project
+Transmission,explicit,R0267,0.938,2.65,East County Substation/Tule Wind/Energia Sierra Juarez Gen-Tie Projects Construction and O
+Transmission,explicit,R0712,0.855,2.42,North Steens 230-kV Transmission Line Project Construction and Operation of a Transmission
+Transmission,explicit,R0423,0.817,2.33,Habitat Conservation Plan for Oncor Electric Delivery Facilities Application for Incidenta
+Transmission,explicit,R0601,0.484,1.86,Marine Corps Base Camp Pendleton Basewide Utilities Infrastructure Construct and Operate S
+Transmission,explicit,R0402,0.774,2.21,Groton Generation Station (GGS) Project Proposes to Modify its Interconnection Agreement B
+Transmission,explicit,R0480,0.993,3.03,Interconnection of the Grande Prairie Wind Farm
+Transmission,explicit,R1121,0.184,1.48,West Butte Wind Power Project Construction and Operation of Access Roads and a Transmissio
