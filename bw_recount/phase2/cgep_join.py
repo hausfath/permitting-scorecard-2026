@@ -1,5 +1,5 @@
 """Join CGEP real-project replays (Columbia CGEP, 'Project timeline savings under BAAJA', Oct 21 2026, used with permission;
-decoded page copy; per-project months saved republished with the author'''s permission) to our 2010-24 universe on ceq_title.
+decoded page copy; per-project months saved republished with the author's permission) to our 2010-24 universe on ceq_title.
 Usage: python3.13 -I phase2/cgep_join.py <real_project_replays.csv>
 Writes phase2/cgep_join.csv (minimal: ceq_id, cgep project, technology, months_saved_total, months_saved_low)."""
 import sys, re, difflib, pandas as pd
