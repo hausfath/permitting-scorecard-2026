@@ -20,7 +20,7 @@ By Zeke Hausfather, [The Climate Brink](https://www.theclimatebrink.com/).
 
 ## How it's built
 
-All provision text, ratings and context numbers live in one place, the `GROUPS` list in `infographic.py`. The numbers shown as anchors (the wind and solar emissions range, CO₂ per Bcf/d of pipeline capacity, and the cited C2ES result) are computed or stored in `anchors()` rather than typed in by hand.
+All provision text, ratings and context numbers live in one place, the `GROUPS` list in `infographic.py`. The numbers shown as anchors (the offshore wind emissions range, CO₂ per Bcf/d of pipeline capacity, and the cited C2ES result) are computed or stored in `anchors()` rather than typed in by hand.
 
 ```bash
 pip install matplotlib        # Arial is used if installed; DejaVu Sans supplies the arrow glyphs

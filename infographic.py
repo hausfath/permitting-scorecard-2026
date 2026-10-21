@@ -36,6 +36,7 @@ EM_COL = {"down": LEAN["clean"][0], "up": LEAN["fossil"][0], "depends": LEAN["bo
 SCALE = {3: "large", 2: "moderate", 1: "small", 0: "unknown"}
 
 MER = (0.35, 0.50)   # ASSUMED marginal emission rate displaced, tCO2/MWh
+OW_CF = (0.40, 0.45)  # ASSUMED offshore wind capacity factor
 
 
 def anchors():
@@ -51,7 +52,7 @@ def anchors():
     ow = {"CVOW": 2.6, "Sunrise": 0.924, "Vineyard 1": 0.806,
           "Revolution": 0.704, "Empire 1": 0.81}
     ow_gw = sum(ow.values())
-    ow_twh = [ow_gw * c * 8.76 for c in (0.40, 0.45)]   # ASSUMED CF
+    ow_twh = [ow_gw * c * 8.76 for c in OW_CF]
     ow_mt = (ow_twh[0] * MER[0], ow_twh[1] * MER[1])
     # Gas pipeline: 1 Bcf/d fully utilized, EIA 53.06 kg CO2/MMBtu, 1.036 MMBtu/Mcf
     mt_per_bcfd = 1e6 * 53.06 * 1.036 * 365 / 1e9
@@ -73,7 +74,8 @@ def anchors():
 
 A = anchors()
 CO2 = "CO$_2$"
-LO, HI = A["ws_mt"]
+LO, HI = A["ws_mt"]      # 57 GW at-stake range: METHODS and page notes only
+OLO, OHI = A["ow_mt"]    # shown on graphic
 
 GROUPS = [
     ("Mostly helps clean energy", [
@@ -106,8 +108,8 @@ GROUPS = [
         dict(name="Permit certainty and deadlines", sec="§§1401, 1402(c), 1403",
              what="Protects issued permits; forces decisions on stalled non-NEPA permits",
              lean="both", dir="down", dlab="Lowers, for now", scale=2,
-             anchor=f"{A['ws_gw']:.0f} GW of wind, solar and hybrid canceled or delayed by "
-                    f"federal actions (plaintiffs’ est.): {LO:.0f}–{HI:.0f} Mt{CO2}/yr if built"),
+             anchor=f"Shields issued permits like the {A['ow_gw']:.1f} GW of paused offshore wind "
+                    f"({OLO:.0f}–{OHI:.0f} Mt{CO2}/yr); deadlines force decisions, not approvals"),
         dict(name="Damages for permit discrimination", sec="§1402",
              what="Large damages if agencies intentionally delay or deny a project type",
              lean="both", dir="depends", dlab="Either way", scale=0, anchor=None),
@@ -258,15 +260,15 @@ def render(show_box, out):
         "(§§1302–1305), which cut both ways.",
         "‘Helps’ reflects who faces federal obstacles and most NEPA reviews today; "
         "neutral provisions can protect either side later.",
-        "No one has modeled the full bill; other numbers are context anchors. Wind/solar "
-        f"anchor assumes 25–35% capacity factor, {MER[0]:.2f}–{MER[1]:.2f} t{CO2}/MWh displaced.",
+        "No one has modeled the full bill; other numbers are context anchors. Offshore wind "
+        f"anchor: {OW_CF[0]*100:.0f}–{OW_CF[1]*100:.0f}% capacity factor, {MER[0]:.2f}–{MER[1]:.2f} t{CO2}/MWh displaced.",
         "NEPA: federal environmental-review law · EIS: its most detailed review · "
         "FERC: federal grid regulator · Bcf/d: billion cubic feet/day",
     ]
     ax.text(L, 1.72, "\n".join(foot), fontsize=11.5, color=INK3, va="top",
             linespacing=1.5)
     ax.text(L, 0.62, "Sources: bill text; C2ES/Greenline (2026); Bennon & Wilson (2023); RFF (2024); LBNL (2026); "
-            "CRA via Renew Northeast v. DOI; EIA; NRDC; Biber (2026).",
+            "Harvard EELP; EIA; NRDC; Biber (2026).",
             fontsize=11.5, color=INK3, va="top")
     ax.text(R, 0.3, "Zeke Hausfather · The Climate Brink", fontsize=12.5,
             color=INK3, va="top", ha="right")

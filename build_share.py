@@ -28,8 +28,8 @@ ANCHOR_SOURCE = {
     "Interconnection queues": ("LBNL, Queued Up 2026 edition; author calculation",
                                "https://emp.lbl.gov/publications/queued-2026-edition-characteristics"),
     "Permit certainty and deadlines": (
-        "Charles River Associates estimate cited in Renew Northeast v. DOI (via Utility Dive); author calculation",
-        "https://www.utilitydive.com/news/court-trump-wind-solar-permitting/818152/"),
+        "Five offshore wind projects paused Dec. 22, 2025 (Harvard EELP tracker; nameplate from news coverage); author calculation",
+        "https://eelp.law.harvard.edu/tracker/federal-offshore-wind-deployment"),
     "Gas pipeline expansion": ("EIA emission factors; author calculation",
                                "https://www.eia.gov/environment/emissions/co2_vol_mass.php"),
     "Onshore oil and gas drilling": (
@@ -46,7 +46,11 @@ NOTES = [
     "The manager's amendment may change it.",
     "'Helps' reflects who faces federal obstacles and most NEPA reviews today; neutral provisions can "
     "protect either side under future administrations.",
-    "Wind/solar anchor assumes a 25-35% capacity factor and 0.35-0.50 tCO2/MWh displaced.",
+    "Offshore wind anchor assumes a 40-45% capacity factor and 0.35-0.50 tCO2/MWh displaced. For scale, "
+    f"plaintiffs' consultants (Charles River Associates) put {ig.A['ws_gw']:.0f} GW of wind, solar and hybrid capacity "
+    f"as canceled or delayed by federal actions, {ig.LO:.0f}-{ig.HI:.0f} MtCO2/yr if built (25-35% capacity factor). "
+    "Most of it awaits approvals, which the bill's deadlines force decisions on but do not guarantee, so that "
+    "range is what is at stake, not the bill's effect.",
     "Also in the bill: faster Endangered Species Act consultations and limits on challenges "
     "(secs. 1302-1305), which cut both ways.",
     "Not in this bill (unlike the 2024 Manchin-Barrasso bill): mandatory oil and gas lease sales, coal "
@@ -63,6 +67,8 @@ SOURCES = [
     ("LBNL, Queued Up: 2026 edition (interconnection queues)", "https://emp.lbl.gov/publications/queued-2026-edition-characteristics"),
     ("Resources for the Future, federal leasing and global emissions (2024)",
      "https://www.rff.org/publications/issue-briefs/federal-permitting-reform-expand-oil-and-gas-leasing-carbon-emissions/"),
+    ("Harvard EELP, federal offshore wind deployment tracker",
+     "https://eelp.law.harvard.edu/tracker/federal-offshore-wind-deployment"),
     ("Utility Dive on Renew Northeast v. DOI (Apr. 2026)",
      "https://www.utilitydive.com/news/court-trump-wind-solar-permitting/818152/"),
     ("NRDC, Assessment of BAAJA (Oct. 19, 2026)",
