@@ -115,3 +115,36 @@ Zeke chose the **full CEQ universe as the primary set, with B&W as a check**.
 **Output format**
 - The subagent harness blocks .md files.
 - Write `summary_draft.txt` and `methods_draft.txt`; they will be converted to SUMMARY.md and METHODS.md.
+
+## Phase 2 (2026-10-21): extend to 2019–2024 and combine with Columbia CGEP timelines
+
+Zeke approved both steps. Outputs go in `bw_recount/phase2/`.
+
+**A. Extension**
+- **Source:** CEQ EIS Timelines 2010–2024 workbook (Jan 13 2025), 1,903 FEISs in sheet "All FEISs". Local copy: scratchpad `ceq2025/ceq2024.xlsx`, from `https://nepa.gov/sites/default/files/documents/CEQ_EIS_Timeline_Data_2024_1_13_2025.xlsx`.
+- **Reconcile with the 2018 workbook first:**
+  - Show that the 2010–mid-2018 energy universe (237 EISs) is recovered from the 2024 workbook.
+  - List any projects added, dropped or re-dated.
+  - The 2024 workbook includes FEISs without a ROD.
+- **Classify and size** every new energy EIS (FEIS after the 2018 workbook's coverage, through 2024). Use the same subsector scheme, sizing rules, factors (`factors.py`), confidence flags and imputation rules.
+  - Offshore wind COP EISs: MW, capacity factor 0.40–0.45 (scorecard OW_CF), MER as before.
+  - Watch for nuclear licence renewals and subsequent renewals. These are continuations, like hydro relicensing: zero by default, and credited only under the "credit existing" sensitivity.
+- **Optional, if time permits:** 2025–Oct 2026 FEISs from EPA e-NEPA (`cdxapps.epa.gov/cdx-enepa-II`; 500-record cap per query, so query by date range). Report separately if done.
+- **Report by era:** 2010–16, 2017–20, 2021–24 (and 2025–26 if done), plus 2010–18 (unchanged) and 2010–24 pooled. Use the same 2x2x2 cells and Monte Carlo, with shared factors drawn once per draw.
+
+**B. Combined timing estimate (Mt-years accelerated)**
+- **Source:** CGEP real-project replays. Decoded copy: scratchpad `cgep/emb/real_project_replays.csv`, 144 projects in six technologies. Join on `ceq_title` to our projects.
+- **Estimate:** months_saved_total / 12 × each project's emissions (Mt/yr, every cell) = Mt-years brought forward. Clean projects bring displacement forward (avoided cumulative CO₂); fossil projects bring emissions forward. Note that for depletable fossil resources this is largely timing, not necessarily added cumulative extraction.
+- **Coverage:** CGEP covers pipelines (the only fossil type), transmission, solar, wind, offshore wind and geothermal. Report the share of exposure emissions on each side that CGEP covers.
+- **Uncovered types** (LNG, coal leases, oil and gas leasing and fields, nuclear, hydro, clean programmatics): bracket with 0 months, CGEP's pipeline median, and the max over CGEP types.
+- **Sensitivities:**
+  - `months_saved_low` in place of `months_saved_total`.
+  - Litigated-case uplift: expected months = replay months + B&W litigation rate × (CGEP archetype "delays and challenges" total − "deadlines met" total) for that type. The archetype totals are in CGEP's `number_ledger` (wf.<type>.smooth.total / contested.total) in scratchpad `cgep/emb/baaja_timelines_all_data.csv`.
+- **Headline:** clean vs fossil Mt-years, ratio, MC interval, P(fossil > clean), for covered types only and with uncovered brackets.
+
+**Rules**
+- Same rules as before: python3.13 (`-I` for raw data), source URL and confidence for every value, imputation flagged.
+- Write `.txt` drafts (`summary2_draft.txt`, `methods2_draft.txt`), since the harness blocks `.md`.
+- Do not modify existing published results files. New outputs go in `phase2/`.
+- CGEP data licence is unknown. Keep raw CGEP tables in the scratchpad. In `phase2/`, store only a minimal join table (our ceq_id, CGEP project name, technology, months_saved_total, months_saved_low) with attribution.
+- Delete raw downloads when done, and stop any helper agents before finishing.
