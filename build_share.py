@@ -19,6 +19,9 @@ SCALE_MEANING = {3: "large (>100 MtCO2/yr)", 2: "moderate (10-100 MtCO2/yr)",
 ANCHOR_SOURCE = {
     "Transmission": ("C2ES & Greenline Insights (2026), GenX model of queue reform plus interregional transmission",
                      "https://www.greenlineinsights.com/interconnection-and-transmission-reform"),
+    "Renewables and geothermal": (
+        "Columbia CGEP, permitting-timeline tool, real-project replays (Oct. 21, 2026)",
+        "https://www.energypolicy.columbia.edu/how-the-senate-permitting-reform-bill-could-impact-energy-project-timelines/"),
     "Limits on future regulation": (
         "NRDC assessment (Oct. 19, 2026); see also Biber, Legal Planet (Oct. 16, 2026)",
         "https://www.nrdc.org/media/nrdc-assessment-baaja-2026-permitting-transmission-bill"),
@@ -70,6 +73,8 @@ SOURCES = [
      "https://www.elr.info/sites/default/files/files-general/53.10836.pdf"),
     ("CEQ, Environmental Impact Statement Timelines database (2010-2017 and 2010-2024 editions)",
      "https://ceq.doe.gov/nepa-practice/eis-timelines.html"),
+    ("Columbia CGEP, How the Senate permitting reform bill could impact energy project timelines (Oct. 21, 2026)",
+     "https://www.energypolicy.columbia.edu/how-the-senate-permitting-reform-bill-could-impact-energy-project-timelines/"),
     ("Author's preliminary emissions-weighted recount of energy EISs (code and data)",
      "https://github.com/hausfath/permitting-scorecard-2026/tree/main/bw_recount"),
     ("LBNL, Queued Up: 2026 edition (interconnection queues)", "https://emp.lbl.gov/publications/queued-2026-edition-characteristics"),

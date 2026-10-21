@@ -65,7 +65,11 @@ def anchors():
     # C2ES / Greenline Insights (memo 9/29/26): GenX, queue reform + interregional
     # transmission vs BAU (no new interregional lines), PJM+MISO+SPP+non-CAISO West, 2035.
     c2es = {"mt": 71, "pct": 9, "year": 2035, "demand_share": 0.54}
-    return {"c2es": c2es, "q_total": q_total, "q_clean_share": q_clean_share, "q_gas_share": q_gas_share,
+    # Columbia CGEP timeline tool (Oct 21 2026), real-project replays: median months sooner
+    # to the federal decision under the bill's caps (25 solar EISs, 10 wind EISs, 2010-2024).
+    # Recomputed from their real_project_replays table: matches (0.7, 1.3).
+    cgep = {"solar": 0.7, "wind": 1.3, "n_solar": 25, "n_wind": 10}
+    return {"c2es": c2es, "cgep": cgep, "q_total": q_total, "q_clean_share": q_clean_share, "q_gas_share": q_gas_share,
             "q_months": q_median_months, "ws_gw": ws_gw, "ws_mt": ws_mt, "ow_gw": ow_gw, "ow_mt": ow_mt,
             "pipe_mt": mt_per_bcfd}
 
@@ -91,7 +95,9 @@ GROUPS = [
                     f"solar, wind and storage; median wait {A['q_months']} months (LBNL)"),
         dict(name="Renewables and geothermal", sec="§§2213–2214, 2221–2228",
              what="Faster decisions on public land; annual geothermal lease sales",
-             lean="clean", dir="down", dlab="Lowers", scale=1, anchor=None),
+             lean="clean", dir="down", dlab="Lowers", scale=1,
+             anchor=f"Replayed under the bill, past solar and wind EISs finish a median "
+                    f"{A['cgep']['solar']}–{A['cgep']['wind']} months sooner (Columbia CGEP)"),
         dict(name="Historic-preservation reviews", sec="§2301",
              what="Visual impacts on historic sites mostly no longer count as ‘adverse’",
              lean="clean", dir="down", dlab="Lowers", scale=1, anchor=None),
@@ -267,8 +273,8 @@ def render(show_box, out):
     ]
     ax.text(L, 1.72, "\n".join(foot), fontsize=11.5, color=INK3, va="top",
             linespacing=1.5)
-    ax.text(L, 0.62, "Sources: bill text; C2ES/Greenline (2026); Bennon & Wilson (2023); CEQ; RFF (2024); LBNL (2026); "
-            "Harvard EELP; EIA; NRDC; Biber (2026).",
+    ax.text(L, 0.62, "Sources: bill text; C2ES/Greenline; Bennon & Wilson (2023); CEQ; Columbia CGEP; RFF (2024); LBNL; "
+            "Harvard EELP; EIA; NRDC; Biber.",
             fontsize=11.5, color=INK3, va="top")
     ax.text(R, 0.3, "Zeke Hausfather · The Climate Brink", fontsize=12.5,
             color=INK3, va="top", ha="right")
