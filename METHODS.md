@@ -12,11 +12,11 @@ Every provision description was checked against the bill text. An independent ad
   - small: well under 10 MtCO₂/yr;
   - moderate: roughly 10–100 MtCO₂/yr;
   - large: potentially >100 MtCO₂/yr.
-- **Test applied to each provision**: is federal permitting the binding constraint on deployment of the affected resource? These are ordinal judgments, not model output. The bill has not been modeled by anyone as of 2026-09-30.
+- **Test applied to each provision**: is federal permitting the binding constraint on deployment of the affected resource? These are ordinal judgments, not model output. As of 2026-10-21 no one has modeled the full bill. The one published model run (C2ES/Greenline, GenX) covers only interconnection queue reform and interregional transmission in four regions; see "Published analyses to date" below.
 
 | Provision | Lean | Scale | Rationale |
 |---|---|---|---|
-| Transmission (§§2101–2105, 2109) | Clean | Large | Transmission is the binding constraint (REPEAT 2022). The 'large' rating is generous after OBBBA cut the credits behind REPEAT's IRA-era numbers. Caveats: ERCOT is excluded. Backstop permits and plan-selected lines must "provide improved reliability" (new FPA 216(b)(4), §225(d)(3)), though the definition in §225(a)(4) is broad. The interregional mandate is procedural. FERC implementation risk. OBBBA reduces the marginal clean deployment unlocked. |
+| Transmission (§§2101–2105, 2109) | Clean | Large | Transmission is the binding constraint (REPEAT 2022). The 'large' rating is generous after OBBBA cut the credits behind REPEAT's IRA-era numbers. Caveats: ERCOT is excluded. Backstop permits and plan-selected lines must "provide improved reliability" (new FPA 216(b)(4), §225(d)(3)), though the definition in §225(a)(4) is broad. The interregional mandate is procedural. FERC implementation risk. OBBBA reduces the marginal clean deployment unlocked. C2ES/Greenline's GenX run (queue reform + interregional transmission combined, four regions with ~54% of US demand) gives −71 MtCO₂ (−9% of power-sector CO₂) in 2035. Its BAU allows no new interregional lines, so this is closer to an upper bound for 2035. Naive scaling to the bill's footprint (ERCOT excluded) gives roughly 100–130 Mt for both levers together, which puts 'large' for transmission alone at the edge of plausible for 2035. The rating is kept because the bins cover 2030–2040, new lines take 5–10 years to build, and the run omits the FERC backstop and grid-enhancing technologies. The bins were deliberately left unchanged (<10 / 10–100 / >100) rather than lowered to fit the rating. |
 | NEPA deadlines/litigation (§§1106, 1110, 2201) | Both (lowers, on net) | Moderate | The provisions are facially neutral, but clean energy dominates the EIS pipeline. Bennon & Wilson (2023, ELR Table 1) cover 171 energy EIS projects from 2010–18. Of these, 97 are clean (solar 22, wind 13, transmission 42, hydro 14, geothermal 3, nuclear 2, pumped storage 1), 40 are fossil (pipeline 18, liquefaction 7, regasification 1, gas plant 2, coal plant 2, coal mine 4, gas mine 6), and 34 are other (programmatic 15, waste 8, bio 3, CCS 2, other mine 4, other energy 2). Clean is 57% of all energy EISs and fossil 23%, a ratio of 2.4:1. Among litigated projects, clean is 34 of about 58 (~59%) and fossil 17 (~29%), about 2:1. Per-project litigation rates are clean 35% and fossil 42%. An earlier version of the graphic reported ~70% and 2/3; those shares used the clean+fossil subset only and were corrected. IFP (2024) reports 62% clean vs 16% fossil among energy EISs. Counterpoints behind the BOTH label: (1) §2201's 150-day limit covers oil and gas lease sales (§2201(a)(1)(B)(i)); (2) §1110's no-vacatur remedy covers EA-level reviews, where BLM oil and gas work sits (5 EISs vs 381 EAs vs 77 CEs), and B&W's EIS-only sample can't see this tier; (3) vacatur stopped several fossil projects (Lease Sale 257, Willow, the Dakota Access easement, Sabal Trail). The author's colleagues argued for the lowers-emissions lean, citing land intensity, visibility to opposition, location of shale on private land, and renewables' greater potential for growth. |
 | Offshore wind (§§2251–2252) | Clean | Small | Looser OCSLA 8(p)(4)(I) standard, preferred cable routes, and DOI as lead agency. Economics, not permits, are the main constraint after the IRA. |
 | NHPA (§2301) | Clean | Small | Procedural; saves time and mitigation cost; §110(f) landmarks untouched. |
@@ -26,6 +26,7 @@ Every provision description was checked against the bill text. An independent ad
 | Disparate-treatment damages (§1402) | Both | Unknown | Deters future pauses (e.g., LNG); the magnitude depends on future administrations. |
 | Pipeline expansion (§§2102(b), 1202, 1204) | Fossil | Moderate | Pipeline capacity is binding in the Northeast. Gross anchor: 20 MtCO₂/yr per Bcf/d. The net effect depends on displacement and methane. The 401 and 404 changes also help power lines. |
 | Onshore oil and gas (§§2211, 2229) | Fossil | Small | Production is limited by prices and geology (Columbia CGEP on EPRA 2024). Substitution: RFF (Prest, Sept 2024) estimates a 57% leakage rate for added federal oil. Its expanded-leasing scenario (not in this bill) gives +1.2 GtCO₂e globally over 2024–2050 (range 0.6–2.1), of which ~0.2 Gt is within the US. The anchor text was revised on the recommendation of the author's colleagues. |
+| Limits on future regulation (§1401) | Fossil (could raise) | Unknown | Added 2026-10-21. §1401 bars agency actions that would impede a permitted project's "operation at full capacity" and requires clear and convincing evidence for its exceptions. Biber ([Legal Planet, Oct 16 2026](https://legal-planet.org/2026/10/16/a-major-problem-with-permit-certainty/)) argues the undefined terms could raise the enforcement standard across much of federal regulatory law, calling it a possible "stealth repeal". He thinks this is unintended and fixable. NRDC ([Oct 19 2026](https://www.nrdc.org/media/nrdc-assessment-baaja-2026-permitting-transmission-bill)) says state permits implementing future EPA power-plant carbon standards "could face legal challenges". The lean is Fossil because the facilities that future pollution rules would target are mostly fossil, although the same wording also shields clean projects' operating permits. The size is unknown because the legal reach is disputed and the manager's amendment may narrow it. The only quantitative handle is CEEA's use of EIA's AEO 2026 EPA-rollback case (+595 Mt in 2040), which would apply only if re-regulation were fully blocked. That is an upper bound, not an estimate. This row is the long-run counterpart to the 'Permit certainty' row, which rates the same section's near-term protection of wind and solar. |
 | ~~NEPA scope (§1101)~~ | Removed | n/a | Removed from the graphic. The bill limits NEPA to effects "on the human environment of the United States". But *Seven County* (2025) already held that agencies need not analyze effects of separate upstream/downstream projects and gave them substantial deference on scope, and the 2023 Fiscal Responsibility Act amendments already excluded actions with effects entirely outside the US. The marginal change from this bill is therefore small. |
 
 ## Anchors (computed in `infographic.py::anchors()`)
@@ -38,7 +39,14 @@ Every provision description was checked against the bill text. An independent ad
   - Displacement rate **ASSUMED** at 0.35–0.50 tCO₂/MWh, bracketing older AVERT regional rates (Northeast 0.46, Mid-Atlantic 0.73; Synapse compilation). The result is 7.2–11.5 MtCO₂/yr.
   - Sensitivity: using the Mid-Atlantic 0.73 rate for CVOW's 2.6 GW would raise the upper end. Cambium LRMERs would be the better update.
 - **Pipeline.** Uses EIA's 53.06 kg CO₂/MMBtu and 1.036 MMBtu/Mcf, giving 54.97 kg/Mcf. At 1 Bcf/d that is 20.1 MtCO₂/yr of gross combustion emissions. It excludes upstream methane and ignores displacement.
-- **REPEAT (2022)**: ">80% of the potential emissions reductions delivered by IRA in 2030 are lost if transmission expansion is constrained to 1%/year" (~800 Mt/yr); https://zenodo.org/records/7106176.
+- **C2ES/Greenline (transmission anchor, shown on graphic).** The values are stored in `anchors()['c2es']` and come from the [summary PDF](https://static1.squarespace.com/static/65bfcbe2a8a54819d4edc27c/t/6abceed4da896235daa4db4b/1790766804200/C2ES+-+GLI+Transmission+Grid+Reform+Impact+Summary+9.29.26.pdf) dated 9/29/26, the day before bill text was released.
+  - Model and inputs: GenX over 8,760 hours; NREL ATB 2025; AEO 2026 fuel prices.
+  - Regions: PJM, MISO, SPP and the non-CAISO West.
+  - Queue reform is represented as higher wind, solar and storage build limits, from improved queue completion rates modeled on SPP's Consolidated Planning Process.
+  - Transmission is represented by expansion of three interregional interfaces up to the limits in DOE's National Transmission Planning Study.
+  - The result (−71 Mt, −9%, 2035) is power-sector CO₂ against BAU. It does not cover NEPA, §§1401–1403, CWA or the oil and gas provisions.
+  - Sensitivity cases are "available on request" and were not reviewed.
+- **REPEAT (2022)** (formerly the transmission anchor; replaced 2026-10-21): ">80% of the potential emissions reductions delivered by IRA in 2030 are lost if transmission expansion is constrained to 1%/year" (~800 Mt/yr); https://zenodo.org/records/7106176.
 
 ## Legal-reading corrections incorporated
 - §2229: the 5→10-year change applies only to EPAct §390(b)(4), pipeline placement in an approved corridor. It does not change the developed-field windows.
@@ -47,7 +55,17 @@ Every provision description was checked against the bill text. An independent ad
 - LNG: there is no NGA §3 deadline. But new NEPA §3(18)(B)(xiii) combined with §1402(c)'s 1-year clock could create an indirect deadline for DOE export decisions.
 - §1401 exception (B) and the presidential-permit gap were added to the caveats.
 
+## Published analyses to date (scan of 2026-10-21)
+- **Full bill:** no integrated model, CBO score or CRS product.
+- **C2ES/Greenline:** published model, partial coverage (see Anchors).
+- **Rhodium:** unpublished run of transmission plus interregional gas pipelines, −144 to +32 MtCO₂e in 2040. Known only via CEEA's spreadsheet and not verified with Rhodium.
+- **NRDC:** own modeling, "initial results show modest power sector benefits". No numbers released; oil and gas not quantified.
+- **Not modeling:**
+  - ACP's "290 Mt/yr avoided" is project lists times an emission rate, with no baseline.
+  - CEEA's nine-scenario compilation sets side by side non-bill scenarios, several of them buildout upper bounds.
+  - ICF for API (May 2026) models generic pipeline-heavy permitting reform before the bill. It finds −2.4% (apparently power-sector) CO₂ from coal displacement, with methane not counted.
+
 ## Known limitations
-- No integrated energy-system modeling. The scale bins are subjective.
+- No integrated energy-system modeling by the author. The scale bins are subjective. The only bill-relevant model (C2ES) covers two levers in four regions for one year.
 - The 2024 EPRA estimates (Third Way et al.) are not transferable to this text.
 - The effect of Sept 16, 2026 as the §1401 cutoff date is not understood; I found no source explaining the choice of date.

@@ -17,7 +17,11 @@ import infographic as ig
 SCALE_MEANING = {3: "large (>100 MtCO2/yr)", 2: "moderate (10-100 MtCO2/yr)",
                  1: "small (<10 MtCO2/yr)", 0: "unknown"}
 ANCHOR_SOURCE = {
-    "Transmission": ("Princeton REPEAT (2022)", "https://zenodo.org/records/7106176"),
+    "Transmission": ("C2ES & Greenline Insights (2026), GenX model of queue reform plus interregional transmission",
+                     "https://www.greenlineinsights.com/interconnection-and-transmission-reform"),
+    "Limits on future regulation": (
+        "NRDC assessment (Oct. 19, 2026); see also Biber, Legal Planet (Oct. 16, 2026)",
+        "https://www.nrdc.org/media/nrdc-assessment-baaja-2026-permitting-transmission-bill"),
     "NEPA deadlines and lawsuit limits": (
         "Bennon & Wilson (2023), Table 1; author's recount",
         "https://www.elr.info/sites/default/files/files-general/53.10836.pdf"),
@@ -34,7 +38,12 @@ ANCHOR_SOURCE = {
 }
 NOTES = [
     "Scale ratings are the author's qualitative judgments of how much each provision could change US "
-    "emissions; the bill has not been modeled. Numbers are context anchors, not estimates of the bill's effect.",
+    "emissions. No one has modeled the full bill; the one published run (C2ES/Greenline) covers only "
+    "transmission and interconnection in four regions. Other numbers are context anchors, not estimates "
+    "of the bill's effect.",
+    "Sec. 1401 appears twice. Its protection of issued permits currently shields wind and solar, but legal "
+    "analysts warn its broad wording could also hinder future pollution rules for operating facilities. "
+    "The manager's amendment may change it.",
     "'Helps' reflects who faces federal obstacles and most NEPA reviews today; neutral provisions can "
     "protect either side under future administrations.",
     "Wind/solar anchor assumes a 25-35% capacity factor and 0.35-0.50 tCO2/MWh displaced.",
@@ -47,7 +56,8 @@ NOTES = [
 SOURCES = [
     ("Bill text (Senate draft, Sept. 30, 2026)",
      "https://www.energy.senate.gov/wp-content/uploads/2026/09/Bipartisan-American-Affordability-and-Jobs-Act.pdf"),
-    ("Princeton REPEAT, transmission and the IRA (2022)", "https://zenodo.org/records/7106176"),
+    ("C2ES & Greenline Insights, grid impacts of interconnection queue reform and interregional transmission (2026)",
+     "https://www.greenlineinsights.com/interconnection-and-transmission-reform"),
     ("Bennon & Wilson, NEPA litigation over large energy and transport projects (ELR, 2023)",
      "https://www.elr.info/sites/default/files/files-general/53.10836.pdf"),
     ("LBNL, Queued Up: 2026 edition (interconnection queues)", "https://emp.lbl.gov/publications/queued-2026-edition-characteristics"),
@@ -55,6 +65,10 @@ SOURCES = [
      "https://www.rff.org/publications/issue-briefs/federal-permitting-reform-expand-oil-and-gas-leasing-carbon-emissions/"),
     ("Utility Dive on Renew Northeast v. DOI (Apr. 2026)",
      "https://www.utilitydive.com/news/court-trump-wind-solar-permitting/818152/"),
+    ("NRDC, Assessment of BAAJA (Oct. 19, 2026)",
+     "https://www.nrdc.org/media/nrdc-assessment-baaja-2026-permitting-transmission-bill"),
+    ("Eric Biber, A major problem with \"permit certainty\" (Legal Planet, Oct. 16, 2026)",
+     "https://legal-planet.org/2026/10/16/a-major-problem-with-permit-certainty/"),
 ]
 CREDIT = "Zeke Hausfather, The Climate Brink"
 
@@ -217,7 +231,7 @@ footer {{ font-size: .9rem; color: var(--ink3); }}
   <header>
     <h1>What's in the Senate permitting deal, and what it could mean for US emissions</h1>
     <p class="dek">A provision-by-provision scorecard of the Bipartisan American Affordability and Jobs Act of 2026: who each part helps today, and the likely direction and rough scale of its effect on US emissions.</p>
-    <p class="meta">Senate draft of Sept. 30, 2026 · Analysis by {credit}</p>
+    <p class="meta">Senate draft of Sept. 30, 2026 · Updated Oct. 21, 2026 · Analysis by {credit}</p>
   </header>
 
   <div class="key" aria-label="Emissions scale key">

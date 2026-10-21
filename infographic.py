@@ -61,7 +61,10 @@ def anchors():
     q_clean_share = (q["solar"] + q["storage"] + q["wind"]) / q_total
     q_gas_share = q["gas"] / q_total
     q_median_months = 61               # median request-to-operation, projects built in 2025
-    return {"q_total": q_total, "q_clean_share": q_clean_share, "q_gas_share": q_gas_share,
+    # C2ES / Greenline Insights (memo 9/29/26): GenX, queue reform + interregional
+    # transmission vs BAU (no new interregional lines), PJM+MISO+SPP+non-CAISO West, 2035.
+    c2es = {"mt": 71, "pct": 9, "year": 2035, "demand_share": 0.54}
+    return {"c2es": c2es, "q_total": q_total, "q_clean_share": q_clean_share, "q_gas_share": q_gas_share,
             "q_months": q_median_months, "ws_gw": ws_gw, "ws_mt": ws_mt, "ow_gw": ow_gw, "ow_mt": ow_mt,
             "pipe_mt": mt_per_bcfd}
 
@@ -77,8 +80,8 @@ GROUPS = [
         dict(name="Transmission", sec="§§2101–2105, 2109",
              what="FERC backstop siting without a DOE corridor; interregional planning",
              lean="clean", dir="down", dlab="Lowers", scale=3,
-             anchor="If transmission grew only ~1%/yr, >80% of the IRA’s potential "
-                    "2030 cuts would be lost (REPEAT, 2022)"),
+             anchor=f"Modeled with queue reform: power {CO2} −{A['c2es']['mt']} Mt (−{A['c2es']['pct']}%) "
+                    f"in {A['c2es']['year']}, in regions with ~{A['c2es']['demand_share']*100:.0f}% of US demand (C2ES)"),
         dict(name="Interconnection queues", sec="§§2106, 2110, 2111",
              what="Planned zones with fixed connection costs; faster, automated studies",
              lean="clean", dir="down", dlab="Lowers", scale=2,
@@ -121,6 +124,12 @@ GROUPS = [
              lean="fossil", dir="up", dlab="Raises", scale=1,
              anchor="Output is set mostly by prices; ~57% of added federal oil displaces "
                     "production elsewhere (RFF)"),
+        dict(name="Limits on future regulation", sec="§1401",
+             what="Bars agency actions that impede permitted projects’ ‘operation at full\n"
+                  "capacity’; broad wording could hinder future pollution rules",
+             lean="fossil", dir="up", dlab="Could raise", scale=0,
+             anchor="Could expose future EPA carbon rules for existing power plants to legal "
+                    "challenge (NRDC; Biber)"),
     ]),
 ]
 
@@ -170,7 +179,7 @@ def render(show_box, out):
             color=INK2, va="top")
     y -= 0.58
     ax.text(L, y, "Bipartisan American Affordability and Jobs Act of 2026 "
-            "(Senate draft, Sept. 30, 2026)", fontsize=14, color=INK3, va="top")
+            "(Senate draft, Sept. 30, 2026) · updated Oct. 21, 2026", fontsize=14, color=INK3, va="top")
 
     # scale key
     y -= 0.78
@@ -249,15 +258,15 @@ def render(show_box, out):
         "(§§1302–1305), which cut both ways.",
         "‘Helps’ reflects who faces federal obstacles and most NEPA reviews today; "
         "neutral provisions can protect either side later.",
-        "Numbers are context anchors, not estimates of the bill’s effect. Wind/solar "
+        "No one has modeled the full bill; other numbers are context anchors. Wind/solar "
         f"anchor assumes 25–35% capacity factor, {MER[0]:.2f}–{MER[1]:.2f} t{CO2}/MWh displaced.",
         "NEPA: federal environmental-review law · EIS: its most detailed review · "
         "FERC: federal grid regulator · Bcf/d: billion cubic feet/day",
     ]
     ax.text(L, 1.72, "\n".join(foot), fontsize=11.5, color=INK3, va="top",
             linespacing=1.5)
-    ax.text(L, 0.62, "Sources: bill text; REPEAT (2022); Bennon & Wilson (2023); RFF (2024); LBNL (2026); "
-            "CRA via Renew Northeast v. DOI; EIA; author calculations.",
+    ax.text(L, 0.62, "Sources: bill text; C2ES/Greenline (2026); Bennon & Wilson (2023); RFF (2024); LBNL (2026); "
+            "CRA via Renew Northeast v. DOI; EIA; NRDC; Biber (2026).",
             fontsize=11.5, color=INK3, va="top")
     ax.text(R, 0.3, "Zeke Hausfather · The Climate Brink", fontsize=12.5,
             color=INK3, va="top", ha="right")
@@ -270,6 +279,7 @@ def render(show_box, out):
 if __name__ == "__main__":
     render(show_box=True, out="permitting_infographic.png")          # for the post
     render(show_box=False, out="permitting_infographic_social.png")  # for social media
-    print("anchors:", {k: (tuple(round(x, 1) for x in v) if isinstance(v, tuple) else round(v, 3))
+    print("anchors:", {k: (tuple(round(x, 1) for x in v) if isinstance(v, tuple)
+                           else v if isinstance(v, dict) else round(v, 3))
                        for k, v in A.items()})
 
