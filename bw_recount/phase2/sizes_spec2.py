@@ -113,10 +113,10 @@ TX2 = [('C1478',3200,'renew',3200,'operating','P2C:C1478c:transmission_rating',F
 for i,v,purp,b,st,ref,imp,note in TX2:
     e(i, m='TX', v=v, u='MW_rating', b=b, st=st, ne='new_build', ref=ref, imp=imp, p=dict(purpose=purp), note=note)
 e('C1749', m='TX', v=3021, u='MW_rating', b=3021, st='operating', ne='new_build', ref='P2C:C1749c:transmission_rating', p=dict(purpose='renew', dup_pooled='R0998'), note='SunZia 2023 FEIS (route change); same line as R0998 -> zero in pooled set')
-e('C1863', m='PROGCLEAN', v=49845, lo=0, hi=139566, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='P2C:C1863:rfd_capacity', imp=True, p=dict(tech='PV'),
-  note='2024 Western Solar Plan PEIS: RFD ~697,830 acres by 2045 (DOE Solar Futures). MW IMPUTED at 7 acres/MW (high 5 acres/MW) = 99.7 GW, x 50% realization (same rule as the 2012 Solar PEIS) = 49.8 GW central; range 0-139.6 GW')
-e('C1880', m='PROGCLEAN', v=2800, lo=0, hi=7000, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='P2C:C1880:rfd_capacity', p=dict(tech='OW'),
-  note='NY Bight PEIS: 5,601 MW across six leases (up to 7 GW); x 50% realization; COP EISs would follow separately')
+e('C1863', m='PROGCLEAN', v=99690, lo=77537, hi=139566, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='P2C:C1863:rfd_capacity', imp=True, p=dict(tech='PV'),
+  note='2024 Western Solar Plan PEIS: RFD ~697,830 acres by 2045 (DOE Solar Futures). MW IMPUTED at 7 acres/MW (5-9) = 99.7 GW (77.5-139.6) full potential; realization via shared REAL_PROG. BLM FAQ: acreage is what clean energy goals would need, not a forecast')
+e('C1880', m='PROGCLEAN', v=5601, hi=7000, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='P2C:C1880:rfd_capacity', p=dict(tech='OW'),
+  note='NY Bight PEIS: 5,601 MW across six leases (up to 7 GW); realization via REAL_PROG; COP EISs would follow separately')
 
 
 # ---------------- FOSSIL fields, leasing, coal (P2F agent rows; cumulative oil MMbbl / gas Bcf, annualized over H) ----------------
@@ -126,17 +126,17 @@ e('C1333', m='OG', v=1, u='cumulative', b=0, st='cancelled', ne='new_build', ref
   note='Liberty (Hilcorp) ~120 MMbbl (BOEM model 74-86); approval vacated, cancelled')
 e('C1353', m='OG', v=1, u='cumulative', b=1, st='operating', ne='new_build', ref='P2F:C1353:oil_production_peak', conf='medium', p=dict(oil=876, oil_lo=876, oil_hi=1314),
   note='Nanushuk/Pikka: 80,000 bbl/d phase-1 design (120,000 high) x 30 yr = 876 MMbbl (1,314 high); FEIS not retrieved')
-e('C1316', m='OG', v=1, u='cumulative', b=0, st='unknown', ne='new_build', ref='P2F:C1316b:gas_production_total', p=dict(gas=7000, oil=78.75, oil_lo=17.5, oil_hi=140),
+e('C1316', m='OG', v=1, u='cumulative', b=0, st='unknown', ne='new_build', ref='P2F:C1316b:gas_production_total', p=dict(gas=7000, oil=78.75, oil_lo=17.5, oil_hi=140, life=40),
   note='Normally Pressured Lance: 3,500 wells, 7 Tcf over 40 yr (BLM release); oil 17.5-140 MMbbl (midpoint); IBLA vacated approval Jan 2026')
-e('C1528', m='OG', v=1, u='cumulative', b=0, st='predevelopment', ne='new_build', ref='P2F:C1528b:gas_production_total', p=dict(gas=18160, oil=254),
-  note='Moneta Divide: 4,250 wells, 18.16 Tcf + 254 MMbbl over 65 yr (annualized over 30 like all depletables); no large drilling program found')
+e('C1528', m='OG', v=1, u='cumulative', b=0, st='predevelopment', ne='new_build', ref='P2F:C1528b:gas_production_total', p=dict(gas=18160, oil=254, life=65),
+  note='Moneta Divide: 4,250 wells, 18.16 Tcf + 254 MMbbl over 65 yr (annualized over its documented 65 yr since 2026-10-21); no large drilling program found')
 e('C1570', m='OG', v=1, u='cumulative', b=1, st='operating', ne='new_build', ref='P2F:C1570b:oil_production_total', conf='medium', p=dict(oil=1370, oil_lo=94, oil_hi=1370, gas=5790),
   note='Converse County: 5,000 wells; BLM figure 1,370 MMbbl + 5.79 Tcf (a county page quotes 94 MMbbl: CONFLICT, low=94); ROD vacated Feb 2026, drilling continues under individual reviews')
-e('C1480', m='OG', v=1, u='cumulative', b=0, st='cancelled', ne='programmatic', ref='P2F:C1480:oil_production_total', p=dict(oil=5750, oil_lo=1500, oil_hi=10000, gas=3500, gas_lo=0, gas_hi=7000),
-  note='Coastal Plain (ANWR) leasing program: hypothetical 1.5-10 Bbbl over ~70 yr (midpoint central), gas 0-7 Tcf; 2021 leases cancelled 2023')
-e('C1560', m='OG', v=1, u='cumulative', b=0, st='withdrawn', ne='programmatic', ref='P2F:C1560b:oil_production_total', p=dict(oil=1635.8, oil_lo=633.2, oil_hi=2638.4),
+e('C1480', m='OG', v=1, u='cumulative', b=0, st='implemented', ne='programmatic', ref='P2F:C1480:oil_production_total', p=dict(oil=5750, oil_lo=1500, oil_hi=10000, gas=3500, gas_lo=0, gas_hi=7000, life=70),
+  note='Coastal Plain (ANWR) leasing program: hypothetical 1.5-10 Bbbl over ~70 yr (midpoint central), gas 0-7 Tcf; 2021 leases cancelled 2023, cancellations vacated Mar 2025, Interior rescinded the 2024 ROD and lifted AIDEA suspension Oct 2025 (CRS IF12006); annualized over the FEIS 70 yr')
+e('C1560', m='OG', v=1, u='cumulative', b=0, st='withdrawn', ne='programmatic', ref='P2F:C1560b:oil_production_total', p=dict(oil=1635.8, oil_lo=633.2, oil_hi=2638.4, life=70),
   note='NPR-A IAP 2020 (Alt E) RFD 633-2,638 MMbbl over 70 yr excl. Willow (midpoint central); superseded 2022')
-e('C1790', m='OG', v=1, u='cumulative', b=0, st='implemented', ne='programmatic', ref='P2F:C1790:lease_sales', imp=True, p=dict(oil=1122, oil_lo=657, oil_hi=1778, gas=3631, gas_lo=1652, gas_hi=6681),
+e('C1790', m='OG', v=1, u='cumulative', b=0, st='implemented', ne='programmatic', ref='P2F:C1790:lease_sales', imp=True, p=dict(oil=1122, oil_lo=657, oil_hi=1778, gas=3631, gas_lo=1652, gas_hi=6681, life=55),
   note='2024-29 OCS Program (3 GOM sales): BOEM production NOT FOUND; IMPUTED as 3/10 of the 2017-22 Program (10 GOM sales) low/mid/high')
 e('C1429', m='NOSIZE', v=0, u='', b=0, st='unknown', ne='programmatic', ref='P2F:C1429:wells_approved', note='BLM Central Coast O&G RMPA: RFD 37 wells (negligible; unquantified)')
 e('C1591', m='OG', v=1, u='cumulative', b=1, st='operating', ne='continuation', ref='P2F:C1591c:oil_production_peak', conf='medium', p=dict(oil=107.3, gas=136),
@@ -161,8 +161,8 @@ e('C1810', m='PLANT', v=1500, u='MW', b=1500, st='under_construction', ne='new_b
 e('C1547', m='PLANT', v=104, u='MW', b=0, st='unknown', ne='new_build', ref='P2F:C1547:nameplate_capacity', p=dict(ef=0.45, fuel='gas', cfkey='CF_GASPLANT'), note='NJ TRANSITGRID gas-fired microgrid (104 MW from NOI; EF 0.45 ASSUMED)')
 
 
-e('C1319', m='PIPEGAS', v=1.44, lo=1.4, u='Bcf/d', b=1.44, st='operating', ne='new_build', ref='URL:https://naturalgasworld.com/us-ferc-approves-oklahoma-pipe-project-63610', conf='medium', p=dict(dest='dom'),
-  note='Midcontinent Supply Header (MIDSHIP), Anadarko to Gulf Coast, ~1.4-1.44 Bcf/d, in service 2020 (search-result text)')
+e('C1319', m='OVERLAP', v=1.44, lo=1.4, u='Bcf/d', b=1.44, st='operating', ne='new_build', ref='URL:https://naturalgasworld.com/us-ferc-approves-oklahoma-pipe-project-63610', conf='medium', p=dict(dest='dom'),
+  note='Midcontinent Supply Header (MIDSHIP), Anadarko to Gulf Coast, ~1.4-1.44 Bcf/d, in service 2020 (search-result text). Zeroed 2026-10-21: Cheniere LNG feed line, overlaps the LNG terminals US net (NEMS includes induced production), consistent with zeroed LNG laterals')
 e('C1683', m='NOSIZE', v=0, u='', b=0, st='operating', ne='expansion', ref='URL:https://ferc.gov/news-events/news/ferc-staff-issues-final-environmental-impact-statement-clear-creek-expansion', note='Clear Creek gas storage expansion (4 to 20 Bcf storage): no added throughput (unquantified)')
 
 # ---------------- OTHER bucket (tabulated, excluded from clean/fossil net) ----------------

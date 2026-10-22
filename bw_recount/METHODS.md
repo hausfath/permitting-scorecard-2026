@@ -1,6 +1,6 @@
 # Recount methods (2026-10-21)
 
-Converted from the subagent's methods draft. Factors live in `factors.py`; per-project sizes and sources live in `sizes_spec.py` and `sizing_out/`.
+Converted from the subagent's methods draft. **Factor values in the text block below are the first-pass values.** For the factors revised after review, see `SUMMARY.md` ('What changed') and `factors.py`, which is authoritative: NET_PIPE, NET_COAL, NET_EXPORT_PORT, REAL_PROG, per-project production lives, and Beta litigation rates. Factors live in `factors.py`; per-project sizes and sources live in `sizes_spec.py` and `sizing_out/`.
 
 ```text
 B&W EMISSIONS-WEIGHTED RECOUNT: METHODS (draft, 2026-10-21; to become METHODS.md)

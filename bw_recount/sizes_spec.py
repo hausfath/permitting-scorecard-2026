@@ -52,7 +52,7 @@ e('R0009', m='REGAS', v=0.5, u='Bcf/d', b=0, st='cancelled', ne='new_build', ref
 e('R0772', m='REGAS', v=0.4, u='Bcf/d', b=0, st='cancelled', ne='new_build', ref='A4:R0772:regas_sendout', p=dict(displaces='gas'), note='Port Ambrose; vetoed by NY governor 2015')
 
 # ---------------- COAL MINES (cumulative million short tons; annual-equivalent over horizon H) ----------------
-e('R1154', m='COALLEASE', v=1813.3, lo=1345.7, hi=2435.4, u='Mst_total', b=1345.7, st='operating', ne='continuation', ref='A3:R1154:coal_reserves_leased', p=dict(rank='subbituminous'),
+e('R1154', m='COALLEASE', v=1345.7, lo=1345.7, hi=1813.3, u='Mst_total', b=1345.7, st='operating', ne='continuation', ref='A3:R1154:coal_reserves_leased', p=dict(rank='subbituminous'),
   note='Wright Area: ROD-approved tracts N Hilight 467.6 + S Hilight 222.7 + N Porcupine 721.2 + S Porcupine 401.8; sold = 1,345.7 (N Hilight never sold); all six as applied 2,435.4. Extends Black Thunder & North Antelope Rochelle')
 e('R0125', m='COALLEASE', v=167.0, u='Mst_total', b=0, st='withdrawn', ne='continuation', ref='A3:R0125:coal_reserves_leased', p=dict(rank='subbituminous'), note='Buckskin Hay Creek II: ROD 2013, sole bid rejected, never leased')
 e('R0272', m='COALLEASE', v=26.0, u='Mst_total', b=0, st='unknown', ne='continuation', ref='A3:R0272:coal_reserves_leased', p=dict(rank='bituminous'), note='East Lynn Lake (WV); sale outcome not found')
@@ -173,7 +173,6 @@ KV_RATING = {500: 900, 345: 400, 230: 132, 220: 120, 161: 65, 138: 48, 115: 33, 
 TX = [
  ('R1041',3000,'renew',3000,'under_construction','A7:R1041c:transmission_rating',False,'TransWest Express (BLM; USFS R1040 duplicate)'),
  ('R0287',1500,'renew',1500,'operating','A7:R0287c:transmission_rating',False,'Energy Gateway South (BLM; USFS R0286 duplicate)'),
- ('R0998',3000,'renew',3000,'operating','A7:R0998c:transmission_rating',False,'SunZia (WECC accepted rating 3,000 MW)'),
  ('R0162',1250,'hydroimport',1250,'operating','A7:R0162c:transmission_rating',False,'Champlain Hudson Power Express (2026)'),
  ('R0768',4000,'renew',0,'cancelled','A7:R0768c:transmission_rating',False,'Plains & Eastern Clean Line (cancelled 2018)'),
  ('R0392',750,'hydroimport',750,'operating','A7:R0392c:transmission_rating',False,'Great Northern (Manitoba hydro, 2020)'),
@@ -215,27 +214,29 @@ for i,v,purp,b,st,ref,imp,note in TX:
     e(i, m='TX', v=v, u='MW_rating', b=b, st=st, ne='new_build', ref=ref, imp=imp, p=dict(purpose=purp), note=note)
 e('R0285', m='TX', v=155.1, u='MW_enabled', b=155.1, st='operating', ne='new_build', ref='URL:https://nadb.org/news/first-us-mexico-cross-border-wind-farm-inaugurated-in-tecate-baja-california', conf='medium', p=dict(purpose='gentie_ext', tech='WIND'),
   note='Energia Sierra Juarez gen-tie: enables ESJ wind (Mexico) phase 1, 155.1 MW, COD June 2015, PPA to SDG&E (NADB; search-result text, page not opened). Phase 2 (108 MW) status unknown; DOE permit caps transfer at 400 MW')
+e('R0998', m='TX', v=3500, u='MW_enabled', b=3500, st='operating', ne='new_build', ref='A7:R0998c:transmission_rating', conf='medium', p=dict(purpose='gentie_ext', tech='WIND'),
+  note='SunZia (3,000 MW rating) treated as gen-tie for the ~3.5 GW SunZia Wind project it was built for (review 2026-10-21; was renew x TX_ENABLE_RENEW)')
 e('R0712', m='TX', v=104, u='MW_enabled', b=0, st='unknown', ne='new_build', ref='A7:R0712:voltage', conf='low', p=dict(purpose='gentie_ext', tech='WIND'), note='North Steens 230 kV gen-tie for Echanis wind (104 MW, private land); build status unknown')
 e('R0286', m='DUP', v=0, u='', b=0, st='operating', ne='duplicate', ref='A7:R0286:voltage', p=dict(dup='R0287'), note='USFS EGS duplicate')
 e('R1040', m='DUP', v=0, u='', b=0, st='under_construction', ne='duplicate', ref='A7:R1040:voltage', p=dict(dup='R1041'), note='USFS TWE duplicate')
 
 # ---------------- CLEAN PROGRAMMATIC (RFD MW) ----------------
-e('R0827', m='PROGCLEAN', v=11850, lo=0, hi=23700, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='URL:https://www.doi.gov/news/pressreleases/Obama-Administration-Approves-Roadmap-for-Utility-Scale-Solar-Energy-Development-on-Public-Lands', conf='medium', p=dict(tech='PV'),
-  note='Solar PEIS: DOI "if fully built out ... as much as 23,700 megawatts" (fetched) = upper bound; central ASSUMED 50% realization (less favorable to clean), range 0-23,700')
-e('R0240', m='PROGCLEAN', v=19500, lo=7600, hi=26500, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='A6:R0240:rfd_capacity', p=dict(tech='PV'),
-  note='DRECP 20,000 MW planning assumption (8,100-27,000) minus Palen PV 500 MW (in universe, in DFA) to avoid double count; snippet-level (low)')
-e('R1122', m='PROGCLEAN', v=1665, lo=0, hi=3330, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='A6:R1122:rfd_capacity', p=dict(tech='PV'), note='West Chocolate Mtns REEA potential 3,330 MW solar (+150 geothermal ignored) = potential, so central ASSUMED 50% realization')
-e('R0861', m='PROGCLEAN', v=1665, lo=0, hi=3330, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='A6:R0861:rfd_capacity', imp=True, conf='low', p=dict(tech='PV'),
-  note='Restoration Design Energy Project RFD NOT FOUND; IMPUTED at the smallest documented clean-programmatic potential (3,330 MW) x 50% realization, range 0-3,330')
+e('R0827', m='PROGCLEAN', v=23700, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='URL:https://www.doi.gov/news/pressreleases/Obama-Administration-Approves-Roadmap-for-Utility-Scale-Solar-Energy-Development-on-Public-Lands', conf='medium', p=dict(tech='PV'),
+  note='Solar PEIS: DOI "if fully built out ... as much as 23,700 megawatts" (fetched) = upper bound; full potential; realization via shared REAL_PROG (review 2026-10-21)')
+e('R0240', m='PROGCLEAN', v=7600, lo=7600, hi=19500, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='A6:R0240:rfd_capacity', p=dict(tech='PV'),
+  note='DRECP LUPA: DFAs could supply ~8,100 MW (the BLM plan); 20,000 MW is the regional planning assumption (high). Minus Palen PV 500 MW (in universe) = 7,600 central; realization via REAL_PROG. Corrected 2026-10-21 per review; snippet-level (low)')
+e('R1122', m='PROGCLEAN', v=3330, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='A6:R1122:rfd_capacity', p=dict(tech='PV'), note='West Chocolate Mtns REEA potential 3,330 MW solar (+150 geothermal ignored) = potential; realization via shared REAL_PROG')
+e('R0861', m='PROGCLEAN', v=3330, u='MW_rfd', b=0, st='implemented', ne='programmatic', ref='A6:R0861:rfd_capacity', imp=True, conf='low', p=dict(tech='PV'),
+  note='Restoration Design Energy Project RFD NOT FOUND; IMPUTED at the smallest documented clean-programmatic potential (3,330 MW); realization via REAL_PROG')
 e('R1071', m='NOSIZE', v=0, u='', b=0, st='implemented', ne='programmatic', ref='A6:R1071:rfd_capacity', note='Upper Great Plains Wind PEIS: procedural framework, no MW scenario (unquantified)')
 e('N0076', m='NOSIZE', v=0, u='', b=0, st='no ROD', ne='programmatic', ref='A6:N0076:rfd_capacity', note='Hawaii Clean Energy PEIS: no MW scenario, no ROD (unquantified)')
 
 # ---------------- OFFSHORE LEASING (BOEM; program level carries emissions, sale EISs = COVERED) ----------------
 e('R0824', m='OG', v=1, u='cumulative', b=0, st='implemented', ne='programmatic', ref='A1:R0824f:oil_production_total',
-  p=dict(oil=4203, oil_lo=1498, oil_hi=5510, gas=18222, gas_lo=6053, gas_hi=24339),
+  p=dict(oil=4203, oil_lo=1498, oil_hi=5510, gas=18222, gas_lo=6053, gas_hi=24339, life=45),
   note='2012-2017 Program as implemented (10 GOM WPA/CPA sales + Cook Inlet; EPA sales got no bids; Arctic sales cancelled): BOEM 2016 Table 6-4 low/high 2,896/5,510 MMbbl, 12,105/24,339 Bcf; central = midpoint; low = BOEM "adjusted" (GOM halved) low')
 e('R0738', m='OG', v=1, u='cumulative', b=0, st='implemented', ne='programmatic', ref='A1:R0738:oil_production_total',
-  p=dict(oil=3740, oil_lo=2189, oil_hi=5928, gas=12104, gas_lo=5507, gas_hi=22271),
+  p=dict(oil=3740, oil_lo=2189, oil_hi=5928, gas=12104, gas_lo=5507, gas_hi=22271, life=55),
   note='2017-2022 Program PFP (GOM + Cook Inlet) Table 6-2, mid/low/high price; BOEM lifecycle 2,380 Mt (1,285-3,958); BOEM MarketSim net vs No Action ~ -14 Mt (not used: pre-2020 MarketSim, see methods)')
 e('R0416', m='OG', v=1, u='cumulative', b=0, st='implemented', ne='programmatic', ref='A1:R0416:oil_production_total',
   p=dict(oil=1212.5, oil_lo=801, oil_hi=1624, gas=4946, gas_lo=3332, gas_hi=6560),

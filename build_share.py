@@ -44,10 +44,13 @@ NOTES = [
     "emissions. No one has modeled the full bill; the one published run (C2ES/Greenline) covers only "
     "transmission and interconnection in four regions. Other numbers are context anchors, not estimates "
     "of the bill's effect.",
-    "NEPA row: clean projects outnumber fossil in federal environmental reviews, but an emissions-weighted "
-    "recount of 2010-18 energy EISs (preliminary, not yet externally reviewed) finds the fossil projects carry more "
-    "emissions, driven by gas pipelines and coal leases. That sample predates offshore wind and today's large "
-    "transmission proposals, so the row is rated 'either way' rather than 'raises'.",
+    "NEPA row: clean projects outnumber fossil in federal environmental reviews (2.4:1 in Bennon & Wilson's 2010-18 "
+    "sample; about 1.5:1 in the author's recount of all CEQ energy EISs). Weighted by emissions in that recount "
+    "(preliminary; internally reviewed), fossil projects were larger on a global basis in 2010-17 under most "
+    "assumptions, driven by gas pipelines and coal leases. On a US-only basis the comparison is roughly even and "
+    "hinges on how much coal new gas pipelines displaced. Reviews finished in 2017-20 leaned heavily fossil; those "
+    "finished in 2021-24, which include offshore wind and BLM's Western Solar Plan, leaned clean, though much of that "
+    "clean capacity is permitted but unbuilt. Hence 'either way, size unknown'.",
     "Sec. 1401 appears twice. Its protection of issued permits currently shields wind and solar, but legal "
     "analysts warn its broad wording could also hinder future pollution rules for operating facilities. "
     "The manager's amendment may change it.",

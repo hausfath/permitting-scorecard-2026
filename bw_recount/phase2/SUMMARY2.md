@@ -1,6 +1,6 @@
 # Phase 2 summary: 2019–24 extension and CGEP timing join (2026-10-21)
 
-**Status: preliminary.** Not yet externally reviewed. Converted from the subagent draft.
+**Status: preliminary; internally reviewed.** The era results below were **superseded on 2026-10-21** by the post-review rerun; see `../RESULTS_REVISED.md` and `../SUMMARY.md`. In short: 2010–16 is roughly even on a US basis and fossil-larger on a global basis; 2017–20 leans heavily fossil; 2021–24 leans clean (much of it permitted but unbuilt). 'Mt brought forward' is internal only. Converted from the subagent draft; the numbers below are historical.
 
 **Credit:** per-project months saved (`cgep_join.csv`), type medians and archetype totals are from Columbia CGEP, [How the Senate Permitting Reform Bill Could Impact Energy Project Timelines](https://www.energypolicy.columbia.edu/how-the-senate-permitting-reform-bill-could-impact-energy-project-timelines/) (Jack Andreasen Cavanaugh, Oct 21, 2026). They are republished here with the author's permission. CGEP's full tables are not redistributed; get them from the CGEP page.
 

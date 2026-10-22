@@ -50,11 +50,20 @@ def size_draw(r, n, central, use_built):
     return tri_ppf(RNG.random(n), min(lo, c), c, max(hi, c))
 
 def em(r, f, n, central=False, opt=None):
-    """Return dict of arrays: usg, usn, glg, gln (MtCO2/yr, CO2e where noted)."""
+    """Return dict of arrays: usg, usn, glg, gln (MtCO2/yr, CO2e where noted).
+    Programmatic EISs (clean RFD MW and fossil anticipated production) are scaled by the shared REAL_PROG factor."""
+    out = _em(r, f, n, central, opt)
+    if bool(r.programmatic) and 'REAL_PROG' in f:
+        out = {k: v * f['REAL_PROG'] for k, v in out.items()}
+    return out
+
+def _em(r, f, n, central=False, opt=None):
     opt = opt or {}
     m, p = r.method, r.p
     z = np.zeros(n)
-    H = opt.get('H', H_YEARS)
+    # depletables: annualize over the documented production life where the EIS gives one (p['life']), else H_YEARS;
+    # opt['H'] forces one horizon for all (sensitivity)
+    H = opt['H'] if 'H' in opt else p.get('life', H_YEARS)
     v = size_draw(r, n, central, opt.get('built', False))
     meth = opt.get('methane', False)
     def ch4_mt_per_bcf(): return 1e6 * T_CH4_PER_MCF * LEAK_RATE * GWP100_CH4 / 1e6   # Mt CO2e per Bcf produced (~0.0132)
@@ -195,13 +204,20 @@ def det(df, E):
 
 if __name__ == '__main__':
     lit = lambda r: LIT_RATE[r.subsector]
+    # litigation rates drawn per subsector from Jeffreys Beta(k+0.5, n-k+0.5) on B&W Table 1 counts, shared per draw
+    LIT_DRAW = {}
+    for sub, rate in LIT_RATE.items():
+        nn = LIT_N.get(sub, 15); kk = round(rate * nn)
+        LIT_DRAW[sub] = RNG.beta(kk + 0.5, nn - kk + 0.5, N)
+    lit_mc = lambda r: LIT_DRAW[r.subsector]
     prog = lambda d: ~d.programmatic.astype(bool)
     allrows = []
     # ---------- base: central deterministic + MC
     dfc, Ec = run(1, central=True)
     df, E = run(N)
     allrows += summarize(aggregate(df, E, n=N), 'base_exposure')
-    allrows += summarize(aggregate(df, E, weight=lit, n=N), 'base_litigation')
+    allrows += summarize(aggregate(df, E, weight=lit, n=N), 'base_litigation_fixed_rates')
+    allrows += summarize(aggregate(df, E, weight=lit_mc, n=N), 'base_litigation_beta_rates')
     # ---------- per-project table
     pr = P.copy()
     for k in ['usg', 'usn', 'glg', 'gln']:
@@ -219,9 +235,10 @@ if __name__ == '__main__':
         'MER_cambium_0.10-0.30': dict(overrides={'MER': (0.10, 0.20, 0.30)}),
         'horizon_20yr': dict(opt=dict(H=20)),
         'methane_2.3pct_GWP100': dict(opt=dict(methane=True)),
-        'pipe_net_EIA_0.23': dict(overrides={'NET_PIPE': 0.23}),
         'pipe_net_ICF_-0.075': dict(overrides={'NET_PIPE': -0.075}),
-        'pipe_net_nodisplacement_0.9': dict(overrides={'NET_PIPE': 0.90}),
+        'pipe_net_SabalTrail_0.36': dict(overrides={'NET_PIPE': 0.36}),
+        'no_programmatic_haircut_REAL_PROG_1': dict(overrides={'REAL_PROG': 1.0}),
+        'horizon_30yr_all_depletables': dict(opt=dict(H=30)),
         'leakage_Prest2022_net0.28': dict(overrides={'NET_OIL': (0.22, 0.28, 0.48)}),
         'tx_enable_ACP_1.4': dict(overrides={'TX_ENABLE_RENEW': 1.4}),
         'drop_fossil_continuations': dict(opt=dict(drop_fossil_continuation=True)),

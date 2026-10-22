@@ -1,6 +1,7 @@
 """Shared emission / substitution factors for the B&W emissions-weighted recount.
-Each SHARED factor: (low, central, high). Per PLAN, where a choice is defensible either way the CENTRAL is the value
-less favorable to the claim 'NEPA provisions lower emissions on net' (lower clean avoided, higher fossil added).
+Each SHARED factor: (low, central, high). The original PLAN set CENTRAL at the value less favorable to 'NEPA provisions
+lower emissions on net'. After the 2026-10-21 reviews (reviews/), centrals were revised to the best-supported value,
+because the published claim now runs the other way; direction-of-favor bounds are reported as scenarios instead.
 Monte Carlo draws each shared factor ONCE per draw from triangular(low, central, high).
 Sources, quotes and derivations: methods_draft.txt (Factors) and sizing_out/A5_factors.csv.
 """
@@ -36,20 +37,26 @@ SHARED = {
     'CF_COALPLANT':   (0.50, 0.65, 0.80),     # ASSUMED
     # substitution / net factors
     # net US CO2 per unit of FULL-BURN capacity CO2 (capacity x 20.06 Mt per Bcf/d), i.e. utilization folded in:
-    #   FERC Sabal Trail final SEIS: net 8.36 / full burn 23.0 = 0.36 (central; less favorable than EIA)
-    #   EIA AEO2022 no-new-interstate-pipelines case: total CO2 -34 Mt with ~7.4 Bcf/d less capacity -> 34/(7.4*20.06) = 0.23 (sensitivity)
-    #   ICF for API 2026: power-sector CO2 -33 Mt/yr with ~22 Bcf/d more capacity -> -33/(22*20.06) = -0.075 (low; power sector only, bundled policy)
-    #   high: no displacement at high utilization ~0.90
-    'NET_PIPE':       (-0.075, 0.36, 0.90),
+    #   EIA AEO2022 no-new-interstate-pipelines case: total CO2 -34 Mt with ~7.4 Bcf/d less capacity -> 34/(7.4*20.06) = 0.23
+    #     (CENTRAL since 2026-10-21 review: the only systemic market estimate; 2050 snapshot, so plausibly high for 2017-30 lines)
+    #   FERC Sabal Trail final SEIS: net 8.36 / full burn 23.0 = 0.36 (HIGH; full burn minus two named offsets, not a market estimate)
+    #   ICF for API 2026: power-sector CO2 -33 Mt/yr with ~22 Bcf/d more capacity -> -33/(22*20.06) = -0.075 (LOW; power sector only)
+    #   (former high of 0.90, no displacement, had no study behind it and was dropped)
+    'NET_PIPE':       (-0.075, 0.23, 0.36),
     'NET_OIL':        (0.21, 0.43, 0.64),     # 1 - leakage, Prest (RFF IB 24-09, 2024) 57% [36-79%]
     'DISP_GAS':       (0.52, 1.00, 1.00),     # gas net-of-fuel-displacement factor: Prest 0.034/0.066 = 0.52 low; central no credit (Prest central uses 0.066)
     'USSHARE_OGNET':  (0.10, 0.17, 0.30),     # US territorial share of global net from added federal oil & gas (RFF IB 24-09 Table 1)
     'USSHARE_GASNET': (0.17, 0.80, 0.95),     # gas-weighted: induced gas use mostly North American (ASSUMED; low = Prest combined 17%)
     'US_SHARE_OIL':   (0.70, 0.85, 1.00),     # share of gross oil combustion occurring in US (ASSUMED)
     'US_SHARE_GAS':   (0.85, 0.95, 1.00),     # (ASSUMED)
-    'NET_COAL':       (0.11, 0.50, 0.50),     # Gerarden, Reeder & Stock (NBER w22214): 0.50 no-cap; 0.11 binding cap (US power sector => US-territorial)
+    'NET_COAL':       (0.10, 0.25, 0.50),     # GRS (NBER w22214) 0.50 is a basin-wide price shock = upper bound for a single PRB tract (adjacent reserves substitute first); central 0.25 reviewer judgment (2026-10-21); 0.11 binding cap
     'US_SHARE_COAL':  (0.90, 0.97, 1.00),     # (ASSUMED; PRB coal almost all domestic)
     'NET_MIDSTREAM_OIL': (0.0, 0.10, 0.30),   # products pipeline serving an existing market (ASSUMED)
+    'NET_EXPORT_PORT': (0.0, 0.0, 0.03),      # crude export ports: no production created; only netback channel ~1% of throughput (review 2026-10-21)
+    # programmatic realization: ONE shared factor applied to every programmatic EIS, clean (RFD MW) and fossil (anticipated
+    # production) alike. ASSUMED symmetric; BLM had permitted ~29 GW of all clean types by Jul 2024, and BOEM anticipated
+    # production overstates outcomes (Arctic / Cook Inlet sales yielded little). Replaces the clean-only 50% haircut.
+    'REAL_PROG':      (0.25, 0.50, 1.00),
     # LNG (DOE 2024 LNG Export Study)
     'LNG_CONSEQ_GMJ': (1.2, 6.3, 12.6),       # consequential global GHG, g CO2e/MJ exported (Table ES-2)
     'LNG_ATTR_GMJ':   (76.0, 76.0, 76.0),     # attributional life-cycle, g CO2e/MJ
@@ -68,3 +75,9 @@ LIT_RATE = {  # B&W Table 1 litigation rates applied to the universe
     'Pipeline': .56, 'Liquefaction': .29, 'Regasification': 0.0, 'GasPlant': 0.0, 'CoalPlant': 0.0, 'Mine-Coal': .50, 'Mine-Gas': .50,
     'Leasing-Fossil': .20, 'Programmatic-Clean': .20, 'Programmatic-FossilOther': .20, 'Programmatic-Other': .20,
     'Waste': .25, 'BioPlant': .50, 'BioRefinery': 0.0, 'CarbonCapture': 0.0, 'Mine-Other': .25, 'Other-Energy': 0.0}
+
+# B&W Table 1 counts (n) used to draw litigation rates from Jeffreys Beta(k+0.5, n-k+0.5), shared per draw (review 2026-10-21).
+LIT_N = {'Solar': 22, 'Wind': 13, 'Transmission': 42, 'Hydro': 14, 'Geothermal': 3, 'Nuclear': 2, 'PumpStorage': 1,
+    'Pipeline': 18, 'Liquefaction': 7, 'Regasification': 1, 'GasPlant': 2, 'CoalPlant': 2, 'Mine-Coal': 4, 'Mine-Gas': 6,
+    'Leasing-Fossil': 15, 'Programmatic-Clean': 15, 'Programmatic-FossilOther': 15, 'Programmatic-Other': 15,
+    'Waste': 8, 'BioPlant': 2, 'BioRefinery': 1, 'CarbonCapture': 2, 'Mine-Other': 4, 'Other-Energy': 2}

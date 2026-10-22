@@ -1,6 +1,43 @@
 # Bennon & Wilson emissions-weighted recount: summary (2026-10-21)
 
-**Status: preliminary.** Not yet reviewed by outside statistics or energy-system reviewers. Per-project sizes and factor choices may change.
+**Status: preliminary; internally reviewed** (two independent reviewers, `reviews/`). Fixes applied 2026-10-21.
+
+## Revised results after external-style review (2026-10-21)
+
+The statistics and energy-systems reviews are in `reviews/`. Their fixes changed the US-basis result from "fossil larger in 92% of draws" to roughly even. The full generated tables are in **`RESULTS_REVISED.md`**; numbers below come from that file.
+
+**Main findings (transmission included, net basis, MtCO₂/yr):**
+- **2010–17 (the Bennon & Wilson era, 2018 CEQ workbook).**
+  - Global basis: fossil is larger, central 132 vs 246 (+114). The MC median is +76 [−10, +148]; fossil is about 1.5x clean (0.9–2.1x). This holds in every scenario except ICF's pipeline factor (−21) and the all-clean-favorable corner.
+  - US basis: roughly even. Central +48, MC +8 [−74, +73]. The sign depends on how much coal new gas pipelines displaced: ICF −86, EIA (central) +48, Sabal Trail +105.
+- **By era.**
+  - 2017–20 leans heavily fossil: 8 vs 89 US, 8 vs 139 global.
+  - 2021–24 leans clean: 80 vs 22 US, 80 vs 30 global. It stays clean in every scenario except the global all-fossil-favorable corner (+3).
+  - Much of the 2021–24 clean side is permitted but unbuilt: the Western Solar Plan and offshore wind. Counting built or under-construction projects only, 2021–24 is about even (13 vs 16).
+- **Pooled 2010–24.**
+  - US central (+32) and MC median (−37) disagree in sign, because the factor triangles are skewed around best-supported centrals. The pooled US cell is not used publicly.
+  - Global pooled: fossil larger, central +155, MC +98 [−23, +206].
+- **Litigation-weighted** (Beta-drawn B&W rates), 2010–17: fossil larger on both bases. US +38 [−13, +86]; global +63 [+8, +116].
+- **"Mt brought forward"** (CGEP timing join) is internal only and is not a valid clean-vs-fossil estimate (review M3).
+
+**What changed (all from the reviews):**
+- NET_PIPE: central 0.23 (EIA systemic), range −0.075 (ICF) to 0.36 (Sabal Trail). The unsupported 0.90 high was dropped.
+- NET_COAL: (0.10, 0.25, 0.50).
+- Wright Area: sold tonnage (1,345.7 Mst).
+- Crude export ports: NET_EXPORT_PORT (0, 0, 0.03).
+- Depletables: annualized over each EIS's documented production life where given (ANWR 70, NPR-A 70, Moneta 65, NPL 40, OCS 2012–17 45, 2017–22 and 2024–29 55), else 30 years.
+- Programmatic EISs on both sides: one shared realization factor, REAL_PROG (0.25, 0.50, 1.00). This replaces the clean-only 50% haircut; clean RFDs are now entered at full potential. Field-development project EISs (Moneta, Converse, Creston) are not programmatic and keep their full RFD; this residual asymmetry is noted.
+- DRECP: 7,600 MW (the LUPA's ~8,100 less Palen), not 19,500.
+- SunZia: treated as a gen-tie for ~3.5 GW of wind.
+- MIDSHIP: zeroed as an LNG feed line.
+- Litigation rates: drawn from Jeffreys Beta.
+- A scenario table replaces probability headlines.
+- Phase 1 relabeled 2010–17. Its FEIS years run 2010–2017; B&W's sample is 2010–mid-2018.
+
+Everything below this section is the **superseded first-pass write-up**, kept for the record. Its numbers are historical.
+
+---
+
 
 Reproduce: `python3.13 -I build_projects.py sizing_out && python3.13 recount.py` (results verified to reproduce byte-identically after raw downloads were deleted).
 

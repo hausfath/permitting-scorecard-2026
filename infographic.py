@@ -109,8 +109,8 @@ GROUPS = [
         dict(name="NEPA deadlines and lawsuit limits", sec="§§1106, 1110, 2201",
              what="Tighter review deadlines; 150 days to sue; courts can’t cancel permits",
              lean="both", dir="depends", dlab="Either way", scale=0,
-             anchor="Clean outnumbered fossil 2.4:1 in 2010–18 energy EISs, but fossil "
-                    "was larger weighted by emissions"),
+             anchor="Clean outnumbered fossil 2.4:1 in 2010–18 EISs (Bennon & Wilson); "
+                    "by global emissions, fossil was larger"),
         dict(name="Permit certainty and deadlines", sec="§§1401, 1402(c), 1403",
              what="Protects issued permits; forces decisions on stalled non-NEPA permits",
              lean="both", dir="down", dlab="Lowers, for now", scale=2,
@@ -155,7 +155,7 @@ def row_h(r):
 BOX_H = 1.72   # "Not in this bill" box incl. gap above
 
 def render(show_box, out):
-    H = 3.65 + len(GROUPS) * GROUP_H + sum(row_h(r) for _, rs in GROUPS for r in rs) + 3.45 - (0 if show_box else BOX_H)
+    H = 3.65 + len(GROUPS) * GROUP_H + sum(row_h(r) for _, rs in GROUPS for r in rs) + 3.70 - (0 if show_box else BOX_H)
 
     fig = plt.figure(figsize=(W, H), dpi=150)
     fig.patch.set_facecolor(SURFACE)
@@ -268,10 +268,11 @@ def render(show_box, out):
         "neutral provisions can protect either side later.",
         "No one has modeled the full bill; other numbers are context anchors. Offshore wind "
         f"anchor: {OW_CF[0]*100:.0f}–{OW_CF[1]*100:.0f}% capacity factor, {MER[0]:.2f}–{MER[1]:.2f} t{CO2}/MWh displaced.",
+        "NEPA anchor is a global comparison; US-only, it is roughly even and hinges on how much coal new pipelines displace.",
         "NEPA: federal environmental-review law · EIS: its most detailed review · "
         "FERC: federal grid regulator · Bcf/d: billion cubic feet/day",
     ]
-    ax.text(L, 1.72, "\n".join(foot), fontsize=11.5, color=INK3, va="top",
+    ax.text(L, 1.97, "\n".join(foot), fontsize=11.5, color=INK3, va="top",
             linespacing=1.5)
     ax.text(L, 0.62, "Sources: bill text; C2ES/Greenline; Bennon & Wilson (2023); CEQ; Columbia CGEP; RFF (2024); LBNL; "
             "Harvard EELP; EIA; NRDC; Biber.",

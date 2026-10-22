@@ -1,5 +1,7 @@
 # Phase 2 methods
 
+Factor revisions after review (2026-10-21) are listed in `../SUMMARY.md` ('What changed'); `../factors.py` and `sizes_spec2.py` are authoritative. Mt brought forward now gives depletables 0 months, imputes unmatched projects at CGEP type means, and drops the litigated-uplift sensitivity.
+
 ```text
 PHASE 2 METHODS (draft, 2026-10-21; to become phase2/METHODS2.md)
 =================================================================
